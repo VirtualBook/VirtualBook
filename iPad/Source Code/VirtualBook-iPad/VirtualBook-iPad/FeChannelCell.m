@@ -21,7 +21,7 @@
     [super awakeFromNib];
     // Initialization code
     
-    CGRect bound = CGRectMake(0, 0, 250,180);
+    CGRect bound = CGRectMake(0, 0, 450, 450);
     UIBezierPath *maskPath;
     maskPath = [UIBezierPath bezierPathWithRoundedRect: bound
                                      byRoundingCorners:(UIRectCornerTopLeft | UIRectCornerTopRight)
@@ -36,9 +36,8 @@
     self.layer.shadowOffset = CGSizeMake(3, 3);
     self.layer.shadowOpacity = 0.5f;
     self.layer.shadowRadius = 3;
-    
-    self.layer.cornerRadius = 10;
-    
+    self.backgroundImageView.layer.cornerRadius = 10;
+    self.backgroundImageView.clipsToBounds = YES;
 }
 
 -(void) updateAssetWithItem:(NSInteger)item
