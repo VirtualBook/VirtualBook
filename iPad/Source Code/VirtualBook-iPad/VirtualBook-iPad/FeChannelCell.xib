@@ -25,7 +25,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="450" height="450"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="803-G7-qAp" secondAttribute="bottom" id="FY4-lX-oeZ"/>
                             <constraint firstItem="803-G7-qAp" firstAttribute="leading" secondItem="7SS-H6-cpg" secondAttribute="leading" id="GR1-7N-dvA"/>
@@ -43,7 +42,6 @@
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="7SS-H6-cpg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4UX-tS-Wki"/>
                 <constraint firstAttribute="trailing" secondItem="7SS-H6-cpg" secondAttribute="trailing" id="87a-5J-TLq"/>
