@@ -46,7 +46,7 @@
     VVSpringCollectionViewFlowLayout *layout = [VVSpringCollectionViewFlowLayout new];
     layout.minimumLineSpacing = 20;
     layout.minimumInteritemSpacing = 30;
-    layout.itemSize = CGSizeMake(250, 250);
+    layout.itemSize = CGSizeMake(450, 450);
     layout.sectionInset = UIEdgeInsetsMake(8, 32, 32, 16);
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
@@ -60,7 +60,7 @@
 }
 -(NSInteger) collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 10;
+    return 4;
 }
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -73,7 +73,7 @@
 -(CGSize) collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    return CGSizeMake(250, 250);
+    return CGSizeMake(450, 450);
 }
 -(void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
