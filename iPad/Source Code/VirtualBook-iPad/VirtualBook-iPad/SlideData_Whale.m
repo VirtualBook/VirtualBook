@@ -8,12 +8,15 @@
 
 #import "SlideData_Whale.h"
 #import <FLAnimatedImage/FLAnimatedImage.h>
-
+#import "MBProgressHUD.h"
+#import <XCDYouTubeKit.h>
+#import "AppDelegate.h"
 
 @interface SlideData_Whale ()
 
 @property (weak, nonatomic) IBOutlet FLAnimatedImageView *mapGIFImageView;
 @property  (strong, nonatomic) FLAnimatedImage *GIFData;
+@property (strong, nonatomic) MBProgressHUD *hub;
 
 @end
 
@@ -29,6 +32,17 @@
     }
 
     self.mapGIFImageView.animatedImage = self.GIFData;
+}
+- (IBAction)oculusBtnTapped:(id)sender
+{
+    [[[UIAlertView alloc] initWithTitle:@"Oculus" message:@"Waiting..." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+}
+
+- (IBAction)youtubeBtnTapped:(id)sender
+{
+    XCDYouTubeVideoPlayerViewController *videoPlayerViewController = [[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:@"9pjI2XkmoL0"];
+    
+    [self.rootViewController presentMoviePlayerViewControllerAnimated:videoPlayerViewController];
 }
 
 @end

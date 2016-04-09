@@ -73,4 +73,9 @@
     self.blurView.alpha = percent;
     
 }
+-(void) updateWithNewContentView:(UIView *)contentView
+{
+    [self.contentScrollView addSubview:contentView];
+    self.contentScrollViewHeight.constant = contentView.frame.size.height;
+}
 @end
