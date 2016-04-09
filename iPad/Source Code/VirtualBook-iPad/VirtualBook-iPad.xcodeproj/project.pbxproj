@@ -54,6 +54,8 @@
 		BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC71CB8D3620071085F /* welcome_2.jpg */; };
 		BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC81CB8D3620071085F /* welcome_3.jpg */; };
 		BAA66DCE1CB8D5C90071085F /* pexels-photo-12064.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */; };
+		BAA66DD51CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA66DD21CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m */; };
+		BAA66DD61CB8D9BB0071085F /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA66DD41CB8D9BB0071085F /* MHYahooParallaxView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +120,10 @@
 		BAA66DC71CB8D3620071085F /* welcome_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_2.jpg; sourceTree = "<group>"; };
 		BAA66DC81CB8D3620071085F /* welcome_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_3.jpg; sourceTree = "<group>"; };
 		BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-12064.jpeg"; sourceTree = "<group>"; };
+		BAA66DD11CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxCollectionViewLayout.h; sourceTree = "<group>"; };
+		BAA66DD21CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxCollectionViewLayout.m; sourceTree = "<group>"; };
+		BAA66DD31CB8D9BB0071085F /* MHYahooParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxView.h; sourceTree = "<group>"; };
+		BAA66DD41CB8D9BB0071085F /* MHYahooParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +313,7 @@
 		BA4139901CB8BD2100942E0C /* Reuse code */ = {
 			isa = PBXGroup;
 			children = (
+				BAA66DD71CB8D9BF0071085F /* YahooWeather */,
 				BA4139931CB8BD3D00942E0C /* Spring animation */,
 				BA4139921CB8BD2F00942E0C /* Categories */,
 				BA4139911CB8BD2900942E0C /* Progress Hub */,
@@ -396,6 +403,17 @@
 				BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		BAA66DD71CB8D9BF0071085F /* YahooWeather */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66DD11CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.h */,
+				BAA66DD21CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m */,
+				BAA66DD31CB8D9BB0071085F /* MHYahooParallaxView.h */,
+				BAA66DD41CB8D9BB0071085F /* MHYahooParallaxView.m */,
+			);
+			name = YahooWeather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,10 +526,12 @@
 				BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */,
 				BA41398D1CB8BD1F00942E0C /* UIFont+FeelsFont.m in Sources */,
 				BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */,
+				BAA66DD61CB8D9BB0071085F /* MHYahooParallaxView.m in Sources */,
 				BA41398C1CB8BD1F00942E0C /* MBProgressHUD.m in Sources */,
 				BA4139741CB8B95400942E0C /* FeSignInView.m in Sources */,
 				BA4139461CB8AFC600942E0C /* main.m in Sources */,
 				BA41398E1CB8BD1F00942E0C /* UIWindow+Additions.m in Sources */,
+				BAA66DD51CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
