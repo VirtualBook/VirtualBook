@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol FeSignInViewDelegate;
+
 @interface FeSignInView : UIView
+
+@property (weak, nonatomic) id<FeSignInViewDelegate> delegate;
+
+-(void) moveUpUIs;
+-(void) moveDownUIs;
+
+
+@end
+
+@protocol FeSignInViewDelegate <NSObject>
+
+-(void) FeSignInViewDidSelectBackBtn:(FeSignInView *) sender;
+-(void) FeSignInViewDidSelectRegisterBtn:(FeSignInView *) sender;
 
 @end
