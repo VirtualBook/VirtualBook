@@ -1,0 +1,31 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout (0.9.4):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.4)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.4)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - EAIntroView (2.8.2):
+    - EARestrictedScrollView (~> 0.2.0)
+  - EARestrictedScrollView (0.2.0)
+  - NHBalancedFlowLayout (0.2)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout
+  - CocoaLumberjack
+  - EAIntroView (~> 2.8.0)
+  - NHBalancedFlowLayout (~> 0.2)
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: db74be9135826d285f45ff163fd090e57c99fc50
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  EAIntroView: c45c4cd533cb760800a165115bc3d1fcaff3d5bb
+  EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
+  NHBalancedFlowLayout: fd253023c6754e605acdb180d50123e582cc62bb
+
+COCOAPODS: 0.39.0
