@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MHYahooWeatherParallaxCell" id="eYh-hv-foH" customClass="MHYahooWeatherParallaxCell">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <visualEffectView hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IAo-dK-FdS">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0Eh-pE-zt0">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="dark"/>
+                    </visualEffectView>
+                    <scrollView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zI6-yq-Wj0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g61-KV-K0V">
+                                <rect key="frame" x="0.0" y="650" width="1024" height="1000"/>
+                                <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1000" id="8Zj-QG-G0F"/>
+                                    <constraint firstAttribute="width" constant="1024" id="D8F-Z7-rHy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="g61-KV-K0V" secondAttribute="trailing" id="7Yy-zw-X5K"/>
+                            <constraint firstItem="g61-KV-K0V" firstAttribute="leading" secondItem="zI6-yq-Wj0" secondAttribute="leading" id="WXS-MP-ybi"/>
+                            <constraint firstItem="g61-KV-K0V" firstAttribute="top" secondItem="zI6-yq-Wj0" secondAttribute="top" constant="650" id="YsR-7A-uKf"/>
+                            <constraint firstAttribute="bottom" secondItem="g61-KV-K0V" secondAttribute="bottom" id="ppG-LY-BSM"/>
+                        </constraints>
+                        <inset key="scrollIndicatorInsets" minX="0.0" minY="650" maxX="0.0" maxY="0.0"/>
+                    </scrollView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="IAo-dK-FdS" firstAttribute="top" secondItem="eYh-hv-foH" secondAttribute="top" id="1BK-L9-OQY"/>
+                <constraint firstAttribute="trailing" secondItem="IAo-dK-FdS" secondAttribute="trailing" id="BFe-Mx-rly"/>
+                <constraint firstAttribute="trailing" secondItem="zI6-yq-Wj0" secondAttribute="trailing" id="Gny-pa-Hrb"/>
+                <constraint firstAttribute="bottom" secondItem="zI6-yq-Wj0" secondAttribute="bottom" id="Jyx-ME-WOf"/>
+                <constraint firstAttribute="bottom" secondItem="IAo-dK-FdS" secondAttribute="bottom" id="LaQ-Bf-JE8"/>
+                <constraint firstItem="zI6-yq-Wj0" firstAttribute="top" secondItem="eYh-hv-foH" secondAttribute="top" id="VyL-2c-2Hg"/>
+                <constraint firstItem="zI6-yq-Wj0" firstAttribute="leading" secondItem="eYh-hv-foH" secondAttribute="leading" id="pKz-hn-ZEP"/>
+                <constraint firstItem="IAo-dK-FdS" firstAttribute="leading" secondItem="eYh-hv-foH" secondAttribute="leading" id="pug-Ll-0NK"/>
+            </constraints>
+            <size key="customSize" width="166" height="189"/>
+            <connections>
+                <outlet property="blurView" destination="IAo-dK-FdS" id="7Od-Aj-Vte"/>
+                <outlet property="contentScrollView" destination="g61-KV-K0V" id="DrO-bM-Mp0"/>
+                <outlet property="scrollView" destination="zI6-yq-Wj0" id="utx-Ku-yIt"/>
+            </connections>
+            <point key="canvasLocation" x="390" y="367.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -47,9 +47,14 @@
 		BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */; };
 		BA603F661CB8F11300A74DEA /* slide_content_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */; };
 		BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */; };
-		BA603F6E1CB8F2A100A74DEA /* slide_1_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F6C1CB8F2A100A74DEA /* slide_1_b.jpg */; };
-		BA603F6F1CB8F2A100A74DEA /* slide_1_a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F6D1CB8F2A100A74DEA /* slide_1_a.jpg */; };
+		BA603F6E1CB8F2A100A74DEA /* slide_1_b@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */; };
+		BA603F6F1CB8F2A100A74DEA /* slide_1_a@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */; };
 		BA603F711CB8F37700A74DEA /* slide_1_c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F701CB8F37700A74DEA /* slide_1_c.jpg */; };
+		BA603F761CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */; };
+		BA603F771CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */; };
+		BA603F781CB8F46B00A74DEA /* SlideData.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F751CB8F46B00A74DEA /* SlideData.xib */; };
+		BA603F7E1CB8F49700A74DEA /* FeListOfSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */; };
+		BA603F801CB8F83E00A74DEA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F7F1CB8F83E00A74DEA /* star.png */; };
 		BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */; };
 		BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9E1CB8C02F0071085F /* asset1@2x.png */; };
 		BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9F1CB8C02F0071085F /* asset2@2x.png */; };
@@ -142,9 +147,16 @@
 		BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_2.jpg; sourceTree = "<group>"; };
 		BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSlideDetailViewController.h; sourceTree = "<group>"; };
 		BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSlideDetailViewController.m; sourceTree = "<group>"; };
-		BA603F6C1CB8F2A100A74DEA /* slide_1_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_1_b.jpg; sourceTree = "<group>"; };
-		BA603F6D1CB8F2A100A74DEA /* slide_1_a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_1_a.jpg; sourceTree = "<group>"; };
+		BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_1_b@2x.jpg"; sourceTree = "<group>"; };
+		BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_1_a@2x.jpg"; sourceTree = "<group>"; };
 		BA603F701CB8F37700A74DEA /* slide_1_c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_1_c.jpg; sourceTree = "<group>"; };
+		BA603F721CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooWeatherParallaxCell.h; sourceTree = "<group>"; };
+		BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooWeatherParallaxCell.m; sourceTree = "<group>"; };
+		BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHYahooWeatherParallaxCell.xib; sourceTree = "<group>"; };
+		BA603F751CB8F46B00A74DEA /* SlideData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData.xib; sourceTree = "<group>"; };
+		BA603F7C1CB8F49700A74DEA /* FeListOfSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeListOfSlideView.h; sourceTree = "<group>"; };
+		BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeListOfSlideView.m; sourceTree = "<group>"; };
+		BA603F7F1CB8F83E00A74DEA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001_prizmaspace.jpg; sourceTree = "<group>"; };
 		BAA66D9E1CB8C02F0071085F /* asset1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset1@2x.png"; sourceTree = "<group>"; };
 		BAA66D9F1CB8C02F0071085F /* asset2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset2@2x.png"; sourceTree = "<group>"; };
@@ -273,6 +285,7 @@
 		BA41395F1CB8B86500942E0C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BA603F7B1CB8F48500A74DEA /* List of slide */,
 				BA603F681CB8F17000A74DEA /* Slide */,
 				BA4139691CB8B90D00942E0C /* Course */,
 				BA4139681CB8B90700942E0C /* Channel */,
@@ -448,8 +461,8 @@
 			isa = PBXGroup;
 			children = (
 				BA603F701CB8F37700A74DEA /* slide_1_c.jpg */,
-				BA603F6C1CB8F2A100A74DEA /* slide_1_b.jpg */,
-				BA603F6D1CB8F2A100A74DEA /* slide_1_a.jpg */,
+				BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */,
+				BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */,
 				BA603F471CB8F11300A74DEA /* channel_1_1.jpg */,
 				BA603F481CB8F11300A74DEA /* channel_1_2.jpg */,
 				BA603F491CB8F11300A74DEA /* channel_1_3.jpg */,
@@ -466,6 +479,7 @@
 				BA603F541CB8F11300A74DEA /* slide_5.jpg */,
 				BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */,
 				BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */,
+				BA603F7F1CB8F83E00A74DEA /* star.png */,
 			);
 			name = Slide;
 			sourceTree = "<group>";
@@ -473,10 +487,39 @@
 		BA603F681CB8F17000A74DEA /* Slide */ = {
 			isa = PBXGroup;
 			children = (
+				BA603F7A1CB8F47700A74DEA /* DATA */,
+				BA603F791CB8F47000A74DEA /* Cell */,
 				BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */,
 				BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */,
 			);
 			name = Slide;
+			sourceTree = "<group>";
+		};
+		BA603F791CB8F47000A74DEA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F721CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.h */,
+				BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */,
+				BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		BA603F7A1CB8F47700A74DEA /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F751CB8F46B00A74DEA /* SlideData.xib */,
+			);
+			name = DATA;
+			sourceTree = "<group>";
+		};
+		BA603F7B1CB8F48500A74DEA /* List of slide */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F7C1CB8F49700A74DEA /* FeListOfSlideView.h */,
+				BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */,
+			);
+			name = "List of slide";
 			sourceTree = "<group>";
 		};
 		BAA66D9C1CB8C00E0071085F /* Main Screen */ = {
@@ -602,7 +645,7 @@
 				BAA66DC21CB8C02F0071085F /* menu.png in Resources */,
 				BAA66DBE1CB8C02F0071085F /* Globe-104.png in Resources */,
 				BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */,
-				BA603F6E1CB8F2A100A74DEA /* slide_1_b.jpg in Resources */,
+				BA603F6E1CB8F2A100A74DEA /* slide_1_b@2x.jpg in Resources */,
 				BAA66DBD1CB8C02F0071085F /* earth_element.png in Resources */,
 				BAA66DB81CB8C02F0071085F /* asset7@2x.png in Resources */,
 				BAA66DDC1CB8DED00071085F /* Welcome_2.xib in Resources */,
@@ -618,7 +661,7 @@
 				BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */,
 				BA603F5A1CB8F11300A74DEA /* channel_1_4.jpg in Resources */,
 				BA603F611CB8F11300A74DEA /* slide_4_thumb.jpg in Resources */,
-				BA603F6F1CB8F2A100A74DEA /* slide_1_a.jpg in Resources */,
+				BA603F6F1CB8F2A100A74DEA /* slide_1_a@2x.jpg in Resources */,
 				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
 				BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */,
 				BA603F581CB8F11300A74DEA /* channel_1_2.jpg in Resources */,
@@ -627,6 +670,7 @@
 				BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */,
 				BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */,
 				BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */,
+				BA603F781CB8F46B00A74DEA /* SlideData.xib in Resources */,
 				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
@@ -636,11 +680,13 @@
 				BAA66DB61CB8C02F0071085F /* asset5@2x.png in Resources */,
 				BAA66DB51CB8C02F0071085F /* asset4@2x.png in Resources */,
 				BAA66DBA1CB8C02F0071085F /* asset9@2x.png in Resources */,
+				BA603F801CB8F83E00A74DEA /* star.png in Resources */,
 				BAA66DBF1CB8C02F0071085F /* Gradient_1920x1200.jpg.png in Resources */,
 				BA603F661CB8F11300A74DEA /* slide_content_1_2.jpg in Resources */,
 				BAA66DBB1CB8C02F0071085F /* Back-100.png in Resources */,
 				BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */,
 				BAA66DBC1CB8C02F0071085F /* Delete-104.png in Resources */,
+				BA603F771CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib in Resources */,
 				BA603F5F1CB8F11300A74DEA /* slide_3_thumb.jpg in Resources */,
 				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
 				BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */,
@@ -716,6 +762,7 @@
 				BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */,
 				BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */,
 				BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */,
+				BA603F761CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m in Sources */,
 				BA41398F1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m in Sources */,
 				BA4139791CB8B97400942E0C /* FeWelcomeViewController.m in Sources */,
 				BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */,
@@ -727,6 +774,7 @@
 				BA4139461CB8AFC600942E0C /* main.m in Sources */,
 				BA41398E1CB8BD1F00942E0C /* UIWindow+Additions.m in Sources */,
 				BAA66DE11CB8E2C30071085F /* FeChannelCell.m in Sources */,
+				BA603F7E1CB8F49700A74DEA /* FeListOfSlideView.m in Sources */,
 				BAA66DD51CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

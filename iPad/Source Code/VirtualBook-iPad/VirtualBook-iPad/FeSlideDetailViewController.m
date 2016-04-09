@@ -7,8 +7,18 @@
 //
 
 #import "FeSlideDetailViewController.h"
+#import "MHYahooParallaxView.h"
+#import "MHYahooWeatherParallaxCell.h"
+#import "FeListOfSlideView.h"
 
-@interface FeSlideDetailViewController ()
+@interface FeSlideDetailViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate, FeListOfSlideViewDelegate>
+
+@property (strong, nonatomic) MHYahooParallaxView * parallaxView;
+@property (weak, nonatomic) IBOutlet UIVisualEffectView *blurView;
+
+@property (strong, nonatomic) FeListOfSlideView *listOfView;
+
+@property (strong, nonatomic) UIView *contentView_1;
 
 @end
 
@@ -54,7 +64,16 @@
     
     MHYahooWeatherParallaxCell * cell = (MHYahooWeatherParallaxCell*)[parallaxView dequeueReusableCellWithReuseIdentifier:[MHYahooWeatherParallaxCell reuseIdentifier] forIndexPath:indexPath];
     
-    cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_%li.jpg",(long)indexPath.row + 1]];
+    if (indexPath.item == 0)
+    {
+        
+        cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+    }
+    else
+    {
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_%li.jpg",(long)indexPath.row + 1]];
+    }
+
     
     
     if (cell && indexPath.item == 0)
