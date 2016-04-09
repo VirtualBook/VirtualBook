@@ -348,7 +348,7 @@
         <!--Fe Channels View Controller-->
         <scene sceneID="YoM-tF-Tn5">
             <objects>
-                <viewController storyboardIdentifier="FeChannelViewController" id="NnG-V9-Nmr" customClass="FeChannelsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeChannelsViewController" id="NnG-V9-Nmr" customClass="FeChannelsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RAd-8V-cMX"/>
                         <viewControllerLayoutGuide type="bottom" id="wVN-k5-RWF"/>
