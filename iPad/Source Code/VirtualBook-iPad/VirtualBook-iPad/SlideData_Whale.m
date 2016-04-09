@@ -23,7 +23,7 @@
 {
     if (!self.GIFData)
     {
-        NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"Whale_GIF_Map" withExtension:@"gif"];
+        NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"GIF_Whale_Map" withExtension:@"gif"];
         NSData *data1 = [NSData dataWithContentsOfURL:url1];
         self.GIFData = [FLAnimatedImage animatedImageWithGIFData:data1];
     }
