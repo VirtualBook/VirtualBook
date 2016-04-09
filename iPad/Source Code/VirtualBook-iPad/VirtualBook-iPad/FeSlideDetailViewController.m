@@ -11,6 +11,7 @@
 #import "MHYahooWeatherParallaxCell.h"
 #import "FeListOfSlideView.h"
 #import "SlideData_Whale.h"
+#import "SlideData_Earth.h"
 
 @interface FeSlideDetailViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate, FeListOfSlideViewDelegate>
 
@@ -20,6 +21,7 @@
 @property (strong, nonatomic) FeListOfSlideView *listOfView;
 
 @property (strong, nonatomic) SlideData_Whale *contentView_1;
+@property (strong, nonatomic) SlideData_Earth *contentView_2;
 
 @end
 
@@ -32,6 +34,9 @@
     self.contentView_1 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Whale" owner:self options:nil] firstObject];
     self.contentView_1.backgroundColor = [UIColor clearColor];
     self.contentView_1.rootViewController = self;
+    
+    self.contentView_2 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Earth" owner:self options:nil] firstObject];
+    self.contentView_2.backgroundColor = [UIColor clearColor];
     
     [self initParallax];
     
@@ -65,19 +70,29 @@
     
     MHYahooWeatherParallaxCell * cell = (MHYahooWeatherParallaxCell*)[parallaxView dequeueReusableCellWithReuseIdentifier:[MHYahooWeatherParallaxCell reuseIdentifier] forIndexPath:indexPath];
     
-    if (indexPath.item == 0)
-    {
-        
-        cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
-    }
-    else
-    {
-        cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_%li.jpg",(long)indexPath.row + 1]];
+    
+    switch (indexPath.item) {
+        case 0:
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            break;
+        case 1:
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            break;
+        case 2:
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            break;
+        case 3:
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            break;
     }
 
     if (cell && indexPath.item == 0 && !self.contentView_1.superview)
     {
         [cell updateWithNewContentView:self.contentView_1];
+    }
+    else if (cell && indexPath.item == 1 && !self.contentView_2.superview)
+    {
+        [cell updateWithNewContentView:self.contentView_2];
     }
     
     return cell;
@@ -85,7 +100,7 @@
 
 
 - (NSInteger) numberOfRowsInParallaxView:(MHYahooParallaxView *)parallaxView {
-    return 5;
+    return 4;
 }
 
 - (void)parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger)leftIndex leftImageLeftMargin:(CGFloat)leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat)rightImageWidth {
