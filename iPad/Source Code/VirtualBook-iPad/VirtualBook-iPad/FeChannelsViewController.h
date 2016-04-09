@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FeChannelsViewController.h
 //  VirtualBook-iPad
 //
 //  Created by Nghia Tran Vinh on 4/9/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FeChannelsViewController : UIViewController
 
 @end
-

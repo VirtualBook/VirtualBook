@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		BA4139461CB8AFC600942E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139451CB8AFC600942E0C /* main.m */; };
 		BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139481CB8AFC600942E0C /* AppDelegate.m */; };
-		BA41394C1CB8AFC600942E0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41394B1CB8AFC600942E0C /* ViewController.m */; };
 		BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41394D1CB8AFC600942E0C /* Main.storyboard */; };
 		BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4139501CB8AFC600942E0C /* Assets.xcassets */; };
 		BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */; };
+		BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */; };
+		BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41396E1CB8B92D00942E0C /* FeSignUpView.m */; };
+		BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4139701CB8B93900942E0C /* FeSignUpView.xib */; };
+		BA4139741CB8B95400942E0C /* FeSignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139731CB8B95400942E0C /* FeSignInView.m */; };
+		BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4139751CB8B96300942E0C /* FeSignInView.xib */; };
+		BA4139791CB8B97400942E0C /* FeWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139781CB8B97400942E0C /* FeWelcomeViewController.m */; };
+		BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41397B1CB8B97C00942E0C /* FeMainViewController.m */; };
+		BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */; };
+		BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139811CB8B99100942E0C /* FeCoursesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,26 @@
 		BA4139451CB8AFC600942E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA4139471CB8AFC600942E0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA4139481CB8AFC600942E0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA41394A1CB8AFC600942E0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA41394B1CB8AFC600942E0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BA41394E1CB8AFC600942E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA4139501CB8AFC600942E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4139531CB8AFC600942E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4139551CB8AFC600942E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA41396A1CB8B91C00942E0C /* FeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoginViewController.h; sourceTree = "<group>"; };
+		BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoginViewController.m; sourceTree = "<group>"; };
+		BA41396D1CB8B92D00942E0C /* FeSignUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSignUpView.h; sourceTree = "<group>"; };
+		BA41396E1CB8B92D00942E0C /* FeSignUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSignUpView.m; sourceTree = "<group>"; };
+		BA4139701CB8B93900942E0C /* FeSignUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeSignUpView.xib; sourceTree = "<group>"; };
+		BA4139721CB8B95400942E0C /* FeSignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSignInView.h; sourceTree = "<group>"; };
+		BA4139731CB8B95400942E0C /* FeSignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSignInView.m; sourceTree = "<group>"; };
+		BA4139751CB8B96300942E0C /* FeSignInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeSignInView.xib; sourceTree = "<group>"; };
+		BA4139771CB8B97400942E0C /* FeWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeWelcomeViewController.h; sourceTree = "<group>"; };
+		BA4139781CB8B97400942E0C /* FeWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeWelcomeViewController.m; sourceTree = "<group>"; };
+		BA41397A1CB8B97C00942E0C /* FeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeMainViewController.h; sourceTree = "<group>"; };
+		BA41397B1CB8B97C00942E0C /* FeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeMainViewController.m; sourceTree = "<group>"; };
+		BA41397D1CB8B98300942E0C /* FeChannelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeChannelsViewController.h; sourceTree = "<group>"; };
+		BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeChannelsViewController.m; sourceTree = "<group>"; };
+		BA4139801CB8B99100942E0C /* FeCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeCoursesViewController.h; sourceTree = "<group>"; };
+		BA4139811CB8B99100942E0C /* FeCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeCoursesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +80,11 @@
 		BA4139431CB8AFC600942E0C /* VirtualBook-iPad */ = {
 			isa = PBXGroup;
 			children = (
-				BA4139471CB8AFC600942E0C /* AppDelegate.h */,
-				BA4139481CB8AFC600942E0C /* AppDelegate.m */,
-				BA41394A1CB8AFC600942E0C /* ViewController.h */,
-				BA41394B1CB8AFC600942E0C /* ViewController.m */,
+				BA41395D1CB8B85A00942E0C /* Resource */,
+				BA4139611CB8B86E00942E0C /* Storyboard */,
+				BA4139601CB8B86900942E0C /* App Delegate */,
+				BA41395E1CB8B86100942E0C /* SourceCode */,
 				BA41394D1CB8AFC600942E0C /* Main.storyboard */,
-				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
-				BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */,
 				BA4139551CB8AFC600942E0C /* Info.plist */,
 				BA4139441CB8AFC600942E0C /* Supporting Files */,
 			);
@@ -77,6 +97,134 @@
 				BA4139451CB8AFC600942E0C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA41395D1CB8B85A00942E0C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139621CB8B88C00942E0C /* Data */,
+				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		BA41395E1CB8B86100942E0C /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139831CB8B99500942E0C /* Model */,
+				BA41395F1CB8B86500942E0C /* Controller */,
+			);
+			name = SourceCode;
+			sourceTree = "<group>";
+		};
+		BA41395F1CB8B86500942E0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139691CB8B90D00942E0C /* Course */,
+				BA4139681CB8B90700942E0C /* Channel */,
+				BA4139671CB8B90400942E0C /* Main */,
+				BA4139661CB8B8FB00942E0C /* Welcome */,
+				BA4139631CB8B8EE00942E0C /* Login  */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BA4139601CB8B86900942E0C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139471CB8AFC600942E0C /* AppDelegate.h */,
+				BA4139481CB8AFC600942E0C /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		BA4139611CB8B86E00942E0C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		BA4139621CB8B88C00942E0C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BA4139631CB8B8EE00942E0C /* Login  */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139651CB8B8F600942E0C /* SignIn */,
+				BA4139641CB8B8F200942E0C /* SignUp */,
+				BA41396A1CB8B91C00942E0C /* FeLoginViewController.h */,
+				BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */,
+			);
+			name = "Login ";
+			sourceTree = "<group>";
+		};
+		BA4139641CB8B8F200942E0C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139721CB8B95400942E0C /* FeSignInView.h */,
+				BA4139731CB8B95400942E0C /* FeSignInView.m */,
+				BA4139751CB8B96300942E0C /* FeSignInView.xib */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		BA4139651CB8B8F600942E0C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				BA41396D1CB8B92D00942E0C /* FeSignUpView.h */,
+				BA41396E1CB8B92D00942E0C /* FeSignUpView.m */,
+				BA4139701CB8B93900942E0C /* FeSignUpView.xib */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		BA4139661CB8B8FB00942E0C /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139771CB8B97400942E0C /* FeWelcomeViewController.h */,
+				BA4139781CB8B97400942E0C /* FeWelcomeViewController.m */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		BA4139671CB8B90400942E0C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA41397A1CB8B97C00942E0C /* FeMainViewController.h */,
+				BA41397B1CB8B97C00942E0C /* FeMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BA4139681CB8B90700942E0C /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				BA41397D1CB8B98300942E0C /* FeChannelsViewController.h */,
+				BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */,
+			);
+			name = Channel;
+			sourceTree = "<group>";
+		};
+		BA4139691CB8B90D00942E0C /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139801CB8B99100942E0C /* FeCoursesViewController.h */,
+				BA4139811CB8B99100942E0C /* FeCoursesViewController.m */,
+			);
+			name = Course;
+			sourceTree = "<group>";
+		};
+		BA4139831CB8B99500942E0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */,
+				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
+				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
 				BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */,
 			);
@@ -149,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA41394C1CB8AFC600942E0C /* ViewController.m in Sources */,
+				BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */,
+				BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */,
+				BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */,
+				BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */,
+				BA4139791CB8B97400942E0C /* FeWelcomeViewController.m in Sources */,
+				BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */,
 				BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */,
+				BA4139741CB8B95400942E0C /* FeSignInView.m in Sources */,
 				BA4139461CB8AFC600942E0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +458,7 @@
 				BA41395A1CB8AFC600942E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
