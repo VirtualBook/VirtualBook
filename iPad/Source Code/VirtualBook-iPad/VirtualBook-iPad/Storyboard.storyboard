@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+        </mutableArray>
+        <mutableArray key="SF-UI-Text-Semibold.otf">
+            <string>SFUIText-Semibold</string>
+            <string>SFUIText-Semibold</string>
+            <string>SFUIText-Semibold</string>
+            <string>SFUIText-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Fe Main View Controller-->
+        <scene sceneID="t0P-IZ-dMw">
+            <objects>
+                <viewController storyboardIdentifier="FeMainViewController" id="yMU-GT-TXU" customClass="FeMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ag3-TU-yCY"/>
+                        <viewControllerLayoutGuide type="bottom" id="9QB-tV-GFZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tAX-vR-IRz">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lmy-rK-aaQ">
+                                <rect key="frame" x="-31" y="0.0" width="1054" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset1.png" translatesAutoresizingMaskIntoConstraints="NO" id="nzW-pe-Ugk">
+                                <rect key="frame" x="186" y="105" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lcq-QY-pcX">
+                                <rect key="frame" x="90" y="498" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mEI-PO-vXa">
+                                <rect key="frame" x="405" y="551" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset3.png" translatesAutoresizingMaskIntoConstraints="NO" id="DJU-BD-AcB">
+                                <rect key="frame" x="485" y="130" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-PD-8uF">
+                                <rect key="frame" x="437" y="422" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset5.png" translatesAutoresizingMaskIntoConstraints="NO" id="J75-d1-VXP">
+                                <rect key="frame" x="914" y="221" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset6.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ikk-dc-w8J">
+                                <rect key="frame" x="692" y="20" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset7.png" translatesAutoresizingMaskIntoConstraints="NO" id="91M-wt-8WD">
+                                <rect key="frame" x="653" y="590" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset7.png" translatesAutoresizingMaskIntoConstraints="NO" id="y7F-Ml-1il">
+                                <rect key="frame" x="320" y="130" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset8.png" translatesAutoresizingMaskIntoConstraints="NO" id="ihL-T4-N1d">
+                                <rect key="frame" x="233" y="585" width="22" height="21"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset8.png" translatesAutoresizingMaskIntoConstraints="NO" id="VOu-Aj-5tT">
+                                <rect key="frame" x="677" y="265" width="22" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5d-Ui-FYB">
+                                <rect key="frame" x="108" y="284" width="273" height="96"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="70"/>
+                                <state key="normal" title="ENROLL">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.72156862749999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUR VIDEO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Knf-vp-Ck1">
+                                <rect key="frame" x="175" y="363" width="138" height="30"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mG8-4m-eB2">
+                                <rect key="frame" x="431" y="284" width="162" height="96"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="70"/>
+                                <state key="normal" title="FIND">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.72156862749999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHANNELS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gct-Q9-xqJ">
+                                <rect key="frame" x="444" y="364" width="135.5" height="30"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVq-75-O1O">
+                                <rect key="frame" x="643" y="284" width="265" height="96"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="70"/>
+                                <state key="normal" title="CREATE">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.72156862749999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR CHANNEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBY-l0-Mtb">
+                                <rect key="frame" x="677" y="364" width="197" height="30"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5J2-DT-6iP">
+                                <rect key="frame" x="971" y="25" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="4dU-PL-nCZ"/>
+                                    <constraint firstAttribute="width" constant="28" id="TeD-Rx-26j"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Settings-104.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON AIR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8k-pW-zX2">
+                                <rect key="frame" x="26" y="714" width="68" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="DUX-cU-brh"/>
+                                    <constraint firstAttribute="width" constant="68" id="xwR-wk-9yd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8P-ev-FKD">
+                                <rect key="frame" x="28" y="674" width="156" height="30"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="15"/>
+                                <state key="normal" title="SEE FULL SCHEDULE">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.72156862749999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR3-jR-94i">
+                                <rect key="frame" x="214" y="674" width="149" height="30"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="15"/>
+                                <state key="normal" title="FIND THE CHANNEL">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.72156862749999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UTr-f2-9iS">
+                                <rect key="frame" x="95" y="704" width="929" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuW-mt-oKI">
+                                        <rect key="frame" x="15" y="12" width="1414" height="20"/>
+                                        <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+                                        <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="UuW-mt-oKI" secondAttribute="trailing" constant="-500" id="F5f-uK-ucV"/>
+                                    <constraint firstItem="UuW-mt-oKI" firstAttribute="top" secondItem="UTr-f2-9iS" secondAttribute="top" constant="12" id="kDG-fl-os8"/>
+                                    <constraint firstAttribute="height" constant="64" id="kYI-ch-xuC"/>
+                                    <constraint firstItem="UuW-mt-oKI" firstAttribute="leading" secondItem="UTr-f2-9iS" secondAttribute="leading" constant="15" id="zPF-2A-bcK"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="200" verticalHuggingPriority="200" horizontalCompressionResistancePriority="200" verticalCompressionResistancePriority="200" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eV4-6y-yBz">
+                                <rect key="frame" x="411" y="284" width="202" height="116"/>
+                                <connections>
+                                    <action selector="findChannelBtnTapped:" destination="yMU-GT-TXU" eventType="touchUpInside" id="JAM-VO-8jR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eV4-6y-yBz" firstAttribute="bottom" secondItem="mG8-4m-eB2" secondAttribute="bottom" constant="20" id="3YE-5i-Viv"/>
+                            <constraint firstAttribute="trailing" secondItem="UTr-f2-9iS" secondAttribute="trailing" id="5NN-fL-OuP"/>
+                            <constraint firstItem="mG8-4m-eB2" firstAttribute="centerX" secondItem="tAX-vR-IRz" secondAttribute="centerX" id="5sD-p0-dYe"/>
+                            <constraint firstItem="Knf-vp-Ck1" firstAttribute="top" secondItem="R5d-Ui-FYB" secondAttribute="bottom" constant="-17" id="6Ko-e5-kIb"/>
+                            <constraint firstItem="9QB-tV-GFZ" firstAttribute="top" secondItem="UTr-f2-9iS" secondAttribute="bottom" id="7xd-0U-N52"/>
+                            <constraint firstItem="lmy-rK-aaQ" firstAttribute="leading" secondItem="tAX-vR-IRz" secondAttribute="leading" constant="-31" id="BYy-rO-GGe"/>
+                            <constraint firstItem="Knf-vp-Ck1" firstAttribute="centerX" secondItem="R5d-Ui-FYB" secondAttribute="centerX" id="GM4-wV-aAA"/>
+                            <constraint firstItem="IVq-75-O1O" firstAttribute="leading" secondItem="mG8-4m-eB2" secondAttribute="trailing" constant="50" id="IJ8-0R-lXs"/>
+                            <constraint firstItem="mG8-4m-eB2" firstAttribute="leading" secondItem="R5d-Ui-FYB" secondAttribute="trailing" constant="50" id="MyQ-XS-THB"/>
+                            <constraint firstItem="IVq-75-O1O" firstAttribute="centerY" secondItem="mG8-4m-eB2" secondAttribute="centerY" id="QJp-X0-eY4"/>
+                            <constraint firstItem="Gct-Q9-xqJ" firstAttribute="top" secondItem="mG8-4m-eB2" secondAttribute="bottom" constant="-16" id="QK3-I2-RnP"/>
+                            <constraint firstItem="eV4-6y-yBz" firstAttribute="top" secondItem="mG8-4m-eB2" secondAttribute="top" id="Qzz-ai-S3F"/>
+                            <constraint firstItem="9QB-tV-GFZ" firstAttribute="top" secondItem="f8k-pW-zX2" secondAttribute="bottom" constant="28" id="VHa-ZG-2rD"/>
+                            <constraint firstAttribute="trailing" secondItem="lmy-rK-aaQ" secondAttribute="trailing" constant="1" id="VIF-cw-HLc"/>
+                            <constraint firstItem="Gct-Q9-xqJ" firstAttribute="centerX" secondItem="mG8-4m-eB2" secondAttribute="centerX" id="YjU-pr-RIi"/>
+                            <constraint firstItem="eV4-6y-yBz" firstAttribute="trailing" secondItem="mG8-4m-eB2" secondAttribute="trailing" constant="20" id="bG5-Tu-Kbe"/>
+                            <constraint firstItem="hR3-jR-94i" firstAttribute="leading" secondItem="a8P-ev-FKD" secondAttribute="trailing" constant="30" id="btx-E4-TVZ"/>
+                            <constraint firstAttribute="trailing" secondItem="5J2-DT-6iP" secondAttribute="trailing" constant="25" id="c0e-F5-2SG"/>
+                            <constraint firstItem="UTr-f2-9iS" firstAttribute="leading" secondItem="f8k-pW-zX2" secondAttribute="trailing" constant="1" id="d5L-zE-d3O"/>
+                            <constraint firstItem="f8k-pW-zX2" firstAttribute="top" secondItem="a8P-ev-FKD" secondAttribute="bottom" constant="10" id="dpJ-eG-THO"/>
+                            <constraint firstItem="5J2-DT-6iP" firstAttribute="top" secondItem="tAX-vR-IRz" secondAttribute="top" constant="25" id="ein-wY-TTR"/>
+                            <constraint firstItem="a8P-ev-FKD" firstAttribute="leading" secondItem="tAX-vR-IRz" secondAttribute="leading" constant="28" id="eoJ-TW-iCM"/>
+                            <constraint firstItem="f8k-pW-zX2" firstAttribute="leading" secondItem="tAX-vR-IRz" secondAttribute="leading" constant="26" id="nyV-tM-kOj"/>
+                            <constraint firstItem="eV4-6y-yBz" firstAttribute="leading" secondItem="mG8-4m-eB2" secondAttribute="leading" constant="-20" id="pnO-bd-jPY"/>
+                            <constraint firstItem="9QB-tV-GFZ" firstAttribute="top" secondItem="lmy-rK-aaQ" secondAttribute="bottom" id="ptl-y8-ogt"/>
+                            <constraint firstItem="R5d-Ui-FYB" firstAttribute="centerY" secondItem="mG8-4m-eB2" secondAttribute="centerY" id="tJT-rQ-5GC"/>
+                            <constraint firstItem="iBY-l0-Mtb" firstAttribute="centerX" secondItem="IVq-75-O1O" secondAttribute="centerX" id="vcS-RC-MCg"/>
+                            <constraint firstItem="mG8-4m-eB2" firstAttribute="top" secondItem="ag3-TU-yCY" secondAttribute="bottom" constant="264" id="wQS-8Q-iLq"/>
+                            <constraint firstItem="hR3-jR-94i" firstAttribute="centerY" secondItem="a8P-ev-FKD" secondAttribute="centerY" id="xGD-Qv-ZXm"/>
+                            <constraint firstItem="iBY-l0-Mtb" firstAttribute="top" secondItem="IVq-75-O1O" secondAttribute="bottom" constant="-16" id="yNz-GR-UI3"/>
+                            <constraint firstItem="lmy-rK-aaQ" firstAttribute="top" secondItem="tAX-vR-IRz" secondAttribute="top" id="zN5-WY-Lkl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0z5-vI-meF"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="descriptionlLblLeft" destination="zPF-2A-bcK" id="RrR-vl-Zvx"/>
+                        <outlet property="onAirLbl" destination="f8k-pW-zX2" id="cQU-b3-ESL"/>
+                        <outletCollection property="arrFloatingtImage" destination="nzW-pe-Ugk" id="bx5-DM-sYm"/>
+                        <outletCollection property="arrFloatingtImage" destination="lcq-QY-pcX" id="AF2-UI-Fwm"/>
+                        <outletCollection property="arrFloatingtImage" destination="mEI-PO-vXa" id="3be-6v-hF5"/>
+                        <outletCollection property="arrFloatingtImage" destination="Ikk-dc-w8J" id="aRq-vw-yqp"/>
+                        <outletCollection property="arrFloatingtImage" destination="DJU-BD-AcB" id="Nci-LC-KHp"/>
+                        <outletCollection property="arrFloatingtImage" destination="Vwe-PD-8uF" id="7tr-8a-L6s"/>
+                        <outletCollection property="arrFloatingtImage" destination="J75-d1-VXP" id="sy0-cE-cfg"/>
+                        <outletCollection property="arrFloatingtImage" destination="Ikk-dc-w8J" id="F21-Px-8pL"/>
+                        <outletCollection property="arrFloatingtImage" destination="91M-wt-8WD" id="PFj-w5-cVE"/>
+                        <outletCollection property="arrFloatingtImage" destination="y7F-Ml-1il" id="rb6-EA-agh"/>
+                        <outletCollection property="arrFloatingtImage" destination="ihL-T4-N1d" id="901-I7-qUp"/>
+                        <outletCollection property="arrFloatingtImage" destination="VOu-Aj-5tT" id="QVb-rD-pzq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0g-Jh-sPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="269" y="373"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Settings-104.png" width="1024" height="678"/>
+        <image name="asset1.png" width="1024" height="678"/>
+        <image name="asset2.png" width="1024" height="678"/>
+        <image name="asset3.png" width="1024" height="678"/>
+        <image name="asset4.png" width="1024" height="678"/>
+        <image name="asset5.png" width="1024" height="678"/>
+        <image name="asset6.png" width="1024" height="678"/>
+        <image name="asset7.png" width="1024" height="678"/>
+        <image name="asset8.png" width="1024" height="678"/>
+        <image name="pattern_1.jpg" width="1024" height="678"/>
+    </resources>
+</document>

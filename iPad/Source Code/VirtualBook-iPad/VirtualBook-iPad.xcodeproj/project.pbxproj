@@ -11,7 +11,6 @@
 		BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139481CB8AFC600942E0C /* AppDelegate.m */; };
 		BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41394D1CB8AFC600942E0C /* Main.storyboard */; };
 		BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4139501CB8AFC600942E0C /* Assets.xcassets */; };
-		BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */; };
 		BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */; };
 		BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41396E1CB8B92D00942E0C /* FeSignUpView.m */; };
 		BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4139701CB8B93900942E0C /* FeSignUpView.xib */; };
@@ -29,6 +28,8 @@
 		BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */; };
 		BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */; };
 		BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */; };
+		BA41399E1CB8BEE300942E0C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41399D1CB8BEE300942E0C /* Storyboard.storyboard */; };
+		BA4139A01CB8BEF400942E0C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41399F1CB8BEF400942E0C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +39,6 @@
 		BA4139481CB8AFC600942E0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA41394E1CB8AFC600942E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA4139501CB8AFC600942E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA4139531CB8AFC600942E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4139551CB8AFC600942E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA41396A1CB8B91C00942E0C /* FeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoginViewController.h; sourceTree = "<group>"; };
 		BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoginViewController.m; sourceTree = "<group>"; };
@@ -68,6 +68,8 @@
 		BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
 		BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
 		BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		BA41399D1CB8BEE300942E0C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BA41399F1CB8BEF400942E0C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +165,8 @@
 		BA4139611CB8B86E00942E0C /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */,
+				BA41399D1CB8BEE300942E0C /* Storyboard.storyboard */,
+				BA41399F1CB8BEF400942E0C /* Launch Screen.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -356,7 +359,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */,
 				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
 				BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
@@ -365,6 +367,8 @@
 				BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */,
 				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
 				BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */,
+				BA4139A01CB8BEF400942E0C /* Launch Screen.storyboard in Resources */,
+				BA41399E1CB8BEE300942E0C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,14 +404,6 @@
 				BA41394E1CB8AFC600942E0C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA4139531CB8AFC600942E0C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
