@@ -12,6 +12,7 @@
 #import "FeListOfSlideView.h"
 #import "SlideData_Whale.h"
 #import "SlideData_Trout.h"
+#import "SlideData_Earth.h"
 
 @interface FeSlideDetailViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate, FeListOfSlideViewDelegate>
 
@@ -22,6 +23,7 @@
 
 @property (strong, nonatomic) SlideData_Whale *contentView_1;
 @property (strong, nonatomic) SlideData_Trout *contentView_2;
+@property (strong, nonatomic) SlideData_Earth *contentView_3;
 
 @end
 
@@ -37,6 +39,9 @@
     
     self.contentView_2 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Trout" owner:self options:nil] firstObject];
     self.contentView_2.backgroundColor = [UIColor clearColor];
+    
+    self.contentView_3 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Earth" owner:self options:nil] firstObject];
+    self.contentView_3.backgroundColor = [UIColor clearColor];
     
     [self initParallax];
     
@@ -93,6 +98,10 @@
     else if (cell && indexPath.item == 1 && !self.contentView_2.superview)
     {
         [cell updateWithNewContentView:self.contentView_2];
+    }
+    else if (cell && indexPath.item == 2 && !self.contentView_3.superview)
+    {
+        [cell updateWithNewContentView:self.contentView_3];
     }
     
     return cell;

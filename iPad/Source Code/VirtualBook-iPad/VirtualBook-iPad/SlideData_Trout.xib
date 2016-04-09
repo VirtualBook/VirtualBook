@@ -144,7 +144,7 @@ After spawning, all Pacific salmon and most Atlantic salmon die, and the salmon 
                                 <constraint firstAttribute="bottom" secondItem="e93-UT-WmA" secondAttribute="bottom" priority="750" constant="8" id="oGL-oR-Dpd"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rNN-VD-wIe">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNN-VD-wIe">
                             <rect key="frame" x="22" y="1014" width="980" height="491"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="9c2-mh-iTS">
@@ -176,10 +176,10 @@ After spawning, all Pacific salmon and most Atlantic salmon die, and the salmon 
                             </subviews>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstItem="txt-u7-P0T" firstAttribute="centerX" secondItem="rNN-VD-wIe" secondAttribute="centerX" id="8wG-XY-VsD"/>
                                 <constraint firstItem="nIf-kv-EX2" firstAttribute="leading" secondItem="9c2-mh-iTS" secondAttribute="trailing" constant="12" id="I3I-1H-8yL"/>
                                 <constraint firstItem="txt-u7-P0T" firstAttribute="top" secondItem="VP5-qV-VdZ" secondAttribute="bottom" constant="7" id="Rkz-dl-Cn3"/>
                                 <constraint firstItem="9c2-mh-iTS" firstAttribute="top" secondItem="rNN-VD-wIe" secondAttribute="top" constant="12" id="ZGV-iy-2Fs"/>
+                                <constraint firstAttribute="bottom" secondItem="txt-u7-P0T" secondAttribute="bottom" constant="20" id="gKA-2e-NFh"/>
                                 <constraint firstAttribute="trailing" secondItem="txt-u7-P0T" secondAttribute="trailing" constant="20" id="gen-6Q-Zba"/>
                                 <constraint firstAttribute="trailing" secondItem="VP5-qV-VdZ" secondAttribute="trailing" constant="20" id="ixg-cl-QyK"/>
                                 <constraint firstItem="VP5-qV-VdZ" firstAttribute="leading" secondItem="rNN-VD-wIe" secondAttribute="leading" constant="20" id="jy3-8N-Kkx"/>
