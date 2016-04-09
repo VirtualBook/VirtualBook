@@ -21,6 +21,14 @@
 		BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41397B1CB8B97C00942E0C /* FeMainViewController.m */; };
 		BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */; };
 		BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139811CB8B99100942E0C /* FeCoursesViewController.m */; };
+		BA41398C1CB8BD1F00942E0C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139851CB8BD1F00942E0C /* MBProgressHUD.m */; };
+		BA41398D1CB8BD1F00942E0C /* UIFont+FeelsFont.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139871CB8BD1F00942E0C /* UIFont+FeelsFont.m */; };
+		BA41398E1CB8BD1F00942E0C /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139891CB8BD1F00942E0C /* UIWindow+Additions.m */; };
+		BA41398F1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41398B1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m */; };
+		BA4139981CB8BD5900942E0C /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139941CB8BD5900942E0C /* SF-UI-Text-Light.otf */; };
+		BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */; };
+		BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */; };
+		BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +56,18 @@
 		BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeChannelsViewController.m; sourceTree = "<group>"; };
 		BA4139801CB8B99100942E0C /* FeCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeCoursesViewController.h; sourceTree = "<group>"; };
 		BA4139811CB8B99100942E0C /* FeCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeCoursesViewController.m; sourceTree = "<group>"; };
+		BA4139841CB8BD1F00942E0C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BA4139851CB8BD1F00942E0C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BA4139861CB8BD1F00942E0C /* UIFont+FeelsFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FeelsFont.h"; sourceTree = "<group>"; };
+		BA4139871CB8BD1F00942E0C /* UIFont+FeelsFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FeelsFont.m"; sourceTree = "<group>"; };
+		BA4139881CB8BD1F00942E0C /* UIWindow+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Additions.h"; sourceTree = "<group>"; };
+		BA4139891CB8BD1F00942E0C /* UIWindow+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Additions.m"; sourceTree = "<group>"; };
+		BA41398A1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSpringCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		BA41398B1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSpringCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		BA4139941CB8BD5900942E0C /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +122,8 @@
 		BA41395D1CB8B85A00942E0C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BA41399C1CB8BD5B00942E0C /* Font */,
+				BA4139901CB8BD2100942E0C /* Reuse code */,
 				BA4139621CB8B88C00942E0C /* Data */,
 				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
 			);
@@ -227,6 +249,56 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		BA4139901CB8BD2100942E0C /* Reuse code */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139931CB8BD3D00942E0C /* Spring animation */,
+				BA4139921CB8BD2F00942E0C /* Categories */,
+				BA4139911CB8BD2900942E0C /* Progress Hub */,
+			);
+			name = "Reuse code";
+			sourceTree = "<group>";
+		};
+		BA4139911CB8BD2900942E0C /* Progress Hub */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139841CB8BD1F00942E0C /* MBProgressHUD.h */,
+				BA4139851CB8BD1F00942E0C /* MBProgressHUD.m */,
+			);
+			name = "Progress Hub";
+			sourceTree = "<group>";
+		};
+		BA4139921CB8BD2F00942E0C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139861CB8BD1F00942E0C /* UIFont+FeelsFont.h */,
+				BA4139871CB8BD1F00942E0C /* UIFont+FeelsFont.m */,
+				BA4139881CB8BD1F00942E0C /* UIWindow+Additions.h */,
+				BA4139891CB8BD1F00942E0C /* UIWindow+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BA4139931CB8BD3D00942E0C /* Spring animation */ = {
+			isa = PBXGroup;
+			children = (
+				BA41398A1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.h */,
+				BA41398B1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m */,
+			);
+			name = "Spring animation";
+			sourceTree = "<group>";
+		};
+		BA41399C1CB8BD5B00942E0C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139941CB8BD5900942E0C /* SF-UI-Text-Light.otf */,
+				BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */,
+				BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */,
+				BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,8 +358,12 @@
 			files = (
 				BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */,
 				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
+				BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
+				BA4139981CB8BD5900942E0C /* SF-UI-Text-Light.otf in Resources */,
+				BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */,
+				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
 				BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,11 +379,15 @@
 				BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */,
 				BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */,
 				BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */,
+				BA41398F1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m in Sources */,
 				BA4139791CB8B97400942E0C /* FeWelcomeViewController.m in Sources */,
 				BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */,
+				BA41398D1CB8BD1F00942E0C /* UIFont+FeelsFont.m in Sources */,
 				BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */,
+				BA41398C1CB8BD1F00942E0C /* MBProgressHUD.m in Sources */,
 				BA4139741CB8B95400942E0C /* FeSignInView.m in Sources */,
 				BA4139461CB8AFC600942E0C /* main.m in Sources */,
+				BA41398E1CB8BD1F00942E0C /* UIWindow+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
