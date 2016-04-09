@@ -19,11 +19,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view opaque="NO" contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Slide_Content_1_1" customClass="SlideData_Whale">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="1411"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1308"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CAf-Fy-Bxh">
-                    <rect key="frame" x="0.0" y="118" width="1024" height="1293"/>
+                    <rect key="frame" x="0.0" y="118" width="1024" height="1190"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woU-tL-Xnl">
                             <rect key="frame" x="22" y="0.0" width="980" height="225.5"/>
@@ -141,7 +141,7 @@ During this migration, they eat virtually nothing for at least 4 months and live
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GiG-xd-bAZ">
-                            <rect key="frame" x="22" y="873.5" width="980" height="323"/>
+                            <rect key="frame" x="22" y="873.5" width="980" height="295"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="POs-uT-hfd">
                                     <rect key="frame" x="20" y="12" width="25" height="25"/>
@@ -157,14 +157,14 @@ During this migration, they eat virtually nothing for at least 4 months and live
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-7R-Bvj" customClass="FLAnimatedImageView">
-                                    <rect key="frame" x="20" y="53" width="500" height="250"/>
+                                    <rect key="frame" x="20" y="53" width="500" height="222"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="250" id="6yt-2D-VJW"/>
+                                        <constraint firstAttribute="height" constant="222" id="6yt-2D-VJW"/>
                                         <constraint firstAttribute="width" constant="500" id="WG8-Rc-iuC"/>
                                     </constraints>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="415" translatesAutoresizingMaskIntoConstraints="NO" id="0Ut-mk-Ugu">
-                                    <rect key="frame" x="544" y="233" width="415" height="70"/>
+                                    <rect key="frame" x="544" y="205" width="415" height="70"/>
                                     <string key="text">Air temperature and air temperature anomaly maps for the North Atlantic and Arctic, from Dec 27, 2015 to Jan 5, 2016.
 
 Credit: Climate Reanalyzer</string>
@@ -226,7 +226,7 @@ Credit: Climate Reanalyzer</string>
             <connections>
                 <outlet property="mapGIFImageView" destination="aVe-7R-Bvj" id="Snq-Ce-EYE"/>
             </connections>
-            <point key="canvasLocation" x="348" y="532.5"/>
+            <point key="canvasLocation" x="348" y="481"/>
         </view>
     </objects>
     <resources>
