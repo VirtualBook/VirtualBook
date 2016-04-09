@@ -53,6 +53,7 @@
 		BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC61CB8D3620071085F /* welcome_1.jpg */; };
 		BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC71CB8D3620071085F /* welcome_2.jpg */; };
 		BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC81CB8D3620071085F /* welcome_3.jpg */; };
+		BAA66DCE1CB8D5C90071085F /* pexels-photo-12064.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		BAA66DC61CB8D3620071085F /* welcome_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_1.jpg; sourceTree = "<group>"; };
 		BAA66DC71CB8D3620071085F /* welcome_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_2.jpg; sourceTree = "<group>"; };
 		BAA66DC81CB8D3620071085F /* welcome_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_3.jpg; sourceTree = "<group>"; };
+		BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-12064.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +171,9 @@
 		BA41395D1CB8B85A00942E0C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BAA66DCF1CB8D6190071085F /* Image */,
 				BA41399C1CB8BD5B00942E0C /* Font */,
 				BA4139901CB8BD2100942E0C /* Reuse code */,
-				BA4139621CB8B88C00942E0C /* Welcome */,
 				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
 			);
 			name = Resource;
@@ -379,6 +381,23 @@
 			name = "Main Screen";
 			sourceTree = "<group>";
 		};
+		BAA66DCF1CB8D6190071085F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66DD01CB8D6200071085F /* Login */,
+				BA4139621CB8B88C00942E0C /* Welcome */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		BAA66DD01CB8D6200071085F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -467,6 +486,7 @@
 				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
 				BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */,
 				BAA66DB41CB8C02F0071085F /* asset3@2x.png in Resources */,
+				BAA66DCE1CB8D5C90071085F /* pexels-photo-12064.jpeg in Resources */,
 				BA4139A01CB8BEF400942E0C /* Launch Screen.storyboard in Resources */,
 				BA41399E1CB8BEE300942E0C /* Storyboard.storyboard in Resources */,
 			);

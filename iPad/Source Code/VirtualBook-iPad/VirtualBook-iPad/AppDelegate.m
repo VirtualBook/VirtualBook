@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FeMainViewController.h"
+#import "FeLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -40,6 +41,8 @@
     }
     
     [self.window makeKeyAndVisible];
+    
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -240,13 +240,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Ug-r8-NSj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-photo-12064.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="5Ug-r8-NSj">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_app.png" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-j4-OVD">
                                 <rect key="frame" x="462" y="77" width="100" height="100"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Virtualbook is the easiest way to create, share, and discover beautiful course." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="353" translatesAutoresizingMaskIntoConstraints="NO" id="u8U-OA-Ug8">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Virtualbook is the easiest way to create, share, and discover beautiful course." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="353" translatesAutoresizingMaskIntoConstraints="NO" id="u8U-OA-Ug8">
                                 <rect key="frame" x="341" y="202" width="342" height="79"/>
                                 <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -325,7 +325,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Login.jpg" width="1024" height="678"/>
         <image name="Settings-104.png" width="104" height="104"/>
         <image name="asset1.png" width="30" height="29"/>
         <image name="asset2.png" width="30" height="29"/>
@@ -337,5 +336,6 @@
         <image name="asset8.png" width="30" height="29"/>
         <image name="logo_app.png" width="100" height="100"/>
         <image name="pattern_1.jpg" width="1024" height="678"/>
+        <image name="pexels-photo-12064.jpeg" width="2048" height="1536"/>
     </resources>
 </document>
