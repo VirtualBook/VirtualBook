@@ -36,13 +36,13 @@
                         <action selector="backBtnTapped:" destination="hpm-ry-yrw" eventType="touchUpInside" id="bXH-L7-Ag2"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-Uo-vse">
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-Uo-vse">
                     <rect key="frame" x="458.5" y="220" width="107.5" height="34"/>
                     <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="28"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fullname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFR-A6-2VL">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fullname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFR-A6-2VL">
                     <rect key="frame" x="355" y="270" width="314" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="314" id="nEk-M1-Isd"/>
@@ -52,7 +52,7 @@
                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <view alpha="0.89999997615814209" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bqy-mF-mMR">
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bqy-mF-mMR">
                     <rect key="frame" x="354" y="301" width="315" height="1"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -60,13 +60,13 @@
                         <constraint firstAttribute="height" constant="1" id="fec-za-QsU"/>
                     </constraints>
                 </view>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAt-7l-w7d">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAt-7l-w7d">
                     <rect key="frame" x="355" y="322" width="314" height="30"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <view alpha="0.89999997615814209" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pd7-cR-3Jq">
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pd7-cR-3Jq">
                     <rect key="frame" x="355" y="353" width="315" height="1"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -74,7 +74,7 @@
                         <constraint firstAttribute="height" constant="1" id="vTf-VI-1rx"/>
                     </constraints>
                 </view>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="39N-Ix-ftT">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="39N-Ix-ftT">
                     <rect key="frame" x="355" y="375" width="314" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="314" id="cfE-Zc-ff8"/>
@@ -84,7 +84,7 @@
                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <view alpha="0.89999997615814209" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqE-aW-mk2">
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqE-aW-mk2">
                     <rect key="frame" x="354" y="406" width="315" height="1"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -92,13 +92,13 @@
                         <constraint firstAttribute="width" constant="315" id="qlL-Ag-Bhf"/>
                     </constraints>
                 </view>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Verify Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WoK-CT-0dl">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Verify Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WoK-CT-0dl">
                     <rect key="frame" x="355" y="427" width="314" height="30"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <view alpha="0.89999997615814209" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qjJ-NN-ACr">
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qjJ-NN-ACr">
                     <rect key="frame" x="355" y="458" width="315" height="1"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -106,7 +106,7 @@
                         <constraint firstAttribute="height" constant="1" id="Le0-Za-qoL"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dn-YW-HEj">
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dn-YW-HEj">
                     <rect key="frame" x="422" y="491" width="180" height="44"/>
                     <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>

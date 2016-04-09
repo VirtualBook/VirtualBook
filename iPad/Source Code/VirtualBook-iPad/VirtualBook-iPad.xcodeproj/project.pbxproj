@@ -52,9 +52,11 @@
 		BA603F711CB8F37700A74DEA /* slide_1_c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F701CB8F37700A74DEA /* slide_1_c.jpg */; };
 		BA603F761CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */; };
 		BA603F771CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */; };
-		BA603F781CB8F46B00A74DEA /* SlideData.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F751CB8F46B00A74DEA /* SlideData.xib */; };
+		BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F751CB8F46B00A74DEA /* SlideData_Whale.xib */; };
 		BA603F7E1CB8F49700A74DEA /* FeListOfSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */; };
 		BA603F801CB8F83E00A74DEA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F7F1CB8F83E00A74DEA /* star.png */; };
+		BA603F851CB8FF7200A74DEA /* SlideData_Whale.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F841CB8FF7200A74DEA /* SlideData_Whale.m */; };
+		BA603F871CB9029400A74DEA /* Whale_GIF_Map.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA603F861CB9029400A74DEA /* Whale_GIF_Map.gif */; };
 		BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */; };
 		BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9E1CB8C02F0071085F /* asset1@2x.png */; };
 		BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9F1CB8C02F0071085F /* asset2@2x.png */; };
@@ -153,10 +155,13 @@
 		BA603F721CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooWeatherParallaxCell.h; sourceTree = "<group>"; };
 		BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooWeatherParallaxCell.m; sourceTree = "<group>"; };
 		BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHYahooWeatherParallaxCell.xib; sourceTree = "<group>"; };
-		BA603F751CB8F46B00A74DEA /* SlideData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData.xib; sourceTree = "<group>"; };
+		BA603F751CB8F46B00A74DEA /* SlideData_Whale.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Whale.xib; sourceTree = "<group>"; };
 		BA603F7C1CB8F49700A74DEA /* FeListOfSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeListOfSlideView.h; sourceTree = "<group>"; };
 		BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeListOfSlideView.m; sourceTree = "<group>"; };
 		BA603F7F1CB8F83E00A74DEA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		BA603F831CB8FF7200A74DEA /* SlideData_Whale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Whale.h; sourceTree = "<group>"; };
+		BA603F841CB8FF7200A74DEA /* SlideData_Whale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Whale.m; sourceTree = "<group>"; };
+		BA603F861CB9029400A74DEA /* Whale_GIF_Map.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Whale_GIF_Map.gif; sourceTree = "<group>"; };
 		BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001_prizmaspace.jpg; sourceTree = "<group>"; };
 		BAA66D9E1CB8C02F0071085F /* asset1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset1@2x.png"; sourceTree = "<group>"; };
 		BAA66D9F1CB8C02F0071085F /* asset2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset2@2x.png"; sourceTree = "<group>"; };
@@ -460,6 +465,7 @@
 		BA603F671CB8F11500A74DEA /* Slide */ = {
 			isa = PBXGroup;
 			children = (
+				BA603F861CB9029400A74DEA /* Whale_GIF_Map.gif */,
 				BA603F701CB8F37700A74DEA /* slide_1_c.jpg */,
 				BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */,
 				BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */,
@@ -508,7 +514,7 @@
 		BA603F7A1CB8F47700A74DEA /* DATA */ = {
 			isa = PBXGroup;
 			children = (
-				BA603F751CB8F46B00A74DEA /* SlideData.xib */,
+				BA603F821CB8FF5D00A74DEA /* Whale */,
 			);
 			name = DATA;
 			sourceTree = "<group>";
@@ -520,6 +526,16 @@
 				BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */,
 			);
 			name = "List of slide";
+			sourceTree = "<group>";
+		};
+		BA603F821CB8FF5D00A74DEA /* Whale */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F831CB8FF7200A74DEA /* SlideData_Whale.h */,
+				BA603F841CB8FF7200A74DEA /* SlideData_Whale.m */,
+				BA603F751CB8F46B00A74DEA /* SlideData_Whale.xib */,
+			);
+			name = Whale;
 			sourceTree = "<group>";
 		};
 		BAA66D9C1CB8C00E0071085F /* Main Screen */ = {
@@ -640,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA66DDB1CB8DED00071085F /* Welcome_1.xib in Resources */,
+				BA603F871CB9029400A74DEA /* Whale_GIF_Map.gif in Resources */,
 				BAA66DB71CB8C02F0071085F /* asset6@2x.png in Resources */,
 				BAA66DC11CB8C02F0071085F /* menu_2.png in Resources */,
 				BAA66DC21CB8C02F0071085F /* menu.png in Resources */,
@@ -670,7 +687,7 @@
 				BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */,
 				BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */,
 				BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */,
-				BA603F781CB8F46B00A74DEA /* SlideData.xib in Resources */,
+				BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */,
 				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
@@ -768,6 +785,7 @@
 				BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */,
 				BA41398D1CB8BD1F00942E0C /* UIFont+FeelsFont.m in Sources */,
 				BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */,
+				BA603F851CB8FF7200A74DEA /* SlideData_Whale.m in Sources */,
 				BAA66DD61CB8D9BB0071085F /* MHYahooParallaxView.m in Sources */,
 				BA41398C1CB8BD1F00942E0C /* MBProgressHUD.m in Sources */,
 				BA4139741CB8B95400942E0C /* FeSignInView.m in Sources */,

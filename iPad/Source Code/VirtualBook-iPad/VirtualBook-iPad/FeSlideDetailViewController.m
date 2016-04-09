@@ -28,8 +28,8 @@
 {
     [super viewDidLoad];
     
-    self.contentView_1 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData" owner:self options:nil] firstObject];
-    self.contentView_1.frame = CGRectMake(0, 0, 1024, 956);
+    self.contentView_1 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Whale" owner:self options:nil] firstObject];
+    self.contentView_1.frame = CGRectMake(0, 0, 1024, 1411);
     self.contentView_1.backgroundColor = [UIColor clearColor];
     
     [self initParallax];
