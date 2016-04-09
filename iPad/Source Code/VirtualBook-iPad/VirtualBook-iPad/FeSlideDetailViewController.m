@@ -11,7 +11,7 @@
 #import "MHYahooWeatherParallaxCell.h"
 #import "FeListOfSlideView.h"
 #import "SlideData_Whale.h"
-#import "SlideData_Earth.h"
+#import "SlideData_Trout.h"
 
 @interface FeSlideDetailViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate, FeListOfSlideViewDelegate>
 
@@ -21,7 +21,7 @@
 @property (strong, nonatomic) FeListOfSlideView *listOfView;
 
 @property (strong, nonatomic) SlideData_Whale *contentView_1;
-@property (strong, nonatomic) SlideData_Earth *contentView_2;
+@property (strong, nonatomic) SlideData_Trout *contentView_2;
 
 @end
 
@@ -35,7 +35,7 @@
     self.contentView_1.backgroundColor = [UIColor clearColor];
     self.contentView_1.rootViewController = self;
     
-    self.contentView_2 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Earth" owner:self options:nil] firstObject];
+    self.contentView_2 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Trout" owner:self options:nil] firstObject];
     self.contentView_2.backgroundColor = [UIColor clearColor];
     
     [self initParallax];
@@ -76,13 +76,13 @@
             cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
             break;
         case 1:
-            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_2.jpg"]];
             break;
         case 2:
-            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_3.jpg"]];
             break;
         case 3:
-            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_1_a.jpg"]];
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_4.jpg"]];
             break;
     }
 

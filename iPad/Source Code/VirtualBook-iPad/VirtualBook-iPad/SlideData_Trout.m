@@ -6,9 +6,9 @@
 //  Copyright © 2016 justdoit. All rights reserved.
 //
 
-#import "SlideData_Earth.h"
+#import "SlideData_Trout.h"
 
-@implementation SlideData_Earth
+@implementation SlideData_Trout
 
 /*
 // Only override drawRect: if you perform custom drawing.

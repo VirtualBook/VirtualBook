@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SlideData_Earth : UIView
+@interface SlideData_Trout : UIView
 
 @end

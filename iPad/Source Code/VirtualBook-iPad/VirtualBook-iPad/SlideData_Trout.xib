@@ -20,7 +20,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view opaque="NO" contentMode="scaleToFill" id="7aI-xC-wTH" userLabel="Slide_Content_1_1" customClass="SlideData_Earth">
+        <view opaque="NO" contentMode="scaleToFill" id="7aI-xC-wTH" userLabel="Slide_Content_1_1" customClass="SlideData_Trout">
             <rect key="frame" x="0.0" y="0.0" width="1024" height="2250"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -304,7 +304,7 @@ Credit: Climate Reanalyzer</string>
                         <constraint firstItem="fEV-x5-Rts" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="whX-vp-geg"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDJ-Fg-m4b">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trout" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDJ-Fg-m4b">
                     <rect key="frame" x="44" y="12" width="936" height="82"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="95"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
