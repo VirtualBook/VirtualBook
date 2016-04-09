@@ -9,7 +9,7 @@ public class Earth : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+        Textures.LoadAll();
 	}
 	
 	// Update is called once per frame
@@ -30,10 +30,11 @@ public class Earth : MonoBehaviour {
         {
             isRotate = !isRotate;
         }
+
+        if (Input.GetKeyDown("x"))
+        {
+            Renderer r = GetComponent<Renderer>();
+            r.material.SetTexture("_MainTex", Textures.seaTempTextures[0]);
+        }
     }    
-
-    void reset()
-    {
-
-    }
 }
