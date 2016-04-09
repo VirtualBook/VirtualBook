@@ -37,37 +37,34 @@
                                 <rect key="frame" x="-31" y="0.0" width="1054" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset1.png" translatesAutoresizingMaskIntoConstraints="NO" id="nzW-pe-Ugk">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="102" y="94" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lcq-QY-pcX">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="95" y="220" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mEI-PO-vXa">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset3.png" translatesAutoresizingMaskIntoConstraints="NO" id="DJU-BD-AcB">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="28" y="637" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-PD-8uF">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="786" y="28" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset5.png" translatesAutoresizingMaskIntoConstraints="NO" id="J75-d1-VXP">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="387" y="176" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset6.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ikk-dc-w8J">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="711" y="563" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset7.png" translatesAutoresizingMaskIntoConstraints="NO" id="91M-wt-8WD">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="161" y="495" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset7.png" translatesAutoresizingMaskIntoConstraints="NO" id="y7F-Ml-1il">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="908" y="418" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset8.png" translatesAutoresizingMaskIntoConstraints="NO" id="ihL-T4-N1d">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="664" y="150" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset8.png" translatesAutoresizingMaskIntoConstraints="NO" id="VOu-Aj-5tT">
-                                <rect key="frame" x="0.0" y="0.0" width="30" height="29"/>
+                                <rect key="frame" x="511" y="655" width="30" height="29"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5d-Ui-FYB">
                                 <rect key="frame" x="108" y="284" width="273" height="96"/>
@@ -165,6 +162,9 @@
                                     <action selector="findChannelBtnTapped:" destination="yMU-GT-TXU" eventType="touchUpInside" id="JAM-VO-8jR"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset3.png" translatesAutoresizingMaskIntoConstraints="NO" id="DJU-BD-AcB">
+                                <rect key="frame" x="481" y="418" width="30" height="29"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -223,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0g-Jh-sPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="269" y="373"/>
+            <point key="canvasLocation" x="326" y="318"/>
         </scene>
     </scenes>
     <resources>
