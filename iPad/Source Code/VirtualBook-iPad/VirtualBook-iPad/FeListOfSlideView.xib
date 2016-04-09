@@ -11,7 +11,6 @@
             <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
-            <string>SFUIText-Regular</string>
         </mutableArray>
         <mutableArray key="SF-UI-Text-Semibold.otf">
             <string>SFUIText-Semibold</string>
@@ -150,42 +149,13 @@
                                         <constraint firstItem="bRC-kr-fTw" firstAttribute="centerX" secondItem="ycD-7t-ALc" secondAttribute="centerX" id="ypu-KX-tgC"/>
                                     </constraints>
                                 </view>
-                                <view clipsSubviews="YES" tag="104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgu-BQ-r9y">
-                                    <rect key="frame" x="42" y="236" width="235" height="210"/>
-                                    <subviews>
-                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_5_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Urb-WH-39r">
-                                            <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="150" id="8Ic-2f-OaR"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="Ret-f4-cmN">
-                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
-                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <constraints>
-                                        <constraint firstItem="Urb-WH-39r" firstAttribute="top" secondItem="Bgu-BQ-r9y" secondAttribute="top" id="24g-eh-dKZ"/>
-                                        <constraint firstItem="Ret-f4-cmN" firstAttribute="centerX" secondItem="Bgu-BQ-r9y" secondAttribute="centerX" id="Tma-Bi-I2U"/>
-                                        <constraint firstItem="Urb-WH-39r" firstAttribute="leading" secondItem="Bgu-BQ-r9y" secondAttribute="leading" id="VO8-aU-kLN"/>
-                                        <constraint firstAttribute="width" constant="235" id="bmZ-Mn-ClG"/>
-                                        <constraint firstAttribute="trailing" secondItem="Urb-WH-39r" secondAttribute="trailing" id="ewu-cs-jXf"/>
-                                        <constraint firstAttribute="height" constant="210" id="hKI-9s-F5f"/>
-                                        <constraint firstItem="Ret-f4-cmN" firstAttribute="top" secondItem="Urb-WH-39r" secondAttribute="bottom" constant="16" id="zQy-0G-qBD"/>
-                                    </constraints>
-                                </view>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="bLM-jK-ssP" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="0Bj-7l-3pX"/>
-                                <constraint firstItem="Bgu-BQ-r9y" firstAttribute="top" secondItem="ade-Wp-9qH" secondAttribute="bottom" constant="26" id="3GM-0M-5Ny"/>
                                 <constraint firstItem="oYp-j1-mMq" firstAttribute="leading" secondItem="bLM-jK-ssP" secondAttribute="trailing" id="DZd-Gp-ZoT"/>
                                 <constraint firstItem="ycD-7t-ALc" firstAttribute="leading" secondItem="oYp-j1-mMq" secondAttribute="trailing" id="H5S-6M-ejW"/>
                                 <constraint firstItem="ade-Wp-9qH" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="U6g-Fg-9Yq"/>
-                                <constraint firstItem="Bgu-BQ-r9y" firstAttribute="leading" secondItem="mMW-aI-SFj" secondAttribute="leading" constant="42" id="eIu-Af-qW8"/>
                                 <constraint firstItem="ade-Wp-9qH" firstAttribute="leading" secondItem="mMW-aI-SFj" secondAttribute="leading" constant="42" id="jAT-Hs-WRY"/>
                                 <constraint firstItem="ycD-7t-ALc" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="nzC-IH-WPO"/>
                                 <constraint firstItem="oYp-j1-mMq" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="pvY-PP-eK2"/>
@@ -212,7 +182,7 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="virtual.book/awesomeGeo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmv-vn-KEU">
-                    <rect key="frame" x="416" y="629" width="192.5" height="18"/>
+                    <rect key="frame" x="416.5" y="629" width="192.5" height="18"/>
                     <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -224,7 +194,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch Vietnam Geography  on Sunday Aprial 5 and 12 on the VTV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-rA-Sp2">
-                    <rect key="frame" x="264" y="535" width="495" height="20"/>
+                    <rect key="frame" x="264.5" y="536" width="495" height="19"/>
                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="16"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -257,8 +227,7 @@
         <image name="Globe-104.png" width="104" height="104"/>
         <image name="slide_1_thumb.jpg" width="500" height="313"/>
         <image name="slide_2_thumb.jpg" width="500" height="313"/>
-        <image name="slide_3_thumb.jpg" width="500" height="281"/>
+        <image name="slide_3_thumb.jpg" width="500" height="313"/>
         <image name="slide_4_thumb.jpg" width="500" height="281"/>
-        <image name="slide_5_thumb.jpg" width="500" height="328"/>
     </resources>
 </document>

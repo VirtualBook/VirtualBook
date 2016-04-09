@@ -37,7 +37,6 @@
 		BA603F5B1CB8F11300A74DEA /* slide_3_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4B1CB8F11300A74DEA /* slide_3_thumb.jpg */; };
 		BA603F5C1CB8F11300A74DEA /* slide_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4C1CB8F11300A74DEA /* slide_3.jpg */; };
 		BA603F5F1CB8F11300A74DEA /* slide_4_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4F1CB8F11300A74DEA /* slide_4_thumb.jpg */; };
-		BA603F601CB8F11300A74DEA /* slide_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F501CB8F11300A74DEA /* slide_4.jpg */; };
 		BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */; };
 		BA603F661CB8F11300A74DEA /* slide_content_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */; };
 		BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */; };
@@ -95,6 +94,9 @@
 		BAC6A9871CB935F3006EBC2A /* rivermap5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9861CB935F3006EBC2A /* rivermap5.jpg */; };
 		BAC6A98B1CB93BBB006EBC2A /* SlideData_Earth.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A98A1CB93BBB006EBC2A /* SlideData_Earth.m */; };
 		BAC6A98D1CB93BCB006EBC2A /* SlideData_Earth.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A98C1CB93BCB006EBC2A /* SlideData_Earth.xib */; };
+		BAC6A9921CB94B80006EBC2A /* slide_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9911CB94B80006EBC2A /* slide_4.jpg */; };
+		BAC6A9961CB94C67006EBC2A /* SlideData_Air.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */; };
+		BAC6A9981CB94C71006EBC2A /* SlideData_Air.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,7 +146,6 @@
 		BA603F4B1CB8F11300A74DEA /* slide_3_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_3_thumb.jpg; sourceTree = "<group>"; };
 		BA603F4C1CB8F11300A74DEA /* slide_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_3.jpg; sourceTree = "<group>"; };
 		BA603F4F1CB8F11300A74DEA /* slide_4_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_4_thumb.jpg; sourceTree = "<group>"; };
-		BA603F501CB8F11300A74DEA /* slide_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_4.jpg; sourceTree = "<group>"; };
 		BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_1.jpg; sourceTree = "<group>"; };
 		BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_2.jpg; sourceTree = "<group>"; };
 		BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSlideDetailViewController.h; sourceTree = "<group>"; };
@@ -211,6 +212,10 @@
 		BAC6A9891CB93BBB006EBC2A /* SlideData_Earth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Earth.h; sourceTree = "<group>"; };
 		BAC6A98A1CB93BBB006EBC2A /* SlideData_Earth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Earth.m; sourceTree = "<group>"; };
 		BAC6A98C1CB93BCB006EBC2A /* SlideData_Earth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Earth.xib; sourceTree = "<group>"; };
+		BAC6A9911CB94B80006EBC2A /* slide_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_4.jpg; sourceTree = "<group>"; };
+		BAC6A9941CB94C67006EBC2A /* SlideData_Air.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Air.h; sourceTree = "<group>"; };
+		BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Air.m; sourceTree = "<group>"; };
+		BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Air.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,6 +484,7 @@
 		BA603F671CB8F11500A74DEA /* Slide */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A9901CB94A8B006EBC2A /* Air */,
 				BAC6A97D1CB92AFF006EBC2A /* Trout */,
 				BAC6A97C1CB92AF4006EBC2A /* Whale */,
 			);
@@ -509,6 +515,7 @@
 		BA603F7A1CB8F47700A74DEA /* DATA */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A9931CB94C54006EBC2A /* Air */,
 				BAC6A9881CB93BA9006EBC2A /* Earth */,
 				BAC6A9761CB922DD006EBC2A /* Trout */,
 				BA603F821CB8FF5D00A74DEA /* Whale */,
@@ -619,7 +626,6 @@
 				BA603F4B1CB8F11300A74DEA /* slide_3_thumb.jpg */,
 				BA603F4C1CB8F11300A74DEA /* slide_3.jpg */,
 				BA603F4F1CB8F11300A74DEA /* slide_4_thumb.jpg */,
-				BA603F501CB8F11300A74DEA /* slide_4.jpg */,
 				BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */,
 				BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */,
 				BA603F7F1CB8F83E00A74DEA /* star.png */,
@@ -646,6 +652,24 @@
 				BAC6A98C1CB93BCB006EBC2A /* SlideData_Earth.xib */,
 			);
 			name = Earth;
+			sourceTree = "<group>";
+		};
+		BAC6A9901CB94A8B006EBC2A /* Air */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9911CB94B80006EBC2A /* slide_4.jpg */,
+			);
+			name = Air;
+			sourceTree = "<group>";
+		};
+		BAC6A9931CB94C54006EBC2A /* Air */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9941CB94C67006EBC2A /* SlideData_Air.h */,
+				BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */,
+				BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */,
+			);
+			name = Air;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,11 +748,11 @@
 				BA603F931CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg in Resources */,
 				BA603F571CB8F11300A74DEA /* channel_1_1.jpg in Resources */,
 				BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */,
+				BAC6A9921CB94B80006EBC2A /* slide_4.jpg in Resources */,
 				BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */,
 				BA603F8D1CB9088B00A74DEA /* YouTube-icon-full_color.png in Resources */,
 				BA603F5C1CB8F11300A74DEA /* slide_3.jpg in Resources */,
 				BAA66DE21CB8E2C30071085F /* FeChannelCell.xib in Resources */,
-				BA603F601CB8F11300A74DEA /* slide_4.jpg in Resources */,
 				BAA66DC91CB8D3620071085F /* logo_app.png in Resources */,
 				BAC6A9851CB93434006EBC2A /* slide_2_3.jpg in Resources */,
 				BAC6A98D1CB93BCB006EBC2A /* SlideData_Earth.xib in Resources */,
@@ -767,6 +791,7 @@
 				BA603F5F1CB8F11300A74DEA /* slide_4_thumb.jpg in Resources */,
 				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
 				BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */,
+				BAC6A9981CB94C71006EBC2A /* SlideData_Air.xib in Resources */,
 				BA603F5B1CB8F11300A74DEA /* slide_3_thumb.jpg in Resources */,
 				BA603F8B1CB9075600A74DEA /* FeListOfSlideView.xib in Resources */,
 				BA603F591CB8F11300A74DEA /* channel_1_3.jpg in Resources */,
@@ -834,6 +859,7 @@
 			files = (
 				BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */,
 				BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */,
+				BAC6A9961CB94C67006EBC2A /* SlideData_Air.m in Sources */,
 				BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */,
 				BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */,
 				BAC6A98B1CB93BBB006EBC2A /* SlideData_Earth.m in Sources */,

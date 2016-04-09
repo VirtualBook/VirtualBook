@@ -75,6 +75,7 @@
 }
 -(void) updateWithNewContentView:(UIView *)contentView
 {
+    self.scrollView.contentOffset = CGPointZero;
     [self.contentScrollView addSubview:contentView];
     self.contentScrollViewHeight.constant = contentView.frame.size.height;
 }
