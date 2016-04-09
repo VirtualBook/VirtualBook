@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "FeMainViewController.h"
+#import "FeLoginViewController.h"
+#import "UIWindow+Additions.h"
+#import "MBProgressHUD.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +21,47 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // user Default
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    NSNumber *isLogin = [userDefault objectForKey:@"isLogin"];
+    
+    if (isLogin && isLogin.boolValue)
+    {
+        // Show main app
+        FeMainViewController *controller = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewNavigationController"];
+        
+        self.window.rootViewController = controller;
+    }
+    else
+    {
+        // Show login screen
+        FeLoginViewController *loginVC = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"FeLoginViewController"];
+        
+        self.window.rootViewController = loginVC;
+    }
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+-(void) switchToMainApp
+{
+    [MBProgressHUD showGlobalProgressHUDWithTitle:@"Processing"];
+    
+    __weak typeof(self) weakSelf = self;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        FeMainViewController *controller = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewNavigationController"];
+        
+        [MBProgressHUD dismissGlobalHUD];
+        
+        [weakSelf.window setRootViewController:controller animated:YES completionBlock:nil];
+        
+    });
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

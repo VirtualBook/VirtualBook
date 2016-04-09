@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15CFD66777F73651E91C5EC /* libPods-VirtualBook-iPad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25853D531576AE32903FE479 /* libPods-VirtualBook-iPad.a */; };
 		BA4139461CB8AFC600942E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139451CB8AFC600942E0C /* main.m */; };
 		BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139481CB8AFC600942E0C /* AppDelegate.m */; };
-		BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41394D1CB8AFC600942E0C /* Main.storyboard */; };
 		BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4139501CB8AFC600942E0C /* Assets.xcassets */; };
-		BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */; };
 		BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */; };
 		BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41396E1CB8B92D00942E0C /* FeSignUpView.m */; };
 		BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4139701CB8B93900942E0C /* FeSignUpView.xib */; };
@@ -21,16 +20,94 @@
 		BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41397B1CB8B97C00942E0C /* FeMainViewController.m */; };
 		BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */; };
 		BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139811CB8B99100942E0C /* FeCoursesViewController.m */; };
+		BA41398C1CB8BD1F00942E0C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139851CB8BD1F00942E0C /* MBProgressHUD.m */; };
+		BA41398D1CB8BD1F00942E0C /* UIFont+FeelsFont.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139871CB8BD1F00942E0C /* UIFont+FeelsFont.m */; };
+		BA41398E1CB8BD1F00942E0C /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4139891CB8BD1F00942E0C /* UIWindow+Additions.m */; };
+		BA41398F1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41398B1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m */; };
+		BA4139981CB8BD5900942E0C /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139941CB8BD5900942E0C /* SF-UI-Text-Light.otf */; };
+		BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */; };
+		BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */; };
+		BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */; };
+		BA41399E1CB8BEE300942E0C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41399D1CB8BEE300942E0C /* Storyboard.storyboard */; };
+		BA4139A01CB8BEF400942E0C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41399F1CB8BEF400942E0C /* Launch Screen.storyboard */; };
+		BA603F571CB8F11300A74DEA /* channel_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F471CB8F11300A74DEA /* channel_1_1.jpg */; };
+		BA603F581CB8F11300A74DEA /* channel_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F481CB8F11300A74DEA /* channel_1_2.jpg */; };
+		BA603F591CB8F11300A74DEA /* channel_1_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F491CB8F11300A74DEA /* channel_1_3.jpg */; };
+		BA603F5A1CB8F11300A74DEA /* channel_1_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4A1CB8F11300A74DEA /* channel_1_4.jpg */; };
+		BA603F5B1CB8F11300A74DEA /* slide_3_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4B1CB8F11300A74DEA /* slide_3_thumb.jpg */; };
+		BA603F5C1CB8F11300A74DEA /* slide_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4C1CB8F11300A74DEA /* slide_3.jpg */; };
+		BA603F5F1CB8F11300A74DEA /* slide_4_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F4F1CB8F11300A74DEA /* slide_4_thumb.jpg */; };
+		BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */; };
+		BA603F661CB8F11300A74DEA /* slide_content_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */; };
+		BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */; };
+		BA603F6E1CB8F2A100A74DEA /* slide_1_b@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */; };
+		BA603F6F1CB8F2A100A74DEA /* slide_1_a@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */; };
+		BA603F711CB8F37700A74DEA /* slide_1_c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F701CB8F37700A74DEA /* slide_1_c.jpg */; };
+		BA603F761CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */; };
+		BA603F771CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */; };
+		BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F751CB8F46B00A74DEA /* SlideData_Whale.xib */; };
+		BA603F7E1CB8F49700A74DEA /* FeListOfSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */; };
+		BA603F801CB8F83E00A74DEA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F7F1CB8F83E00A74DEA /* star.png */; };
+		BA603F851CB8FF7200A74DEA /* SlideData_Whale.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F841CB8FF7200A74DEA /* SlideData_Whale.m */; };
+		BA603F891CB906F900A74DEA /* GIF_Whale_Map.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA603F881CB906F900A74DEA /* GIF_Whale_Map.gif */; };
+		BA603F8B1CB9075600A74DEA /* FeListOfSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F8A1CB9075600A74DEA /* FeListOfSlideView.xib */; };
+		BA603F8D1CB9088B00A74DEA /* YouTube-icon-full_color.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */; };
+		BA603F911CB90A9B00A74DEA /* oculus.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F901CB90A9B00A74DEA /* oculus.png */; };
+		BA603F931CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */; };
+		BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */; };
+		BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9E1CB8C02F0071085F /* asset1@2x.png */; };
+		BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9F1CB8C02F0071085F /* asset2@2x.png */; };
+		BAA66DB41CB8C02F0071085F /* asset3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA01CB8C02F0071085F /* asset3@2x.png */; };
+		BAA66DB51CB8C02F0071085F /* asset4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA11CB8C02F0071085F /* asset4@2x.png */; };
+		BAA66DB61CB8C02F0071085F /* asset5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA21CB8C02F0071085F /* asset5@2x.png */; };
+		BAA66DB71CB8C02F0071085F /* asset6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA31CB8C02F0071085F /* asset6@2x.png */; };
+		BAA66DB81CB8C02F0071085F /* asset7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA41CB8C02F0071085F /* asset7@2x.png */; };
+		BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA51CB8C02F0071085F /* asset8@2x.png */; };
+		BAA66DBA1CB8C02F0071085F /* asset9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA61CB8C02F0071085F /* asset9@2x.png */; };
+		BAA66DBB1CB8C02F0071085F /* Back-100.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA71CB8C02F0071085F /* Back-100.png */; };
+		BAA66DBC1CB8C02F0071085F /* Delete-104.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA81CB8C02F0071085F /* Delete-104.png */; };
+		BAA66DBD1CB8C02F0071085F /* earth_element.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DA91CB8C02F0071085F /* earth_element.png */; };
+		BAA66DBE1CB8C02F0071085F /* Globe-104.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAA1CB8C02F0071085F /* Globe-104.png */; };
+		BAA66DBF1CB8C02F0071085F /* Gradient_1920x1200.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAB1CB8C02F0071085F /* Gradient_1920x1200.jpg.png */; };
+		BAA66DC01CB8C02F0071085F /* gradientDetailSlide.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAC1CB8C02F0071085F /* gradientDetailSlide.png */; };
+		BAA66DC11CB8C02F0071085F /* menu_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAD1CB8C02F0071085F /* menu_2.png */; };
+		BAA66DC21CB8C02F0071085F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAE1CB8C02F0071085F /* menu.png */; };
+		BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAF1CB8C02F0071085F /* pattern_1@2x.jpg */; };
+		BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DB01CB8C02F0071085F /* Settings-104.png */; };
+		BAA66DC91CB8D3620071085F /* logo_app.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC51CB8D3620071085F /* logo_app.png */; };
+		BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC61CB8D3620071085F /* welcome_1.jpg */; };
+		BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC71CB8D3620071085F /* welcome_2.jpg */; };
+		BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC81CB8D3620071085F /* welcome_3.jpg */; };
+		BAA66DCE1CB8D5C90071085F /* pexels-photo-12064.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */; };
+		BAA66DD51CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA66DD21CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m */; };
+		BAA66DD61CB8D9BB0071085F /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA66DD41CB8D9BB0071085F /* MHYahooParallaxView.m */; };
+		BAA66DDB1CB8DED00071085F /* Welcome_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DD81CB8DED00071085F /* Welcome_1.xib */; };
+		BAA66DDC1CB8DED00071085F /* Welcome_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DD91CB8DED00071085F /* Welcome_2.xib */; };
+		BAA66DDD1CB8DED00071085F /* Welcome_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DDA1CB8DED00071085F /* Welcome_3.xib */; };
+		BAA66DE11CB8E2C30071085F /* FeChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA66DDF1CB8E2C30071085F /* FeChannelCell.m */; };
+		BAA66DE21CB8E2C30071085F /* FeChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DE01CB8E2C30071085F /* FeChannelCell.xib */; };
+		BAC6A9781CB92747006EBC2A /* SlideData_Trout.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9771CB92747006EBC2A /* SlideData_Trout.xib */; };
+		BAC6A97B1CB92893006EBC2A /* SlideData_Trout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A97A1CB92893006EBC2A /* SlideData_Trout.m */; };
+		BAC6A97F1CB92B1A006EBC2A /* slide_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A97E1CB92B1A006EBC2A /* slide_2@2x.jpg */; };
+		BAC6A9831CB931A7006EBC2A /* slide_2_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9821CB931A7006EBC2A /* slide_2_2.jpg */; };
+		BAC6A9851CB93434006EBC2A /* slide_2_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9841CB93434006EBC2A /* slide_2_3.jpg */; };
+		BAC6A9871CB935F3006EBC2A /* rivermap5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9861CB935F3006EBC2A /* rivermap5.jpg */; };
+		BAC6A98B1CB93BBB006EBC2A /* SlideData_Earth.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A98A1CB93BBB006EBC2A /* SlideData_Earth.m */; };
+		BAC6A98D1CB93BCB006EBC2A /* SlideData_Earth.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A98C1CB93BCB006EBC2A /* SlideData_Earth.xib */; };
+		BAC6A9921CB94B80006EBC2A /* slide_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9911CB94B80006EBC2A /* slide_4.jpg */; };
+		BAC6A9961CB94C67006EBC2A /* SlideData_Air.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */; };
+		BAC6A9981CB94C71006EBC2A /* SlideData_Air.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1172AFB8F2248D518A7B6630 /* Pods-VirtualBook-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualBook-iPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualBook-iPad/Pods-VirtualBook-iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		25853D531576AE32903FE479 /* libPods-VirtualBook-iPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VirtualBook-iPad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E914B75D02536448B445729 /* Pods-VirtualBook-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualBook-iPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualBook-iPad/Pods-VirtualBook-iPad.release.xcconfig"; sourceTree = "<group>"; };
 		BA4139411CB8AFC600942E0C /* VirtualBook-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VirtualBook-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4139451CB8AFC600942E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA4139471CB8AFC600942E0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA4139481CB8AFC600942E0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA41394E1CB8AFC600942E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA4139501CB8AFC600942E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA4139531CB8AFC600942E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4139551CB8AFC600942E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA41396A1CB8B91C00942E0C /* FeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoginViewController.h; sourceTree = "<group>"; };
 		BA41396B1CB8B91C00942E0C /* FeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoginViewController.m; sourceTree = "<group>"; };
@@ -48,6 +125,97 @@
 		BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeChannelsViewController.m; sourceTree = "<group>"; };
 		BA4139801CB8B99100942E0C /* FeCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeCoursesViewController.h; sourceTree = "<group>"; };
 		BA4139811CB8B99100942E0C /* FeCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeCoursesViewController.m; sourceTree = "<group>"; };
+		BA4139841CB8BD1F00942E0C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BA4139851CB8BD1F00942E0C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BA4139861CB8BD1F00942E0C /* UIFont+FeelsFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FeelsFont.h"; sourceTree = "<group>"; };
+		BA4139871CB8BD1F00942E0C /* UIFont+FeelsFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FeelsFont.m"; sourceTree = "<group>"; };
+		BA4139881CB8BD1F00942E0C /* UIWindow+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Additions.h"; sourceTree = "<group>"; };
+		BA4139891CB8BD1F00942E0C /* UIWindow+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Additions.m"; sourceTree = "<group>"; };
+		BA41398A1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSpringCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		BA41398B1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSpringCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		BA4139941CB8BD5900942E0C /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		BA41399D1CB8BEE300942E0C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BA41399F1CB8BEF400942E0C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BA603F471CB8F11300A74DEA /* channel_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = channel_1_1.jpg; sourceTree = "<group>"; };
+		BA603F481CB8F11300A74DEA /* channel_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = channel_1_2.jpg; sourceTree = "<group>"; };
+		BA603F491CB8F11300A74DEA /* channel_1_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = channel_1_3.jpg; sourceTree = "<group>"; };
+		BA603F4A1CB8F11300A74DEA /* channel_1_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = channel_1_4.jpg; sourceTree = "<group>"; };
+		BA603F4B1CB8F11300A74DEA /* slide_3_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_3_thumb.jpg; sourceTree = "<group>"; };
+		BA603F4C1CB8F11300A74DEA /* slide_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_3.jpg; sourceTree = "<group>"; };
+		BA603F4F1CB8F11300A74DEA /* slide_4_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_4_thumb.jpg; sourceTree = "<group>"; };
+		BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_1.jpg; sourceTree = "<group>"; };
+		BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_2.jpg; sourceTree = "<group>"; };
+		BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSlideDetailViewController.h; sourceTree = "<group>"; };
+		BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSlideDetailViewController.m; sourceTree = "<group>"; };
+		BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_1_b@2x.jpg"; sourceTree = "<group>"; };
+		BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_1_a@2x.jpg"; sourceTree = "<group>"; };
+		BA603F701CB8F37700A74DEA /* slide_1_c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_1_c.jpg; sourceTree = "<group>"; };
+		BA603F721CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooWeatherParallaxCell.h; sourceTree = "<group>"; };
+		BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooWeatherParallaxCell.m; sourceTree = "<group>"; };
+		BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHYahooWeatherParallaxCell.xib; sourceTree = "<group>"; };
+		BA603F751CB8F46B00A74DEA /* SlideData_Whale.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Whale.xib; sourceTree = "<group>"; };
+		BA603F7C1CB8F49700A74DEA /* FeListOfSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeListOfSlideView.h; sourceTree = "<group>"; };
+		BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeListOfSlideView.m; sourceTree = "<group>"; };
+		BA603F7F1CB8F83E00A74DEA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		BA603F831CB8FF7200A74DEA /* SlideData_Whale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Whale.h; sourceTree = "<group>"; };
+		BA603F841CB8FF7200A74DEA /* SlideData_Whale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Whale.m; sourceTree = "<group>"; };
+		BA603F881CB906F900A74DEA /* GIF_Whale_Map.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GIF_Whale_Map.gif; sourceTree = "<group>"; };
+		BA603F8A1CB9075600A74DEA /* FeListOfSlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeListOfSlideView.xib; sourceTree = "<group>"; };
+		BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YouTube-icon-full_color.png"; sourceTree = "<group>"; };
+		BA603F901CB90A9B00A74DEA /* oculus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oculus.png; sourceTree = "<group>"; };
+		BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-Whale_youtube@2x.jpg"; sourceTree = "<group>"; };
+		BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001_prizmaspace.jpg; sourceTree = "<group>"; };
+		BAA66D9E1CB8C02F0071085F /* asset1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset1@2x.png"; sourceTree = "<group>"; };
+		BAA66D9F1CB8C02F0071085F /* asset2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset2@2x.png"; sourceTree = "<group>"; };
+		BAA66DA01CB8C02F0071085F /* asset3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset3@2x.png"; sourceTree = "<group>"; };
+		BAA66DA11CB8C02F0071085F /* asset4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset4@2x.png"; sourceTree = "<group>"; };
+		BAA66DA21CB8C02F0071085F /* asset5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset5@2x.png"; sourceTree = "<group>"; };
+		BAA66DA31CB8C02F0071085F /* asset6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset6@2x.png"; sourceTree = "<group>"; };
+		BAA66DA41CB8C02F0071085F /* asset7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset7@2x.png"; sourceTree = "<group>"; };
+		BAA66DA51CB8C02F0071085F /* asset8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset8@2x.png"; sourceTree = "<group>"; };
+		BAA66DA61CB8C02F0071085F /* asset9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset9@2x.png"; sourceTree = "<group>"; };
+		BAA66DA71CB8C02F0071085F /* Back-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-100.png"; sourceTree = "<group>"; };
+		BAA66DA81CB8C02F0071085F /* Delete-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete-104.png"; sourceTree = "<group>"; };
+		BAA66DA91CB8C02F0071085F /* earth_element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_element.png; sourceTree = "<group>"; };
+		BAA66DAA1CB8C02F0071085F /* Globe-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Globe-104.png"; sourceTree = "<group>"; };
+		BAA66DAB1CB8C02F0071085F /* Gradient_1920x1200.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gradient_1920x1200.jpg.png; sourceTree = "<group>"; };
+		BAA66DAC1CB8C02F0071085F /* gradientDetailSlide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradientDetailSlide.png; sourceTree = "<group>"; };
+		BAA66DAD1CB8C02F0071085F /* menu_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_2.png; sourceTree = "<group>"; };
+		BAA66DAE1CB8C02F0071085F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		BAA66DAF1CB8C02F0071085F /* pattern_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pattern_1@2x.jpg"; sourceTree = "<group>"; };
+		BAA66DB01CB8C02F0071085F /* Settings-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-104.png"; sourceTree = "<group>"; };
+		BAA66DC51CB8D3620071085F /* logo_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_app.png; sourceTree = "<group>"; };
+		BAA66DC61CB8D3620071085F /* welcome_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_1.jpg; sourceTree = "<group>"; };
+		BAA66DC71CB8D3620071085F /* welcome_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_2.jpg; sourceTree = "<group>"; };
+		BAA66DC81CB8D3620071085F /* welcome_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_3.jpg; sourceTree = "<group>"; };
+		BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-12064.jpeg"; sourceTree = "<group>"; };
+		BAA66DD11CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxCollectionViewLayout.h; sourceTree = "<group>"; };
+		BAA66DD21CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxCollectionViewLayout.m; sourceTree = "<group>"; };
+		BAA66DD31CB8D9BB0071085F /* MHYahooParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxView.h; sourceTree = "<group>"; };
+		BAA66DD41CB8D9BB0071085F /* MHYahooParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxView.m; sourceTree = "<group>"; };
+		BAA66DD81CB8DED00071085F /* Welcome_1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Welcome_1.xib; sourceTree = "<group>"; };
+		BAA66DD91CB8DED00071085F /* Welcome_2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Welcome_2.xib; sourceTree = "<group>"; };
+		BAA66DDA1CB8DED00071085F /* Welcome_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Welcome_3.xib; sourceTree = "<group>"; };
+		BAA66DDE1CB8E2C30071085F /* FeChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeChannelCell.h; sourceTree = "<group>"; };
+		BAA66DDF1CB8E2C30071085F /* FeChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeChannelCell.m; sourceTree = "<group>"; };
+		BAA66DE01CB8E2C30071085F /* FeChannelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeChannelCell.xib; sourceTree = "<group>"; };
+		BAC6A9771CB92747006EBC2A /* SlideData_Trout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Trout.xib; sourceTree = "<group>"; };
+		BAC6A9791CB92893006EBC2A /* SlideData_Trout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Trout.h; sourceTree = "<group>"; };
+		BAC6A97A1CB92893006EBC2A /* SlideData_Trout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Trout.m; sourceTree = "<group>"; };
+		BAC6A97E1CB92B1A006EBC2A /* slide_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_2@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A9821CB931A7006EBC2A /* slide_2_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_2_2.jpg; sourceTree = "<group>"; };
+		BAC6A9841CB93434006EBC2A /* slide_2_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_2_3.jpg; sourceTree = "<group>"; };
+		BAC6A9861CB935F3006EBC2A /* rivermap5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rivermap5.jpg; sourceTree = "<group>"; };
+		BAC6A9891CB93BBB006EBC2A /* SlideData_Earth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Earth.h; sourceTree = "<group>"; };
+		BAC6A98A1CB93BBB006EBC2A /* SlideData_Earth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Earth.m; sourceTree = "<group>"; };
+		BAC6A98C1CB93BCB006EBC2A /* SlideData_Earth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Earth.xib; sourceTree = "<group>"; };
+		BAC6A9911CB94B80006EBC2A /* slide_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_4.jpg; sourceTree = "<group>"; };
+		BAC6A9941CB94C67006EBC2A /* SlideData_Air.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Air.h; sourceTree = "<group>"; };
+		BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Air.m; sourceTree = "<group>"; };
+		BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Air.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,17 +223,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15CFD66777F73651E91C5EC /* libPods-VirtualBook-iPad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69DED81921F4182304CB3091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25853D531576AE32903FE479 /* libPods-VirtualBook-iPad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E0DF8F40749BFA575841736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1172AFB8F2248D518A7B6630 /* Pods-VirtualBook-iPad.debug.xcconfig */,
+				8E914B75D02536448B445729 /* Pods-VirtualBook-iPad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA4139381CB8AFC600942E0C = {
 			isa = PBXGroup;
 			children = (
 				BA4139431CB8AFC600942E0C /* VirtualBook-iPad */,
 				BA4139421CB8AFC600942E0C /* Products */,
+				8E0DF8F40749BFA575841736 /* Pods */,
+				69DED81921F4182304CB3091 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +272,6 @@
 				BA4139611CB8B86E00942E0C /* Storyboard */,
 				BA4139601CB8B86900942E0C /* App Delegate */,
 				BA41395E1CB8B86100942E0C /* SourceCode */,
-				BA41394D1CB8AFC600942E0C /* Main.storyboard */,
 				BA4139551CB8AFC600942E0C /* Info.plist */,
 				BA4139441CB8AFC600942E0C /* Supporting Files */,
 			);
@@ -102,7 +289,9 @@
 		BA41395D1CB8B85A00942E0C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				BA4139621CB8B88C00942E0C /* Data */,
+				BAA66DCF1CB8D6190071085F /* Image */,
+				BA41399C1CB8BD5B00942E0C /* Font */,
+				BA4139901CB8BD2100942E0C /* Reuse code */,
 				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
 			);
 			name = Resource;
@@ -120,6 +309,8 @@
 		BA41395F1CB8B86500942E0C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BA603F7B1CB8F48500A74DEA /* List of slide */,
+				BA603F681CB8F17000A74DEA /* Slide */,
 				BA4139691CB8B90D00942E0C /* Course */,
 				BA4139681CB8B90700942E0C /* Channel */,
 				BA4139671CB8B90400942E0C /* Main */,
@@ -141,16 +332,22 @@
 		BA4139611CB8B86E00942E0C /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */,
+				BA41399D1CB8BEE300942E0C /* Storyboard.storyboard */,
+				BA41399F1CB8BEF400942E0C /* Launch Screen.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
-		BA4139621CB8B88C00942E0C /* Data */ = {
+		BA4139621CB8B88C00942E0C /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				BAA66DC51CB8D3620071085F /* logo_app.png */,
+				BAA66DC61CB8D3620071085F /* welcome_1.jpg */,
+				BAA66DC71CB8D3620071085F /* welcome_2.jpg */,
+				BAA66DC81CB8D3620071085F /* welcome_3.jpg */,
+				BAA66D9C1CB8C00E0071085F /* Main Screen */,
 			);
-			name = Data;
+			name = Welcome;
 			sourceTree = "<group>";
 		};
 		BA4139631CB8B8EE00942E0C /* Login  */ = {
@@ -187,6 +384,9 @@
 		BA4139661CB8B8FB00942E0C /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				BAA66DD81CB8DED00071085F /* Welcome_1.xib */,
+				BAA66DD91CB8DED00071085F /* Welcome_2.xib */,
+				BAA66DDA1CB8DED00071085F /* Welcome_3.xib */,
 				BA4139771CB8B97400942E0C /* FeWelcomeViewController.h */,
 				BA4139781CB8B97400942E0C /* FeWelcomeViewController.m */,
 			);
@@ -205,6 +405,9 @@
 		BA4139681CB8B90700942E0C /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				BAA66DDE1CB8E2C30071085F /* FeChannelCell.h */,
+				BAA66DDF1CB8E2C30071085F /* FeChannelCell.m */,
+				BAA66DE01CB8E2C30071085F /* FeChannelCell.xib */,
 				BA41397D1CB8B98300942E0C /* FeChannelsViewController.h */,
 				BA41397E1CB8B98300942E0C /* FeChannelsViewController.m */,
 			);
@@ -227,6 +430,248 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		BA4139901CB8BD2100942E0C /* Reuse code */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66DD71CB8D9BF0071085F /* YahooWeather */,
+				BA4139931CB8BD3D00942E0C /* Spring animation */,
+				BA4139921CB8BD2F00942E0C /* Categories */,
+				BA4139911CB8BD2900942E0C /* Progress Hub */,
+			);
+			name = "Reuse code";
+			sourceTree = "<group>";
+		};
+		BA4139911CB8BD2900942E0C /* Progress Hub */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139841CB8BD1F00942E0C /* MBProgressHUD.h */,
+				BA4139851CB8BD1F00942E0C /* MBProgressHUD.m */,
+			);
+			name = "Progress Hub";
+			sourceTree = "<group>";
+		};
+		BA4139921CB8BD2F00942E0C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139861CB8BD1F00942E0C /* UIFont+FeelsFont.h */,
+				BA4139871CB8BD1F00942E0C /* UIFont+FeelsFont.m */,
+				BA4139881CB8BD1F00942E0C /* UIWindow+Additions.h */,
+				BA4139891CB8BD1F00942E0C /* UIWindow+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BA4139931CB8BD3D00942E0C /* Spring animation */ = {
+			isa = PBXGroup;
+			children = (
+				BA41398A1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.h */,
+				BA41398B1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m */,
+			);
+			name = "Spring animation";
+			sourceTree = "<group>";
+		};
+		BA41399C1CB8BD5B00942E0C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BA4139941CB8BD5900942E0C /* SF-UI-Text-Light.otf */,
+				BA4139951CB8BD5900942E0C /* SF-UI-Text-Medium.otf */,
+				BA4139961CB8BD5900942E0C /* SF-UI-Text-Regular.otf */,
+				BA4139971CB8BD5900942E0C /* SF-UI-Text-Semibold.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		BA603F671CB8F11500A74DEA /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9901CB94A8B006EBC2A /* Air */,
+				BAC6A97D1CB92AFF006EBC2A /* Trout */,
+				BAC6A97C1CB92AF4006EBC2A /* Whale */,
+			);
+			name = Slide;
+			sourceTree = "<group>";
+		};
+		BA603F681CB8F17000A74DEA /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F7A1CB8F47700A74DEA /* DATA */,
+				BA603F791CB8F47000A74DEA /* Cell */,
+				BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */,
+				BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */,
+			);
+			name = Slide;
+			sourceTree = "<group>";
+		};
+		BA603F791CB8F47000A74DEA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F721CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.h */,
+				BA603F731CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m */,
+				BA603F741CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		BA603F7A1CB8F47700A74DEA /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9931CB94C54006EBC2A /* Air */,
+				BAC6A9881CB93BA9006EBC2A /* Earth */,
+				BAC6A9761CB922DD006EBC2A /* Trout */,
+				BA603F821CB8FF5D00A74DEA /* Whale */,
+			);
+			name = DATA;
+			sourceTree = "<group>";
+		};
+		BA603F7B1CB8F48500A74DEA /* List of slide */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F7C1CB8F49700A74DEA /* FeListOfSlideView.h */,
+				BA603F7D1CB8F49700A74DEA /* FeListOfSlideView.m */,
+				BA603F8A1CB9075600A74DEA /* FeListOfSlideView.xib */,
+			);
+			name = "List of slide";
+			sourceTree = "<group>";
+		};
+		BA603F821CB8FF5D00A74DEA /* Whale */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F831CB8FF7200A74DEA /* SlideData_Whale.h */,
+				BA603F841CB8FF7200A74DEA /* SlideData_Whale.m */,
+				BA603F751CB8F46B00A74DEA /* SlideData_Whale.xib */,
+			);
+			name = Whale;
+			sourceTree = "<group>";
+		};
+		BAA66D9C1CB8C00E0071085F /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */,
+				BAA66D9E1CB8C02F0071085F /* asset1@2x.png */,
+				BAA66D9F1CB8C02F0071085F /* asset2@2x.png */,
+				BAA66DA01CB8C02F0071085F /* asset3@2x.png */,
+				BAA66DA11CB8C02F0071085F /* asset4@2x.png */,
+				BAA66DA21CB8C02F0071085F /* asset5@2x.png */,
+				BAA66DA31CB8C02F0071085F /* asset6@2x.png */,
+				BAA66DA41CB8C02F0071085F /* asset7@2x.png */,
+				BAA66DA51CB8C02F0071085F /* asset8@2x.png */,
+				BAA66DA61CB8C02F0071085F /* asset9@2x.png */,
+				BAA66DA71CB8C02F0071085F /* Back-100.png */,
+				BAA66DA81CB8C02F0071085F /* Delete-104.png */,
+				BAA66DA91CB8C02F0071085F /* earth_element.png */,
+				BAA66DAA1CB8C02F0071085F /* Globe-104.png */,
+				BAA66DAB1CB8C02F0071085F /* Gradient_1920x1200.jpg.png */,
+				BAA66DAC1CB8C02F0071085F /* gradientDetailSlide.png */,
+				BAA66DAD1CB8C02F0071085F /* menu_2.png */,
+				BAA66DAE1CB8C02F0071085F /* menu.png */,
+				BAA66DAF1CB8C02F0071085F /* pattern_1@2x.jpg */,
+				BAA66DB01CB8C02F0071085F /* Settings-104.png */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		BAA66DCF1CB8D6190071085F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F671CB8F11500A74DEA /* Slide */,
+				BAA66DD01CB8D6200071085F /* Login */,
+				BA4139621CB8B88C00942E0C /* Welcome */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		BAA66DD01CB8D6200071085F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66DCD1CB8D5C90071085F /* pexels-photo-12064.jpeg */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		BAA66DD71CB8D9BF0071085F /* YahooWeather */ = {
+			isa = PBXGroup;
+			children = (
+				BAA66DD11CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.h */,
+				BAA66DD21CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m */,
+				BAA66DD31CB8D9BB0071085F /* MHYahooParallaxView.h */,
+				BAA66DD41CB8D9BB0071085F /* MHYahooParallaxView.m */,
+			);
+			name = YahooWeather;
+			sourceTree = "<group>";
+		};
+		BAC6A9761CB922DD006EBC2A /* Trout */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9791CB92893006EBC2A /* SlideData_Trout.h */,
+				BAC6A97A1CB92893006EBC2A /* SlideData_Trout.m */,
+				BAC6A9771CB92747006EBC2A /* SlideData_Trout.xib */,
+			);
+			name = Trout;
+			sourceTree = "<group>";
+		};
+		BAC6A97C1CB92AF4006EBC2A /* Whale */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */,
+				BA603F901CB90A9B00A74DEA /* oculus.png */,
+				BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */,
+				BA603F881CB906F900A74DEA /* GIF_Whale_Map.gif */,
+				BA603F701CB8F37700A74DEA /* slide_1_c.jpg */,
+				BA603F6C1CB8F2A100A74DEA /* slide_1_b@2x.jpg */,
+				BA603F6D1CB8F2A100A74DEA /* slide_1_a@2x.jpg */,
+				BA603F471CB8F11300A74DEA /* channel_1_1.jpg */,
+				BA603F481CB8F11300A74DEA /* channel_1_2.jpg */,
+				BA603F491CB8F11300A74DEA /* channel_1_3.jpg */,
+				BA603F4A1CB8F11300A74DEA /* channel_1_4.jpg */,
+				BA603F4B1CB8F11300A74DEA /* slide_3_thumb.jpg */,
+				BA603F4C1CB8F11300A74DEA /* slide_3.jpg */,
+				BA603F4F1CB8F11300A74DEA /* slide_4_thumb.jpg */,
+				BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */,
+				BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */,
+				BA603F7F1CB8F83E00A74DEA /* star.png */,
+			);
+			name = Whale;
+			sourceTree = "<group>";
+		};
+		BAC6A97D1CB92AFF006EBC2A /* Trout */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9861CB935F3006EBC2A /* rivermap5.jpg */,
+				BAC6A9841CB93434006EBC2A /* slide_2_3.jpg */,
+				BAC6A9821CB931A7006EBC2A /* slide_2_2.jpg */,
+				BAC6A97E1CB92B1A006EBC2A /* slide_2@2x.jpg */,
+			);
+			name = Trout;
+			sourceTree = "<group>";
+		};
+		BAC6A9881CB93BA9006EBC2A /* Earth */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9891CB93BBB006EBC2A /* SlideData_Earth.h */,
+				BAC6A98A1CB93BBB006EBC2A /* SlideData_Earth.m */,
+				BAC6A98C1CB93BCB006EBC2A /* SlideData_Earth.xib */,
+			);
+			name = Earth;
+			sourceTree = "<group>";
+		};
+		BAC6A9901CB94A8B006EBC2A /* Air */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9911CB94B80006EBC2A /* slide_4.jpg */,
+			);
+			name = Air;
+			sourceTree = "<group>";
+		};
+		BAC6A9931CB94C54006EBC2A /* Air */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6A9941CB94C67006EBC2A /* SlideData_Air.h */,
+				BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */,
+				BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */,
+			);
+			name = Air;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +679,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA4139581CB8AFC600942E0C /* Build configuration list for PBXNativeTarget "VirtualBook-iPad" */;
 			buildPhases = (
+				8DE0260B6C8B8E069226FB2A /* Check Pods Manifest.lock */,
 				BA41393D1CB8AFC600942E0C /* Sources */,
 				BA41393E1CB8AFC600942E0C /* Frameworks */,
 				BA41393F1CB8AFC600942E0C /* Resources */,
+				1A13F92670D1577AA1036FBC /* Embed Pods Frameworks */,
+				88D35E235AA6E3E3FE57A00D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +706,7 @@
 				TargetAttributes = {
 					BA4139401CB8AFC600942E0C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D54Y88Y9CY;
 					};
 				};
 			};
@@ -284,53 +733,157 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4139541CB8AFC600942E0C /* LaunchScreen.storyboard in Resources */,
+				BAC6A97F1CB92B1A006EBC2A /* slide_2@2x.jpg in Resources */,
+				BAA66DDB1CB8DED00071085F /* Welcome_1.xib in Resources */,
+				BAA66DB71CB8C02F0071085F /* asset6@2x.png in Resources */,
+				BAA66DC11CB8C02F0071085F /* menu_2.png in Resources */,
+				BAA66DC21CB8C02F0071085F /* menu.png in Resources */,
+				BAA66DBE1CB8C02F0071085F /* Globe-104.png in Resources */,
+				BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */,
+				BA603F6E1CB8F2A100A74DEA /* slide_1_b@2x.jpg in Resources */,
+				BAA66DBD1CB8C02F0071085F /* earth_element.png in Resources */,
+				BAC6A9781CB92747006EBC2A /* SlideData_Trout.xib in Resources */,
+				BAA66DB81CB8C02F0071085F /* asset7@2x.png in Resources */,
+				BAA66DDC1CB8DED00071085F /* Welcome_2.xib in Resources */,
+				BA603F931CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg in Resources */,
+				BA603F571CB8F11300A74DEA /* channel_1_1.jpg in Resources */,
+				BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */,
+				BAC6A9921CB94B80006EBC2A /* slide_4.jpg in Resources */,
+				BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */,
+				BA603F8D1CB9088B00A74DEA /* YouTube-icon-full_color.png in Resources */,
+				BA603F5C1CB8F11300A74DEA /* slide_3.jpg in Resources */,
+				BAA66DE21CB8E2C30071085F /* FeChannelCell.xib in Resources */,
+				BAA66DC91CB8D3620071085F /* logo_app.png in Resources */,
+				BAC6A9851CB93434006EBC2A /* slide_2_3.jpg in Resources */,
+				BAC6A98D1CB93BCB006EBC2A /* SlideData_Earth.xib in Resources */,
+				BA603F711CB8F37700A74DEA /* slide_1_c.jpg in Resources */,
+				BAC6A9871CB935F3006EBC2A /* rivermap5.jpg in Resources */,
+				BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */,
+				BA603F5A1CB8F11300A74DEA /* channel_1_4.jpg in Resources */,
+				BA603F6F1CB8F2A100A74DEA /* slide_1_a@2x.jpg in Resources */,
+				BA603F911CB90A9B00A74DEA /* oculus.png in Resources */,
 				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
+				BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */,
+				BA603F581CB8F11300A74DEA /* channel_1_2.jpg in Resources */,
+				BAA66DDD1CB8DED00071085F /* Welcome_3.xib in Resources */,
+				BAC6A9831CB931A7006EBC2A /* slide_2_2.jpg in Resources */,
+				BA603F891CB906F900A74DEA /* GIF_Whale_Map.gif in Resources */,
+				BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */,
+				BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */,
+				BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */,
+				BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */,
+				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
-				BA41394F1CB8AFC600942E0C /* Main.storyboard in Resources */,
+				BA4139981CB8BD5900942E0C /* SF-UI-Text-Light.otf in Resources */,
+				BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */,
+				BAA66DC01CB8C02F0071085F /* gradientDetailSlide.png in Resources */,
+				BAA66DB61CB8C02F0071085F /* asset5@2x.png in Resources */,
+				BAA66DB51CB8C02F0071085F /* asset4@2x.png in Resources */,
+				BAA66DBA1CB8C02F0071085F /* asset9@2x.png in Resources */,
+				BA603F801CB8F83E00A74DEA /* star.png in Resources */,
+				BAA66DBF1CB8C02F0071085F /* Gradient_1920x1200.jpg.png in Resources */,
+				BA603F661CB8F11300A74DEA /* slide_content_1_2.jpg in Resources */,
+				BAA66DBB1CB8C02F0071085F /* Back-100.png in Resources */,
+				BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */,
+				BAA66DBC1CB8C02F0071085F /* Delete-104.png in Resources */,
+				BA603F771CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.xib in Resources */,
+				BA603F5F1CB8F11300A74DEA /* slide_4_thumb.jpg in Resources */,
+				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
+				BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */,
+				BAC6A9981CB94C71006EBC2A /* SlideData_Air.xib in Resources */,
+				BA603F5B1CB8F11300A74DEA /* slide_3_thumb.jpg in Resources */,
+				BA603F8B1CB9075600A74DEA /* FeListOfSlideView.xib in Resources */,
+				BA603F591CB8F11300A74DEA /* channel_1_3.jpg in Resources */,
+				BAA66DB41CB8C02F0071085F /* asset3@2x.png in Resources */,
+				BAA66DCE1CB8D5C90071085F /* pexels-photo-12064.jpeg in Resources */,
+				BA4139A01CB8BEF400942E0C /* Launch Screen.storyboard in Resources */,
+				BA41399E1CB8BEE300942E0C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A13F92670D1577AA1036FBC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualBook-iPad/Pods-VirtualBook-iPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D35E235AA6E3E3FE57A00D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualBook-iPad/Pods-VirtualBook-iPad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE0260B6C8B8E069226FB2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA41393D1CB8AFC600942E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */,
 				BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */,
+				BAC6A9961CB94C67006EBC2A /* SlideData_Air.m in Sources */,
 				BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */,
 				BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */,
+				BAC6A98B1CB93BBB006EBC2A /* SlideData_Earth.m in Sources */,
 				BA41397F1CB8B98400942E0C /* FeChannelsViewController.m in Sources */,
+				BA603F761CB8F46B00A74DEA /* MHYahooWeatherParallaxCell.m in Sources */,
+				BA41398F1CB8BD1F00942E0C /* VVSpringCollectionViewFlowLayout.m in Sources */,
 				BA4139791CB8B97400942E0C /* FeWelcomeViewController.m in Sources */,
 				BA4139821CB8B99100942E0C /* FeCoursesViewController.m in Sources */,
+				BA41398D1CB8BD1F00942E0C /* UIFont+FeelsFont.m in Sources */,
 				BA4139491CB8AFC600942E0C /* AppDelegate.m in Sources */,
+				BA603F851CB8FF7200A74DEA /* SlideData_Whale.m in Sources */,
+				BAA66DD61CB8D9BB0071085F /* MHYahooParallaxView.m in Sources */,
+				BA41398C1CB8BD1F00942E0C /* MBProgressHUD.m in Sources */,
 				BA4139741CB8B95400942E0C /* FeSignInView.m in Sources */,
 				BA4139461CB8AFC600942E0C /* main.m in Sources */,
+				BAC6A97B1CB92893006EBC2A /* SlideData_Trout.m in Sources */,
+				BA41398E1CB8BD1F00942E0C /* UIWindow+Additions.m in Sources */,
+				BAA66DE11CB8E2C30071085F /* FeChannelCell.m in Sources */,
+				BA603F7E1CB8F49700A74DEA /* FeListOfSlideView.m in Sources */,
+				BAA66DD51CB8D9BB0071085F /* MHYahooParallaxCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BA41394D1CB8AFC600942E0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA41394E1CB8AFC600942E0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BA4139521CB8AFC600942E0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA4139531CB8AFC600942E0C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BA4139561CB8AFC600942E0C /* Debug */ = {
@@ -419,23 +972,33 @@
 		};
 		BA4139591CB8AFC600942E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1172AFB8F2248D518A7B6630 /* Pods-VirtualBook-iPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "VirtualBook-iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justdoit.VirtualBook-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		BA41395A1CB8AFC600942E0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E914B75D02536448B445729 /* Pods-VirtualBook-iPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "VirtualBook-iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justdoit.VirtualBook-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+        </mutableArray>
+        <mutableArray key="SF-UI-Text-Semibold.otf">
+            <string>SFUIText-Semibold</string>
+            <string>SFUIText-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="8R0-sK-uoL" customClass="FeListOfSlideView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OV-O7-6lX">
+                    <rect key="frame" x="12" y="12" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="92w-K8-UMu"/>
+                        <constraint firstAttribute="width" constant="28" id="LZ8-uM-8Ul"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="Delete-104.png"/>
+                    <connections>
+                        <action selector="backBtnTapped:" destination="8R0-sK-uoL" eventType="touchUpInside" id="3nt-VA-Qgt"/>
+                    </connections>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2N8-cd-5J1" customClass="FeScrollView">
+                    <rect key="frame" x="0.0" y="58" width="1024" height="460"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMW-aI-SFj">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="460"/>
+                            <subviews>
+                                <view clipsSubviews="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ade-Wp-9qH">
+                                    <rect key="frame" x="42" y="0.0" width="235" height="210"/>
+                                    <subviews>
+                                        <label opaque="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-sr-PMH">
+                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_1_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Llp-nx-xZb">
+                                            <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="150" id="g13-ji-PgN"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="Hae-sr-PMH" firstAttribute="top" secondItem="Llp-nx-xZb" secondAttribute="bottom" constant="16" id="KhP-lm-LfH"/>
+                                        <constraint firstAttribute="width" constant="235" id="UGq-sO-Bye"/>
+                                        <constraint firstAttribute="trailing" secondItem="Llp-nx-xZb" secondAttribute="trailing" id="aC4-gO-pXV"/>
+                                        <constraint firstAttribute="height" constant="210" id="oTw-3U-qrJ"/>
+                                        <constraint firstItem="Hae-sr-PMH" firstAttribute="centerX" secondItem="ade-Wp-9qH" secondAttribute="centerX" id="rjS-r4-Kec"/>
+                                        <constraint firstItem="Llp-nx-xZb" firstAttribute="leading" secondItem="ade-Wp-9qH" secondAttribute="leading" id="v7E-uk-BKI"/>
+                                        <constraint firstItem="Llp-nx-xZb" firstAttribute="top" secondItem="ade-Wp-9qH" secondAttribute="top" id="w8E-1z-wCQ"/>
+                                    </constraints>
+                                </view>
+                                <view clipsSubviews="YES" tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLM-jK-ssP">
+                                    <rect key="frame" x="277" y="0.0" width="235" height="210"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="NXL-D6-Fxf">
+                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_2_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-dQ-ifz">
+                                            <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="150" id="LEx-87-m79"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="NXL-D6-Fxf" firstAttribute="centerX" secondItem="bLM-jK-ssP" secondAttribute="centerX" id="6uF-8D-yzb"/>
+                                        <constraint firstAttribute="trailing" secondItem="s9b-dQ-ifz" secondAttribute="trailing" id="FCK-do-Nei"/>
+                                        <constraint firstItem="s9b-dQ-ifz" firstAttribute="top" secondItem="bLM-jK-ssP" secondAttribute="top" id="MiA-uU-lbp"/>
+                                        <constraint firstAttribute="width" constant="235" id="bQP-i5-wOu"/>
+                                        <constraint firstAttribute="height" constant="210" id="khz-Vu-fGf"/>
+                                        <constraint firstItem="NXL-D6-Fxf" firstAttribute="top" secondItem="s9b-dQ-ifz" secondAttribute="bottom" constant="16" id="ob4-yi-99X"/>
+                                        <constraint firstItem="s9b-dQ-ifz" firstAttribute="leading" secondItem="bLM-jK-ssP" secondAttribute="leading" id="ulH-iR-ubb"/>
+                                    </constraints>
+                                </view>
+                                <view clipsSubviews="YES" tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYp-j1-mMq">
+                                    <rect key="frame" x="512" y="0.0" width="235" height="210"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_3_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jeR-mK-fNL">
+                                            <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="150" id="YYO-tS-Hf3"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-rf-cXe">
+                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="ZGG-rf-cXe" firstAttribute="centerX" secondItem="oYp-j1-mMq" secondAttribute="centerX" id="1np-mf-LCL"/>
+                                        <constraint firstAttribute="trailing" secondItem="jeR-mK-fNL" secondAttribute="trailing" id="9cE-18-aYj"/>
+                                        <constraint firstAttribute="width" constant="235" id="BxB-tS-83M"/>
+                                        <constraint firstAttribute="height" constant="210" id="OJc-oo-88p"/>
+                                        <constraint firstItem="jeR-mK-fNL" firstAttribute="leading" secondItem="oYp-j1-mMq" secondAttribute="leading" id="Tdh-7M-7I2"/>
+                                        <constraint firstItem="ZGG-rf-cXe" firstAttribute="top" secondItem="jeR-mK-fNL" secondAttribute="bottom" constant="16" id="f8r-zg-Yfk"/>
+                                        <constraint firstItem="jeR-mK-fNL" firstAttribute="top" secondItem="oYp-j1-mMq" secondAttribute="top" id="lmg-Tf-1oB"/>
+                                    </constraints>
+                                </view>
+                                <view clipsSubviews="YES" tag="103" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycD-7t-ALc">
+                                    <rect key="frame" x="747" y="0.0" width="235" height="210"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_4_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GW2-r6-oTc">
+                                            <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="150" id="Wyd-oe-hh1"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-kr-fTw">
+                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="210" id="1pF-Z4-0Ti"/>
+                                        <constraint firstItem="bRC-kr-fTw" firstAttribute="top" secondItem="GW2-r6-oTc" secondAttribute="bottom" constant="16" id="N1Q-EQ-2uT"/>
+                                        <constraint firstItem="GW2-r6-oTc" firstAttribute="leading" secondItem="ycD-7t-ALc" secondAttribute="leading" id="V6Q-B9-GuA"/>
+                                        <constraint firstAttribute="trailing" secondItem="GW2-r6-oTc" secondAttribute="trailing" id="Wtr-nW-JMs"/>
+                                        <constraint firstAttribute="width" constant="235" id="eRh-o8-8Lg"/>
+                                        <constraint firstItem="GW2-r6-oTc" firstAttribute="top" secondItem="ycD-7t-ALc" secondAttribute="top" id="tcJ-Ly-UdM"/>
+                                        <constraint firstItem="bRC-kr-fTw" firstAttribute="centerX" secondItem="ycD-7t-ALc" secondAttribute="centerX" id="ypu-KX-tgC"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="bLM-jK-ssP" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="0Bj-7l-3pX"/>
+                                <constraint firstItem="oYp-j1-mMq" firstAttribute="leading" secondItem="bLM-jK-ssP" secondAttribute="trailing" id="DZd-Gp-ZoT"/>
+                                <constraint firstItem="ycD-7t-ALc" firstAttribute="leading" secondItem="oYp-j1-mMq" secondAttribute="trailing" id="H5S-6M-ejW"/>
+                                <constraint firstItem="ade-Wp-9qH" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="U6g-Fg-9Yq"/>
+                                <constraint firstItem="ade-Wp-9qH" firstAttribute="leading" secondItem="mMW-aI-SFj" secondAttribute="leading" constant="42" id="jAT-Hs-WRY"/>
+                                <constraint firstItem="ycD-7t-ALc" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="nzC-IH-WPO"/>
+                                <constraint firstItem="oYp-j1-mMq" firstAttribute="top" secondItem="mMW-aI-SFj" secondAttribute="top" id="pvY-PP-eK2"/>
+                                <constraint firstItem="bLM-jK-ssP" firstAttribute="leading" secondItem="ade-Wp-9qH" secondAttribute="trailing" id="tkf-Fi-0ln"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="mMW-aI-SFj" firstAttribute="top" secondItem="2N8-cd-5J1" secondAttribute="top" id="8jm-O6-GlF"/>
+                        <constraint firstItem="mMW-aI-SFj" firstAttribute="centerX" secondItem="2N8-cd-5J1" secondAttribute="centerX" id="Jpr-zI-ZtC"/>
+                        <constraint firstItem="mMW-aI-SFj" firstAttribute="centerY" secondItem="2N8-cd-5J1" secondAttribute="centerY" id="Rc5-72-LWi"/>
+                        <constraint firstItem="mMW-aI-SFj" firstAttribute="leading" secondItem="2N8-cd-5J1" secondAttribute="leading" id="Tkx-FY-5dr"/>
+                        <constraint firstAttribute="width" constant="1024" id="gIC-Ng-MC8"/>
+                        <constraint firstAttribute="trailing" secondItem="mMW-aI-SFj" secondAttribute="trailing" id="lU8-Bb-0MR"/>
+                        <constraint firstAttribute="bottom" secondItem="mMW-aI-SFj" secondAttribute="bottom" id="opl-Z7-g0m"/>
+                        <constraint firstAttribute="height" constant="460" id="v3z-N4-P0j"/>
+                    </constraints>
+                </scrollView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Globe-104.png" translatesAutoresizingMaskIntoConstraints="NO" id="nHe-fp-CyV">
+                    <rect key="frame" x="485" y="662" width="54" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="54" id="Vu3-OU-5SA"/>
+                        <constraint firstAttribute="height" constant="54" id="zrR-km-fKq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="virtual.book/awesomeGeo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmv-vn-KEU">
+                    <rect key="frame" x="416.5" y="629" width="192.5" height="18"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIETNAM GEOGRAPHY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M75-3b-gl7">
+                    <rect key="frame" x="359" y="575" width="306" height="32.5"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="27"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch Vietnam Geography  on Sunday Aprial 5 and 12 on the VTV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-rA-Sp2">
+                    <rect key="frame" x="264.5" y="536" width="495" height="19"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5OV-O7-6lX" firstAttribute="leading" secondItem="8R0-sK-uoL" secondAttribute="leading" constant="12" id="2Cd-H8-xCl"/>
+                <constraint firstItem="5OV-O7-6lX" firstAttribute="top" secondItem="8R0-sK-uoL" secondAttribute="top" constant="12" id="6vC-IY-WSg"/>
+                <constraint firstItem="M75-3b-gl7" firstAttribute="top" secondItem="m8o-rA-Sp2" secondAttribute="bottom" constant="20.5" id="77E-gc-DkZ"/>
+                <constraint firstItem="M75-3b-gl7" firstAttribute="centerX" secondItem="nmv-vn-KEU" secondAttribute="centerX" id="8tH-80-QLg"/>
+                <constraint firstItem="2N8-cd-5J1" firstAttribute="top" secondItem="5OV-O7-6lX" secondAttribute="bottom" constant="18" id="Dzt-iC-vY8"/>
+                <constraint firstItem="m8o-rA-Sp2" firstAttribute="centerX" secondItem="M75-3b-gl7" secondAttribute="centerX" id="Qey-O8-ljc"/>
+                <constraint firstItem="nHe-fp-CyV" firstAttribute="top" secondItem="nmv-vn-KEU" secondAttribute="bottom" constant="15" id="RcE-VO-F7q"/>
+                <constraint firstItem="2N8-cd-5J1" firstAttribute="leading" secondItem="8R0-sK-uoL" secondAttribute="leading" id="jOM-Ni-76H"/>
+                <constraint firstItem="nmv-vn-KEU" firstAttribute="centerX" secondItem="nHe-fp-CyV" secondAttribute="centerX" id="qGj-P6-hup"/>
+                <constraint firstAttribute="bottom" secondItem="nHe-fp-CyV" secondAttribute="bottom" constant="52" id="rcs-ID-BBQ"/>
+                <constraint firstItem="nmv-vn-KEU" firstAttribute="top" secondItem="M75-3b-gl7" secondAttribute="bottom" constant="21" id="ucl-Ln-JbM"/>
+                <constraint firstItem="nHe-fp-CyV" firstAttribute="centerX" secondItem="8R0-sK-uoL" secondAttribute="centerX" id="wOW-O4-1Vn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentScrollView" destination="mMW-aI-SFj" id="4XZ-OE-3ds"/>
+            </connections>
+            <point key="canvasLocation" x="105" y="-344"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Delete-104.png" width="104" height="104"/>
+        <image name="Globe-104.png" width="104" height="104"/>
+        <image name="slide_1_thumb.jpg" width="500" height="313"/>
+        <image name="slide_2_thumb.jpg" width="500" height="313"/>
+        <image name="slide_3_thumb.jpg" width="500" height="313"/>
+        <image name="slide_4_thumb.jpg" width="500" height="281"/>
+    </resources>
+</document>

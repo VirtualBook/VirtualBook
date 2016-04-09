@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SF-UI-Text-Medium.otf">
+            <string>SFUIText-Medium</string>
+        </mutableArray>
+        <mutableArray key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="Yrf-sa-5MO" userLabel="Slide_Content_1_1" customClass="SlideData_Air">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="407"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V62-1D-pHh">
+                    <rect key="frame" x="0.0" y="118" width="1024" height="289"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyW-da-psB">
+                            <rect key="frame" x="22" y="0.0" width="980" height="265"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6j-HP-hEG">
+                                    <rect key="frame" x="57" y="11" width="100.5" height="26"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="22"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFs-cn-czT">
+                                    <rect key="frame" x="22" y="45" width="936" height="1"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="LdB-wF-eg9"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78e-Dl-HoU">
+                                    <rect key="frame" x="22" y="54" width="936" height="203"/>
+                                    <mutableString key="text">Earth /ˈɜːrθ/ (otherwise known as The World,[n 5] in Greek: Γαῖα Gaia,[n 6] or in Latin: Terra[26]) is the third planet from the Sun, the densest planet in the Solar System, the largest of the Solar System's four terrestrial planets, and the only astronomical object known to harbor life.
+
+Earth's lithosphere is divided into several rigid tectonic plates that migrate across the surface over periods of many millions of years. 71% of Earth's surface is covered with water,[32] with the remainder consisting of continents and islands that together have many lakes and other sources of water that contribute to the hydrosphere. Earth's polar regions are mostly covered with ice, including the Antarctic ice sheet and the sea ice of the Arctic ice pack. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates the magnetic field, and a convecting mantle that drives plate tectonics.</mutableString>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="1GU-OM-2tv">
+                                    <rect key="frame" x="20" y="12" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="GQG-di-Rph"/>
+                                        <constraint firstAttribute="width" constant="25" id="zDL-Ba-jlg"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="78e-Dl-HoU" firstAttribute="top" secondItem="mFs-cn-czT" secondAttribute="bottom" constant="8" id="8Ne-83-vqT"/>
+                                <constraint firstAttribute="trailing" secondItem="mFs-cn-czT" secondAttribute="trailing" constant="22" id="Dn8-ff-0Ck"/>
+                                <constraint firstAttribute="bottom" secondItem="78e-Dl-HoU" secondAttribute="bottom" constant="8" id="JGu-fO-9zs"/>
+                                <constraint firstItem="s6j-HP-hEG" firstAttribute="centerY" secondItem="1GU-OM-2tv" secondAttribute="centerY" id="M2R-rd-zQj"/>
+                                <constraint firstItem="s6j-HP-hEG" firstAttribute="leading" secondItem="1GU-OM-2tv" secondAttribute="trailing" constant="12" id="Rur-Y7-Hz0"/>
+                                <constraint firstItem="1GU-OM-2tv" firstAttribute="leading" secondItem="lyW-da-psB" secondAttribute="leading" constant="20" id="j1U-aT-bCD"/>
+                                <constraint firstItem="78e-Dl-HoU" firstAttribute="leading" secondItem="lyW-da-psB" secondAttribute="leading" constant="22" id="jhN-dT-oRE"/>
+                                <constraint firstItem="mFs-cn-czT" firstAttribute="top" secondItem="s6j-HP-hEG" secondAttribute="bottom" constant="8" id="lfN-3b-Khg"/>
+                                <constraint firstAttribute="height" priority="750" constant="200" id="nHN-XV-atz"/>
+                                <constraint firstAttribute="trailing" secondItem="78e-Dl-HoU" secondAttribute="trailing" constant="22" id="sAk-HA-Zh2"/>
+                                <constraint firstItem="1GU-OM-2tv" firstAttribute="top" secondItem="lyW-da-psB" secondAttribute="top" constant="12" id="tf8-LO-T7A"/>
+                                <constraint firstItem="mFs-cn-czT" firstAttribute="leading" secondItem="lyW-da-psB" secondAttribute="leading" constant="22" id="wsS-fE-U9t"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="lyW-da-psB" firstAttribute="leading" secondItem="V62-1D-pHh" secondAttribute="leading" constant="22" id="7GV-Ur-W2w"/>
+                        <constraint firstAttribute="trailing" secondItem="lyW-da-psB" secondAttribute="trailing" constant="22" id="E8i-PP-QI5"/>
+                        <constraint firstItem="lyW-da-psB" firstAttribute="top" secondItem="V62-1D-pHh" secondAttribute="top" id="Tk1-Fs-PLD"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wind Flow" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRI-IJ-6pC">
+                    <rect key="frame" x="44" y="12" width="936" height="82"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="95"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.98431372549999996" green="0.72156862749999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="V62-1D-pHh" firstAttribute="top" secondItem="Yrf-sa-5MO" secondAttribute="top" constant="118" id="0wp-e1-tcU"/>
+                <constraint firstAttribute="bottom" secondItem="V62-1D-pHh" secondAttribute="bottom" id="1ds-zT-kse"/>
+                <constraint firstAttribute="trailing" secondItem="V62-1D-pHh" secondAttribute="trailing" id="6En-Jm-wHV"/>
+                <constraint firstItem="vRI-IJ-6pC" firstAttribute="top" secondItem="Yrf-sa-5MO" secondAttribute="top" constant="12" id="7DL-nu-B5n"/>
+                <constraint firstItem="V62-1D-pHh" firstAttribute="top" secondItem="vRI-IJ-6pC" secondAttribute="bottom" constant="24" id="b1Q-ur-uT9"/>
+                <constraint firstItem="vRI-IJ-6pC" firstAttribute="leading" secondItem="Yrf-sa-5MO" secondAttribute="leading" constant="44" id="kGs-ZK-yXK"/>
+                <constraint firstAttribute="trailing" secondItem="vRI-IJ-6pC" secondAttribute="trailing" constant="44" id="lQa-Tx-k4U"/>
+                <constraint firstItem="V62-1D-pHh" firstAttribute="leading" secondItem="Yrf-sa-5MO" secondAttribute="leading" id="lxm-Ra-7Bc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="334" y="116.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star.png" width="96" height="96"/>
+    </resources>
+</document>
