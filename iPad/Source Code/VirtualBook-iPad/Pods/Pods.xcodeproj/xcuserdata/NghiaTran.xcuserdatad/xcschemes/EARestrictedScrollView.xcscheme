@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BF1F36B05EE6B16037293412'
+               BlueprintIdentifier = 'EEBBAA5617D3F371DB33490A'
                BlueprintName = 'EARestrictedScrollView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libEARestrictedScrollView.a'>

@@ -39,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>XCDYouTubeKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>youtube-ios-player-helper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,12 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2111ABD54191D03586110E74D7E513D4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4C50E644FECCC49B99423AF923A461E9</key>
+		<key>2F6C7E2A5EB0B527AE891B876B546599</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>791B3E61ECDA57EF5BB279EAE8421305</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>849799B68B0D1D031F0152F88A05EB6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>871DF840CE3CD1D6A6281127794B0F07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

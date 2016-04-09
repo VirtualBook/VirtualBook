@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6BD430F74C5CC7909D62D860'
+               BlueprintIdentifier = '3565AAA507F191CDA6FED5C5'
                BlueprintName = 'NHBalancedFlowLayout'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libNHBalancedFlowLayout.a'>

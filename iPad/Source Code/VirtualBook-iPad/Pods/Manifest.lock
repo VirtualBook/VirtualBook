@@ -15,6 +15,7 @@ PODS:
   - EARestrictedScrollView (0.2.0)
   - FLAnimatedImage (1.0.12)
   - NHBalancedFlowLayout (0.2)
+  - XCDYouTubeKit (2.5.1)
   - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
@@ -23,6 +24,7 @@ DEPENDENCIES:
   - EAIntroView (~> 2.8.0)
   - FLAnimatedImage (~> 1.0)
   - NHBalancedFlowLayout (~> 0.2)
+  - XCDYouTubeKit (~> 2.5)
   - youtube-ios-player-helper (~> 0.1.4)
 
 SPEC CHECKSUMS:
@@ -32,6 +34,7 @@ SPEC CHECKSUMS:
   EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   NHBalancedFlowLayout: fd253023c6754e605acdb180d50123e582cc62bb
+  XCDYouTubeKit: ee78997dc92d1055f11459d95c492dae1dba909d
   youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
 COCOAPODS: 0.39.0

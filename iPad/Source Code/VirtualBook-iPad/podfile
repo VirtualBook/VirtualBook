@@ -8,6 +8,7 @@ def import_pods
 	pod 'NHBalancedFlowLayout', '~> 0.2'
 	pod "youtube-ios-player-helper", "~> 0.1.4"
 	pod 'FLAnimatedImage', '~> 1.0'
+	pod "XCDYouTubeKit", "~> 2.5"
 end
 
 target "VirtualBook-iPad" do
