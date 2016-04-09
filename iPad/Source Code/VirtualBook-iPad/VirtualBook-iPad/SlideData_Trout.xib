@@ -9,10 +9,9 @@
             <string>SFUIText-Medium</string>
             <string>SFUIText-Medium</string>
             <string>SFUIText-Medium</string>
-            <string>SFUIText-Medium</string>
-            <string>SFUIText-Medium</string>
         </mutableArray>
         <mutableArray key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
         </mutableArray>
@@ -21,34 +20,37 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view opaque="NO" contentMode="scaleToFill" id="7aI-xC-wTH" userLabel="Slide_Content_1_1" customClass="SlideData_Trout">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="2250"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1643"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eks-hZ-ZII">
-                    <rect key="frame" x="0.0" y="118" width="1024" height="2132"/>
+                    <rect key="frame" x="0.0" y="118" width="1024" height="1525"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jB6-VX-UFs">
-                            <rect key="frame" x="22" y="0.0" width="980" height="225.5"/>
+                            <rect key="frame" x="22" y="0.0" width="980" height="366.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AG-4M-iIN">
-                                    <rect key="frame" x="57" y="11" width="100.5" height="26.5"/>
+                                    <rect key="frame" x="57" y="11" width="100.5" height="26"/>
                                     <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="22"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBy-Lg-EiG">
-                                    <rect key="frame" x="22" y="46" width="936" height="1"/>
+                                    <rect key="frame" x="22" y="45" width="936" height="1"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="3JN-st-Gn9"/>
                                     </constraints>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKe-TM-Bbo">
-                                    <rect key="frame" x="22" y="55" width="936" height="162.5"/>
-                                    <string key="text">Winter: warm, low latitude tropical waters (breed and give birth)
-Summer: cooler, high latitude polar waters (feeding)
+                                    <rect key="frame" x="22" y="54" width="936" height="304.5"/>
+                                    <mutableString key="text">Trout is the common name for a number of species of freshwater fish belonging to the genera Oncorhynchus, Salmo and Salvelinus, all of the subfamily Salmoninae of the family Salmonidae. The word trout is also used as part of the name of some non-salmonid fish such as Cynoscion nebulosus, the spotted seatrout or speckled trout.
 
-Most blues are migratory and travel thousands of kilometres annually between their winter breeding grounds in warmer, low latitude waters around the tropics, where they mate and give birth, and their summer feeding grounds in the cooler, high latitude waters of either the Arctic and Antarctic, where they feed for 3-4 months on the rich supply of krill and other food which occur in huge numbers in polar waters. of krill and other food which occur in huge numbers in polar waters.</string>
+Trout are closely related to salmon and char (or charr): species termed salmon and char occur in the same genera as do trout (Oncorhynchus - Pacific salmon and trout, Salmo - Atlantic salmon and various trout, Salvelinus - char and trout).
+
+Most trout such as lake trout live in freshwater lakes and/or rivers exclusively, while there are others such as the rainbow trout which may either live out their lives in fresh water, or spend two or three years at sea before returning to fresh water to spawn, a habit more typical of salmon. A rainbow trout that spends time in the ocean is called a steelhead. Arctic char and brook trout are part of the char family.
+
+Trout are an important food source for humans and wildlife including brown bears, birds of prey such as eagles, and other animals. They are classified as oily fish.</mutableString>
                                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -78,9 +80,9 @@ Most blues are migratory and travel thousands of kilometres annually between the
                             </constraints>
                         </view>
                         <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="500" verticalHuggingPriority="500" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="fEV-x5-Rts">
-                            <rect key="frame" x="22" y="241" width="980" height="400"/>
+                            <rect key="frame" x="22" y="382" width="980" height="400"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="slide_1_b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XLO-F5-80o">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="slide_2_3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XLO-F5-80o">
                                     <rect key="frame" x="0.0" y="0.0" width="980" height="400"/>
                                 </imageView>
                             </subviews>
@@ -94,7 +96,7 @@ Most blues are migratory and travel thousands of kilometres annually between the
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6x-CS-KkD">
-                            <rect key="frame" x="22" y="657" width="980" height="200"/>
+                            <rect key="frame" x="22" y="798" width="980" height="200"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Eu-Ni-gte">
                                     <rect key="frame" x="20" y="12" width="25" height="25"/>
@@ -103,8 +105,8 @@ Most blues are migratory and travel thousands of kilometres annually between the
                                         <constraint firstAttribute="height" constant="25" id="MGd-LO-ObX"/>
                                     </constraints>
                                 </imageView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distrubution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sg6-Sj-3rY">
-                                    <rect key="frame" x="57" y="12" width="120" height="24"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salmon run" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sg6-Sj-3rY">
+                                    <rect key="frame" x="57" y="12" width="109" height="24"/>
                                     <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -117,10 +119,10 @@ Most blues are migratory and travel thousands of kilometres annually between the
                                     </constraints>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e93-UT-WmA">
-                                    <rect key="frame" x="22" y="53" width="936" height="138.5"/>
-                                    <string key="text">They then migrate back to the tropics segregated by sex and age, the older and pregnant whales migrating first, with the sexually immature whales bringing up the rear. Generally, the larger, older whales migrate the furthest north.
+                                    <rect key="frame" x="22" y="53" width="936" height="139"/>
+                                    <string key="text">The salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.
 
-During this migration, they eat virtually nothing for at least 4 months and live on body reserves. Females give birth in warm tropical waters because the young only have a thin layer of blubber to keep them warm. Females give birth to a single calf about 7m long and weighing 2.5 tonnes. The calves are suckled for 7 months and follow their mothers on the spring migration towards the polar seas. Once weaned, the calves feed on krill and follow the normal migration cycle.</string>
+After spawning, all Pacific salmon and most Atlantic salmon die, and the salmon life cycle starts over again. The annual run can be a major event for grizzly bears, bald eagles and sport fishermen. Most salmon species migrate during the fall (September through November).[1]</string>
                                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="16"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -139,68 +141,11 @@ During this migration, they eat virtually nothing for at least 4 months and live
                                 <constraint firstItem="e93-UT-WmA" firstAttribute="leading" secondItem="q6x-CS-KkD" secondAttribute="leading" constant="22" id="epN-Bd-RUc"/>
                                 <constraint firstItem="8q0-zB-YJZ" firstAttribute="leading" secondItem="q6x-CS-KkD" secondAttribute="leading" constant="22" id="hwz-wF-BSn"/>
                                 <constraint firstItem="sg6-Sj-3rY" firstAttribute="centerY" secondItem="1Eu-Ni-gte" secondAttribute="centerY" id="lyA-Wk-4z9"/>
-                                <constraint firstAttribute="bottom" secondItem="e93-UT-WmA" secondAttribute="bottom" constant="8" id="oGL-oR-Dpd"/>
+                                <constraint firstAttribute="bottom" secondItem="e93-UT-WmA" secondAttribute="bottom" priority="750" constant="8" id="oGL-oR-Dpd"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KW5-7T-D0U">
-                            <rect key="frame" x="22" y="873" width="980" height="295"/>
-                            <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="X0n-xk-9Qr">
-                                    <rect key="frame" x="20" y="12" width="25" height="25"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="25" id="RLq-xM-8Jp"/>
-                                        <constraint firstAttribute="height" constant="25" id="jOx-XL-mRT"/>
-                                    </constraints>
-                                </imageView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oculus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fca-TR-UmY">
-                                    <rect key="frame" x="57" y="12" width="67.5" height="24"/>
-                                    <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AmI-rt-VM4" customClass="FLAnimatedImageView">
-                                    <rect key="frame" x="20" y="53" width="500" height="222"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="500" id="FBF-a9-FMl"/>
-                                        <constraint firstAttribute="height" constant="222" id="NP3-CT-SL8"/>
-                                    </constraints>
-                                </imageView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="415" translatesAutoresizingMaskIntoConstraints="NO" id="O0L-0Z-TfJ">
-                                    <rect key="frame" x="544" y="205" width="415" height="70"/>
-                                    <string key="text">Air temperature and air temperature anomaly maps for the North Atlantic and Arctic, from Dec 27, 2015 to Jan 5, 2016.
-
-Credit: Climate Reanalyzer</string>
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="15"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rb-OR-sDN">
-                                    <rect key="frame" x="544" y="149" width="42" height="40"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="42" id="IeR-TH-b3h"/>
-                                        <constraint firstAttribute="height" constant="40" id="IoC-Km-KZM"/>
-                                    </constraints>
-                                    <state key="normal" backgroundImage="oculus.png"/>
-                                </button>
-                            </subviews>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstItem="X0n-xk-9Qr" firstAttribute="leading" secondItem="KW5-7T-D0U" secondAttribute="leading" constant="20" id="2NU-50-bm7"/>
-                                <constraint firstItem="O0L-0Z-TfJ" firstAttribute="bottom" secondItem="AmI-rt-VM4" secondAttribute="bottom" id="9CI-JD-7HD"/>
-                                <constraint firstItem="3Rb-OR-sDN" firstAttribute="leading" secondItem="AmI-rt-VM4" secondAttribute="trailing" constant="24" id="Ja3-e6-7dg"/>
-                                <constraint firstItem="X0n-xk-9Qr" firstAttribute="top" secondItem="KW5-7T-D0U" secondAttribute="top" constant="12" id="Wow-KV-Y8s"/>
-                                <constraint firstItem="fca-TR-UmY" firstAttribute="centerY" secondItem="X0n-xk-9Qr" secondAttribute="centerY" id="XjZ-5q-s6H"/>
-                                <constraint firstItem="AmI-rt-VM4" firstAttribute="leading" secondItem="KW5-7T-D0U" secondAttribute="leading" constant="20" id="XvM-IY-Adv"/>
-                                <constraint firstAttribute="height" priority="750" constant="200" id="gw9-fp-Ofi"/>
-                                <constraint firstItem="O0L-0Z-TfJ" firstAttribute="leading" secondItem="AmI-rt-VM4" secondAttribute="trailing" constant="24" id="h23-Zz-lpK"/>
-                                <constraint firstItem="AmI-rt-VM4" firstAttribute="top" secondItem="X0n-xk-9Qr" secondAttribute="bottom" constant="16" id="hn2-nJ-V3a"/>
-                                <constraint firstItem="O0L-0Z-TfJ" firstAttribute="top" secondItem="3Rb-OR-sDN" secondAttribute="bottom" constant="16" id="rNb-bj-RXp"/>
-                                <constraint firstAttribute="bottom" secondItem="AmI-rt-VM4" secondAttribute="bottom" constant="20" id="u7k-CV-AnC"/>
-                                <constraint firstItem="fca-TR-UmY" firstAttribute="leading" secondItem="X0n-xk-9Qr" secondAttribute="trailing" constant="12" id="xid-on-UOR"/>
-                            </constraints>
-                        </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNN-VD-wIe">
-                            <rect key="frame" x="22" y="1184" width="980" height="617"/>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rNN-VD-wIe">
+                            <rect key="frame" x="22" y="1014" width="980" height="491"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="9c2-mh-iTS">
                                     <rect key="frame" x="20" y="12" width="25" height="25"/>
@@ -209,102 +154,60 @@ Credit: Climate Reanalyzer</string>
                                         <constraint firstAttribute="width" constant="25" id="rUj-aB-R0p"/>
                                     </constraints>
                                 </imageView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sea Flow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIf-kv-EX2">
-                                    <rect key="frame" x="57" y="12" width="86.5" height="24"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIf-kv-EX2">
+                                    <rect key="frame" x="57" y="12" width="42" height="24"/>
                                     <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_1_c.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VP5-qV-VdZ" customClass="FLAnimatedImageView">
-                                    <rect key="frame" x="20" y="53" width="940" height="544"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rivermap5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VP5-qV-VdZ" customClass="FLAnimatedImageView">
+                                    <rect key="frame" x="20" y="53" width="940" height="350"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="544" id="3O0-Kr-qqY"/>
+                                        <constraint firstAttribute="height" constant="350" id="3O0-Kr-qqY"/>
                                     </constraints>
                                 </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txt-u7-P0T">
+                                    <rect key="frame" x="20" y="410" width="940" height="61"/>
+                                    <string key="text">The maps below show you the section of the Main Salmon River that you will be running with River Time. This is approximately 80 river miles! The first map only shows a few of the rapids we will run. There are many more along this section of the river than can be depicted on this small map.</string>
+                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="VP5-qV-VdZ" secondAttribute="bottom" constant="20" id="4T7-fO-7bF"/>
+                                <constraint firstItem="txt-u7-P0T" firstAttribute="centerX" secondItem="rNN-VD-wIe" secondAttribute="centerX" id="8wG-XY-VsD"/>
                                 <constraint firstItem="nIf-kv-EX2" firstAttribute="leading" secondItem="9c2-mh-iTS" secondAttribute="trailing" constant="12" id="I3I-1H-8yL"/>
+                                <constraint firstItem="txt-u7-P0T" firstAttribute="top" secondItem="VP5-qV-VdZ" secondAttribute="bottom" constant="7" id="Rkz-dl-Cn3"/>
                                 <constraint firstItem="9c2-mh-iTS" firstAttribute="top" secondItem="rNN-VD-wIe" secondAttribute="top" constant="12" id="ZGV-iy-2Fs"/>
+                                <constraint firstAttribute="trailing" secondItem="txt-u7-P0T" secondAttribute="trailing" constant="20" id="gen-6Q-Zba"/>
                                 <constraint firstAttribute="trailing" secondItem="VP5-qV-VdZ" secondAttribute="trailing" constant="20" id="ixg-cl-QyK"/>
                                 <constraint firstItem="VP5-qV-VdZ" firstAttribute="leading" secondItem="rNN-VD-wIe" secondAttribute="leading" constant="20" id="jy3-8N-Kkx"/>
-                                <constraint firstAttribute="height" priority="750" constant="200" id="mmv-9a-RYj"/>
+                                <constraint firstAttribute="height" priority="750" constant="423" id="mmv-9a-RYj"/>
+                                <constraint firstItem="txt-u7-P0T" firstAttribute="leading" secondItem="rNN-VD-wIe" secondAttribute="leading" constant="20" id="o0v-dm-6Ii"/>
                                 <constraint firstItem="VP5-qV-VdZ" firstAttribute="top" secondItem="9c2-mh-iTS" secondAttribute="bottom" constant="16" id="tSw-i4-K7U"/>
                                 <constraint firstItem="nIf-kv-EX2" firstAttribute="centerY" secondItem="9c2-mh-iTS" secondAttribute="centerY" id="wWf-DE-QUu"/>
                                 <constraint firstItem="9c2-mh-iTS" firstAttribute="leading" secondItem="rNN-VD-wIe" secondAttribute="leading" constant="20" id="x83-dH-601"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="juE-Sq-zMj">
-                            <rect key="frame" x="22" y="1817" width="980" height="295"/>
-                            <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Jf-C2-nbJ">
-                                    <rect key="frame" x="20" y="12" width="25" height="25"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="25" id="iTA-dQ-6C8"/>
-                                        <constraint firstAttribute="height" constant="25" id="kHS-di-WHq"/>
-                                    </constraints>
-                                </imageView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnC-Kt-8fB">
-                                    <rect key="frame" x="57" y="12" width="80" height="24"/>
-                                    <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue-Whale_youtube.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ODQ-A5-0Nc">
-                                    <rect key="frame" x="20" y="53" width="940" height="222"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="222" id="P2O-lN-QBO"/>
-                                    </constraints>
-                                </imageView>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vb-2r-FO2">
-                                    <rect key="frame" x="444" y="135" width="91" height="65"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="65" id="87i-vD-RL2"/>
-                                        <constraint firstAttribute="width" constant="91" id="Vwb-hc-rPL"/>
-                                    </constraints>
-                                    <state key="normal" backgroundImage="YouTube-icon-full_color.png"/>
-                                </button>
-                            </subviews>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="trailing" secondItem="ODQ-A5-0Nc" secondAttribute="trailing" constant="20" id="32m-cE-7y8"/>
-                                <constraint firstItem="ODQ-A5-0Nc" firstAttribute="leading" secondItem="juE-Sq-zMj" secondAttribute="leading" constant="20" id="3v1-4S-4Fb"/>
-                                <constraint firstItem="5Jf-C2-nbJ" firstAttribute="leading" secondItem="juE-Sq-zMj" secondAttribute="leading" constant="20" id="4Qs-4a-fHf"/>
-                                <constraint firstAttribute="bottom" secondItem="ODQ-A5-0Nc" secondAttribute="bottom" constant="20" id="BMo-8a-FUR"/>
-                                <constraint firstItem="7vb-2r-FO2" firstAttribute="leading" secondItem="juE-Sq-zMj" secondAttribute="leading" constant="444.5" id="Dw1-Fk-0at"/>
-                                <constraint firstAttribute="height" priority="750" constant="200" id="Qun-97-ej8"/>
-                                <constraint firstItem="ODQ-A5-0Nc" firstAttribute="top" secondItem="5Jf-C2-nbJ" secondAttribute="bottom" constant="16" id="Rdy-yv-Hu8"/>
-                                <constraint firstItem="LnC-Kt-8fB" firstAttribute="leading" secondItem="5Jf-C2-nbJ" secondAttribute="trailing" constant="12" id="Xro-sG-EAC"/>
-                                <constraint firstAttribute="bottom" secondItem="7vb-2r-FO2" secondAttribute="bottom" constant="95" id="Zj1-Zb-Ifp"/>
-                                <constraint firstItem="LnC-Kt-8fB" firstAttribute="centerY" secondItem="5Jf-C2-nbJ" secondAttribute="centerY" id="ekP-Y5-bpL"/>
-                                <constraint firstItem="5Jf-C2-nbJ" firstAttribute="top" secondItem="juE-Sq-zMj" secondAttribute="top" constant="12" id="ft9-ci-p8U"/>
-                            </constraints>
-                        </view>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="juE-Sq-zMj" secondAttribute="trailing" constant="22" id="0vq-3Y-0o6"/>
                         <constraint firstItem="q6x-CS-KkD" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="4En-Gs-SdY"/>
                         <constraint firstItem="jB6-VX-UFs" firstAttribute="top" secondItem="Eks-hZ-ZII" secondAttribute="top" id="59A-TM-hiA"/>
-                        <constraint firstItem="KW5-7T-D0U" firstAttribute="top" secondItem="q6x-CS-KkD" secondAttribute="bottom" constant="16" id="5Of-qc-DyN"/>
-                        <constraint firstItem="juE-Sq-zMj" firstAttribute="top" secondItem="rNN-VD-wIe" secondAttribute="bottom" constant="16" id="C2b-G5-jdb"/>
                         <constraint firstItem="q6x-CS-KkD" firstAttribute="top" secondItem="fEV-x5-Rts" secondAttribute="bottom" constant="16" id="JMc-MR-kuQ"/>
-                        <constraint firstAttribute="trailing" secondItem="KW5-7T-D0U" secondAttribute="trailing" constant="22" id="K1a-Sv-wau"/>
                         <constraint firstItem="jB6-VX-UFs" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="QRI-qM-zNb"/>
-                        <constraint firstItem="juE-Sq-zMj" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="TVx-OS-H0J"/>
+                        <constraint firstItem="rNN-VD-wIe" firstAttribute="top" secondItem="q6x-CS-KkD" secondAttribute="bottom" constant="16" id="RRc-6Q-d6A"/>
                         <constraint firstItem="fEV-x5-Rts" firstAttribute="top" secondItem="jB6-VX-UFs" secondAttribute="bottom" constant="16" id="UMJ-VZ-g5K"/>
                         <constraint firstAttribute="trailing" secondItem="rNN-VD-wIe" secondAttribute="trailing" constant="22" id="ZHJ-uu-Qls"/>
                         <constraint firstItem="rNN-VD-wIe" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="aMr-cg-cax"/>
                         <constraint firstAttribute="trailing" secondItem="q6x-CS-KkD" secondAttribute="trailing" constant="22" id="avo-50-HJl"/>
-                        <constraint firstItem="rNN-VD-wIe" firstAttribute="top" secondItem="KW5-7T-D0U" secondAttribute="bottom" constant="16" id="bm1-J3-13s"/>
-                        <constraint firstItem="KW5-7T-D0U" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="cIq-8u-Ccc"/>
                         <constraint firstAttribute="trailing" secondItem="jB6-VX-UFs" secondAttribute="trailing" constant="22" id="kiH-hm-xdT"/>
                         <constraint firstAttribute="trailing" secondItem="fEV-x5-Rts" secondAttribute="trailing" constant="22" id="sLF-4D-u2k"/>
                         <constraint firstItem="fEV-x5-Rts" firstAttribute="leading" secondItem="Eks-hZ-ZII" secondAttribute="leading" constant="22" id="whX-vp-geg"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trout" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDJ-Fg-m4b">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salmon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDJ-Fg-m4b">
                     <rect key="frame" x="44" y="12" width="936" height="82"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="95"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -323,15 +226,12 @@ Credit: Climate Reanalyzer</string>
                 <constraint firstItem="Eks-hZ-ZII" firstAttribute="leading" secondItem="7aI-xC-wTH" secondAttribute="leading" id="zbP-9L-mF9"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="334" y="1038"/>
+            <point key="canvasLocation" x="334" y="734.5"/>
         </view>
     </objects>
     <resources>
-        <image name="Blue-Whale_youtube.jpg" width="940" height="250"/>
-        <image name="YouTube-icon-full_color.png" width="200" height="141"/>
-        <image name="oculus.png" width="100" height="100"/>
-        <image name="slide_1_b.jpg" width="1280" height="800"/>
-        <image name="slide_1_c.jpg" width="1880" height="1088"/>
+        <image name="rivermap5.jpg" width="891" height="326"/>
+        <image name="slide_2_3.jpg" width="900" height="400"/>
         <image name="star.png" width="96" height="96"/>
     </resources>
 </document>
