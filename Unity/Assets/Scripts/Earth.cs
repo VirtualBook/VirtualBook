@@ -7,9 +7,12 @@ public class Earth : MonoBehaviour {
     public float angle = 0;
     public float angleV = 10;
 
+    private Textures tex;
+
 	// Use this for initialization
 	void Start () {
         Textures.LoadAll();
+        tex = new Textures();
 	}
 	
 	// Update is called once per frame
@@ -22,7 +25,10 @@ public class Earth : MonoBehaviour {
             Quaternion rotate = Quaternion.Euler(0, angle, 0);
             transform.rotation = rotate;
         }
-	}
+
+        Renderer r = GetComponent<Renderer>();
+        r.material.SetTexture("_MainTex", tex.getCurTex());
+    }
 
     void processInput()
     {
@@ -33,8 +39,17 @@ public class Earth : MonoBehaviour {
 
         if (Input.GetKeyDown("x"))
         {
-            Renderer r = GetComponent<Renderer>();
-            r.material.SetTexture("_MainTex", Textures.seaTempTextures[0]);
+            tex.ToggleAnimated();
+        }
+
+        if (Input.GetKeyDown("a"))
+        {
+            tex.setTexture(Textures.defaultTextures);
+        }
+
+        if (Input.GetKeyDown("s"))
+        {
+            tex.setTexture(Textures.seaTempTextures);
         }
     }    
 }

@@ -12,7 +12,7 @@ public class MyException : System.Exception {
 public class Textures {
 
     public static Texture[] seaTempTextures;
-    public static string seaTempName = "Sea Temp";
+    public static Texture[] defaultTextures;
     private static bool isLoaded = false;
 
     public static void LoadAll()
@@ -21,12 +21,22 @@ public class Textures {
         isLoaded = true;
         
         seaTempTextures = Resources.LoadAll<Texture>("Sea Temp/2015");
+        defaultTextures = Resources.LoadAll<Texture>("Default");
     }
 
     private Texture[] textures;
     private int day = 0;
-    private int totalDay = 365;
     public bool isAnimated = false;
+
+    public Textures()
+    {
+        textures = defaultTextures;
+    }
+
+    public void setTexture(Texture[] texs)
+    {
+        textures = texs;
+    }
 
     public void Reset()
     {
