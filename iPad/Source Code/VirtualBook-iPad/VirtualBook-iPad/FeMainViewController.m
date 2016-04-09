@@ -10,6 +10,11 @@
 
 @interface FeMainViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *onAirLbl;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *descriptionlLblLeft;
+
+@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *arrFloatingtImage;
+
 @end
 
 @implementation FeMainViewController
