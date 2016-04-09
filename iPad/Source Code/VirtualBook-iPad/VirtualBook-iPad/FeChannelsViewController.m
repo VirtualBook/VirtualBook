@@ -9,6 +9,7 @@
 #import "FeChannelsViewController.h"
 #import "VVSpringCollectionViewFlowLayout.h"
 #import "FeChannelCell.h"
+#import "FeSlideDetailViewController.h"
 
 @interface FeChannelsViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -76,11 +77,11 @@
 }
 -(void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    //FeDetailSlideViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"FeDetailSlideViewController"];
+    FeSlideDetailViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"FeSlideDetailViewController"];
     
     //FeChannelViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"FeChannelViewController"];
     
-    //[self.navigationController pushViewController:controller animated:YES];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end

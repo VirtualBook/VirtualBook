@@ -46,6 +46,7 @@
 		BA603F641CB8F11300A74DEA /* slide_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F541CB8F11300A74DEA /* slide_5.jpg */; };
 		BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */; };
 		BA603F661CB8F11300A74DEA /* slide_content_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */; };
+		BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */; };
 		BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */; };
 		BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9E1CB8C02F0071085F /* asset1@2x.png */; };
 		BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9F1CB8C02F0071085F /* asset2@2x.png */; };
@@ -136,6 +137,8 @@
 		BA603F541CB8F11300A74DEA /* slide_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_5.jpg; sourceTree = "<group>"; };
 		BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_1.jpg; sourceTree = "<group>"; };
 		BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_content_1_2.jpg; sourceTree = "<group>"; };
+		BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSlideDetailViewController.h; sourceTree = "<group>"; };
+		BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSlideDetailViewController.m; sourceTree = "<group>"; };
 		BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001_prizmaspace.jpg; sourceTree = "<group>"; };
 		BAA66D9E1CB8C02F0071085F /* asset1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset1@2x.png"; sourceTree = "<group>"; };
 		BAA66D9F1CB8C02F0071085F /* asset2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset2@2x.png"; sourceTree = "<group>"; };
@@ -264,6 +267,7 @@
 		BA41395F1CB8B86500942E0C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BA603F681CB8F17000A74DEA /* Slide */,
 				BA4139691CB8B90D00942E0C /* Course */,
 				BA4139681CB8B90700942E0C /* Channel */,
 				BA4139671CB8B90400942E0C /* Main */,
@@ -453,6 +457,15 @@
 				BA603F541CB8F11300A74DEA /* slide_5.jpg */,
 				BA603F551CB8F11300A74DEA /* slide_content_1_1.jpg */,
 				BA603F561CB8F11300A74DEA /* slide_content_1_2.jpg */,
+			);
+			name = Slide;
+			sourceTree = "<group>";
+		};
+		BA603F681CB8F17000A74DEA /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				BA603F691CB8F17B00A74DEA /* FeSlideDetailViewController.h */,
+				BA603F6A1CB8F17B00A74DEA /* FeSlideDetailViewController.m */,
 			);
 			name = Slide;
 			sourceTree = "<group>";
@@ -686,6 +699,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA603F6B1CB8F17B00A74DEA /* FeSlideDetailViewController.m in Sources */,
 				BA41396C1CB8B91C00942E0C /* FeLoginViewController.m in Sources */,
 				BA41396F1CB8B92D00942E0C /* FeSignUpView.m in Sources */,
 				BA41397C1CB8B97C00942E0C /* FeMainViewController.m in Sources */,

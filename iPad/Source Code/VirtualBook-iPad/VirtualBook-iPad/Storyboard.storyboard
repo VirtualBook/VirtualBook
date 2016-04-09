@@ -412,6 +412,58 @@
             </objects>
             <point key="canvasLocation" x="981" y="-779"/>
         </scene>
+        <!--Fe Slide Detail View Controller-->
+        <scene sceneID="G29-iA-T7F">
+            <objects>
+                <viewController storyboardIdentifier="FeSlideDetailViewController" id="M4i-yg-Z45" customClass="FeSlideDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iEm-Ht-sye"/>
+                        <viewControllerLayoutGuide type="bottom" id="foU-WK-pVr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gkI-3w-pWQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdc-OP-FMG">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="GH4-zU-m13"/>
+                                    <constraint firstAttribute="height" constant="50" id="zmp-Ep-KtI"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="menu_2.png"/>
+                                <connections>
+                                    <action selector="menuBtnTapped:" destination="M4i-yg-Z45" eventType="touchUpInside" id="q2T-LE-T6i"/>
+                                </connections>
+                            </button>
+                            <visualEffectView hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8i-77-xXQ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ll8-bY-GLp">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f8i-77-xXQ" firstAttribute="leading" secondItem="gkI-3w-pWQ" secondAttribute="leading" id="5Om-GP-TZD"/>
+                            <constraint firstItem="f8i-77-xXQ" firstAttribute="top" secondItem="gkI-3w-pWQ" secondAttribute="top" id="GnM-Gz-afi"/>
+                            <constraint firstAttribute="trailing" secondItem="f8i-77-xXQ" secondAttribute="trailing" id="a6o-ax-dTy"/>
+                            <constraint firstItem="foU-WK-pVr" firstAttribute="top" secondItem="f8i-77-xXQ" secondAttribute="bottom" id="nHp-GM-jcS"/>
+                            <constraint firstItem="Fdc-OP-FMG" firstAttribute="top" secondItem="gkI-3w-pWQ" secondAttribute="top" id="wWJ-Ix-LL7"/>
+                            <constraint firstItem="Fdc-OP-FMG" firstAttribute="leading" secondItem="gkI-3w-pWQ" secondAttribute="leading" id="zP4-Fq-7h1"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="blurView" destination="f8i-77-xXQ" id="o5U-LF-qLQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9qk-KY-v09" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="1273"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Gradient_1920x1200.jpg.png" width="1920" height="1200"/>
@@ -425,6 +477,7 @@
         <image name="asset7.png" width="30" height="29"/>
         <image name="asset8.png" width="30" height="29"/>
         <image name="logo_app.png" width="100" height="100"/>
+        <image name="menu_2.png" width="100" height="100"/>
         <image name="pattern_1.jpg" width="1024" height="678"/>
         <image name="pexels-photo-12064.jpeg" width="2048" height="1536"/>
     </resources>
