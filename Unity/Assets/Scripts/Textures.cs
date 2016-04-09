@@ -11,31 +11,35 @@ public class MyException : System.Exception {
 
 public class Textures {
 
-    public static Texture[] seaTempTextures;
     public static Texture[] defaultTextures;
+    public static Texture[] seaTempTextures;
+    public static Texture[] landTempTextures;
     private static bool isLoaded = false;
 
     public static void LoadAll()
     {
         if (isLoaded) return;
         isLoaded = true;
-        
-        seaTempTextures = Resources.LoadAll<Texture>("Sea Temp/2014");
+
         defaultTextures = Resources.LoadAll<Texture>("Default");
+        seaTempTextures = Resources.LoadAll<Texture>("Sea Temp/2014");
+        landTempTextures = Resources.LoadAll<Texture>("Land Temp/2015");
     }
 
     private Texture[] textures;
     private float day = 0;
     public bool isAnimated = false;
 
-    public Textures()
+    public Textures(string name)
     {
-        textures = defaultTextures;
+        setTexture(name);
     }
 
-    public void setTexture(Texture[] texs)
+    public void setTexture(string name)
     {
-        textures = texs;
+        if (name == "default") textures = defaultTextures;
+        else if (name == "sea_temp") textures = seaTempTextures;
+        else if (name == "land_temp") textures = landTempTextures;
     }
 
     public void Reset()

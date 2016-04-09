@@ -6,13 +6,14 @@ public class Earth : MonoBehaviour {
     public bool isRotate = false;
     public float angle = 0;
     public float angleV = 10;
+    public string textureName = "default";
 
     private Textures tex;
 
 	// Use this for initialization
 	void Start () {
         Textures.LoadAll();
-        tex = new Textures();
+        tex = new Textures(textureName);
 	}
 	
 	// Update is called once per frame
@@ -42,16 +43,6 @@ public class Earth : MonoBehaviour {
         if (Input.GetKeyDown("x"))
         {
             tex.ToggleAnimated();
-        }
-
-        if (Input.GetKeyDown("a"))
-        {
-            tex.setTexture(Textures.defaultTextures);
-        }
-
-        if (Input.GetKeyDown("s"))
-        {
-            tex.setTexture(Textures.seaTempTextures);
         }
     }    
 }
