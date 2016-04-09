@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "FeMainViewController.h"
 #import "FeLoginViewController.h"
+#import "UIWindow+Additions.h"
+#import "MBProgressHUD.h"
 
 @interface AppDelegate ()
 
@@ -43,6 +45,23 @@
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+-(void) switchToMainApp
+{
+    [MBProgressHUD showGlobalProgressHUDWithTitle:@"Processing"];
+    
+    __weak typeof(self) weakSelf = self;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        FeMainViewController *controller = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewNavigationController"];
+        
+        [MBProgressHUD dismissGlobalHUD];
+        
+        [weakSelf.window setRootViewController:controller animated:YES completionBlock:nil];
+        
+    });
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
