@@ -29,7 +29,7 @@
                             <rect key="frame" x="22" y="0.0" width="980" height="225.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW6-gc-ban">
-                                    <rect key="frame" x="57" y="11.5" width="100.5" height="26.5"/>
+                                    <rect key="frame" x="57" y="11" width="100.5" height="26.5"/>
                                     <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="22"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -76,7 +76,7 @@ Most blues are migratory and travel thousands of kilometres annually between the
                             </constraints>
                         </view>
                         <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="500" verticalHuggingPriority="500" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="4Ii-O2-dKS">
-                            <rect key="frame" x="22" y="241.5" width="980" height="400"/>
+                            <rect key="frame" x="22" y="241" width="980" height="400"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="slide_1_b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zYL-eY-Gef">
                                     <rect key="frame" x="0.0" y="0.0" width="980" height="400"/>
@@ -92,7 +92,7 @@ Most blues are migratory and travel thousands of kilometres annually between the
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Enu-gN-e1V">
-                            <rect key="frame" x="22" y="657.5" width="980" height="200"/>
+                            <rect key="frame" x="22" y="657" width="980" height="200"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="jen-ok-7hN">
                                     <rect key="frame" x="20" y="12" width="25" height="25"/>
@@ -102,20 +102,20 @@ Most blues are migratory and travel thousands of kilometres annually between the
                                     </constraints>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distrubution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAa-7o-0Jv">
-                                    <rect key="frame" x="57" y="12.5" width="120" height="24"/>
+                                    <rect key="frame" x="57" y="12" width="120" height="24"/>
                                     <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45r-B0-hTb">
-                                    <rect key="frame" x="22" y="44.5" width="936" height="1"/>
+                                    <rect key="frame" x="22" y="44" width="936" height="1"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="pHb-QG-faO"/>
                                     </constraints>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sO-6I-YQi">
-                                    <rect key="frame" x="22" y="53.5" width="936" height="138.5"/>
+                                    <rect key="frame" x="22" y="53" width="936" height="138.5"/>
                                     <string key="text">They then migrate back to the tropics segregated by sex and age, the older and pregnant whales migrating first, with the sexually immature whales bringing up the rear. Generally, the larger, older whales migrate the furthest north.
 
 During this migration, they eat virtually nothing for at least 4 months and live on body reserves. Females give birth in warm tropical waters because the young only have a thin layer of blubber to keep them warm. Females give birth to a single calf about 7m long and weighing 2.5 tonnes. The calves are suckled for 7 months and follow their mothers on the spring migration towards the polar seas. Once weaned, the calves feed on krill and follow the normal migration cycle.</string>
@@ -141,7 +141,7 @@ During this migration, they eat virtually nothing for at least 4 months and live
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GiG-xd-bAZ">
-                            <rect key="frame" x="22" y="873.5" width="980" height="295"/>
+                            <rect key="frame" x="22" y="873" width="980" height="295"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="POs-uT-hfd">
                                     <rect key="frame" x="20" y="12" width="25" height="25"/>
@@ -151,7 +151,7 @@ During this migration, they eat virtually nothing for at least 4 months and live
                                     </constraints>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bG-zp-4cv">
-                                    <rect key="frame" x="57" y="12.5" width="42" height="24"/>
+                                    <rect key="frame" x="57" y="12" width="42" height="24"/>
                                     <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -172,11 +172,24 @@ Credit: Climate Reanalyzer</string>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87U-4e-5Jj">
+                                    <rect key="frame" x="544" y="149" width="42" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="5EY-YD-VzH"/>
+                                        <constraint firstAttribute="width" constant="42" id="caV-Qv-sXq"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="oculus.png"/>
+                                    <connections>
+                                        <action selector="oculusBtnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="C2b-h2-hGv"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="aVe-7R-Bvj" secondAttribute="bottom" constant="20" id="1Q8-Mp-Ync"/>
+                                <constraint firstItem="0Ut-mk-Ugu" firstAttribute="top" secondItem="87U-4e-5Jj" secondAttribute="bottom" constant="16" id="7TR-kj-nJD"/>
                                 <constraint firstItem="8bG-zp-4cv" firstAttribute="centerY" secondItem="POs-uT-hfd" secondAttribute="centerY" id="A5n-ef-qvQ"/>
+                                <constraint firstItem="87U-4e-5Jj" firstAttribute="leading" secondItem="aVe-7R-Bvj" secondAttribute="trailing" constant="24" id="EQl-IB-Ifw"/>
                                 <constraint firstItem="POs-uT-hfd" firstAttribute="leading" secondItem="GiG-xd-bAZ" secondAttribute="leading" constant="20" id="FXn-GZ-u36"/>
                                 <constraint firstItem="8bG-zp-4cv" firstAttribute="leading" secondItem="POs-uT-hfd" secondAttribute="trailing" constant="12" id="Fcr-AW-3jI"/>
                                 <constraint firstItem="aVe-7R-Bvj" firstAttribute="leading" secondItem="GiG-xd-bAZ" secondAttribute="leading" constant="20" id="YaW-sw-xNl"/>
@@ -230,6 +243,7 @@ Credit: Climate Reanalyzer</string>
         </view>
     </objects>
     <resources>
+        <image name="oculus.png" width="100" height="100"/>
         <image name="slide_1_b.jpg" width="1280" height="800"/>
         <image name="star.png" width="96" height="96"/>
     </resources>
