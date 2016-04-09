@@ -42,8 +42,7 @@
 {
     XCDYouTubeVideoPlayerViewController *videoPlayerViewController = [[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:@"9pjI2XkmoL0"];
     
-    AppDelegate *app = [UIApplication sharedApplication].delegate;
-    [app.window.rootViewController presentMoviePlayerViewControllerAnimated:videoPlayerViewController];
+    [self.rootViewController presentMoviePlayerViewControllerAnimated:videoPlayerViewController];
 }
 
 @end

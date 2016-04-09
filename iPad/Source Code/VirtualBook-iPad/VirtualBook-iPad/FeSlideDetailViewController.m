@@ -10,6 +10,7 @@
 #import "MHYahooParallaxView.h"
 #import "MHYahooWeatherParallaxCell.h"
 #import "FeListOfSlideView.h"
+#import "SlideData_Whale.h"
 
 @interface FeSlideDetailViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate, FeListOfSlideViewDelegate>
 
@@ -18,7 +19,7 @@
 
 @property (strong, nonatomic) FeListOfSlideView *listOfView;
 
-@property (strong, nonatomic) UIView *contentView_1;
+@property (strong, nonatomic) SlideData_Whale *contentView_1;
 
 @end
 
@@ -29,8 +30,8 @@
     [super viewDidLoad];
     
     self.contentView_1 = [[[NSBundle mainBundle] loadNibNamed:@"SlideData_Whale" owner:self options:nil] firstObject];
-    self.contentView_1.frame = CGRectMake(0, 0, 1024, 1411);
     self.contentView_1.backgroundColor = [UIColor clearColor];
+    self.contentView_1.rootViewController = self;
     
     [self initParallax];
     
@@ -71,14 +72,12 @@
     }
     else
     {
-            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_%li.jpg",(long)indexPath.row + 1]];
+        cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_%li.jpg",(long)indexPath.row + 1]];
     }
 
-    
-    
-    if (cell && indexPath.item == 0)
+    if (cell && indexPath.item == 0 && !self.contentView_1.superview)
     {
-        [cell.contentScrollView addSubview:self.contentView_1];
+        [cell updateWithNewContentView:self.contentView_1];
     }
     
     return cell;

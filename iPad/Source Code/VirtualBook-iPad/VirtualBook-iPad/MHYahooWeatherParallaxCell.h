@@ -11,8 +11,11 @@
 @interface MHYahooWeatherParallaxCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIView *contentScrollView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentScrollViewHeight;
 
 @property (nonatomic,strong) UIImageView * parallaxImageView;
+
+-(void) updateWithNewContentView:(UIView *) contentView;
 
 + (NSString*) reuseIdentifier;
 

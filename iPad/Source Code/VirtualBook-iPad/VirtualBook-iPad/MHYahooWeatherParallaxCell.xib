@@ -59,6 +59,7 @@
             <connections>
                 <outlet property="blurView" destination="IAo-dK-FdS" id="7Od-Aj-Vte"/>
                 <outlet property="contentScrollView" destination="g61-KV-K0V" id="DrO-bM-Mp0"/>
+                <outlet property="contentScrollViewHeight" destination="8Zj-QG-G0F" id="yoX-Ih-qv5"/>
                 <outlet property="scrollView" destination="zI6-yq-Wj0" id="utx-Ku-yIt"/>
             </connections>
             <point key="canvasLocation" x="390" y="367.5"/>

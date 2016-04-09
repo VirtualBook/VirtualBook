@@ -234,17 +234,6 @@ Credit: Climate Reanalyzer</string>
                                         <action selector="youtubeBtnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="M4F-rb-HRr"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDs-nV-rWe">
-                                    <rect key="frame" x="149" y="16" width="29" height="20"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="20" id="S6q-k1-cNg"/>
-                                        <constraint firstAttribute="width" constant="29" id="ije-cA-A35"/>
-                                    </constraints>
-                                    <state key="normal" backgroundImage="YouTube-icon-full_color.png"/>
-                                    <connections>
-                                        <action selector="youtubeBtnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="v4n-L9-sHm"/>
-                                    </connections>
-                                </button>
                             </subviews>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                             <constraints>
@@ -257,9 +246,7 @@ Credit: Climate Reanalyzer</string>
                                 <constraint firstAttribute="bottom" secondItem="5fW-iB-EJm" secondAttribute="bottom" constant="20" id="fG9-jG-FWO"/>
                                 <constraint firstItem="K4F-SS-zPf" firstAttribute="leading" secondItem="U9S-5k-vjT" secondAttribute="leading" constant="20" id="kv3-i3-zko"/>
                                 <constraint firstAttribute="height" priority="750" constant="200" id="s25-iE-Exq"/>
-                                <constraint firstItem="hDs-nV-rWe" firstAttribute="leading" secondItem="V7A-Q8-JAg" secondAttribute="trailing" constant="12" id="tGt-zL-abH"/>
                                 <constraint firstAttribute="bottom" secondItem="P2P-fb-LzV" secondAttribute="bottom" constant="95" id="uEz-eI-akw"/>
-                                <constraint firstItem="hDs-nV-rWe" firstAttribute="centerY" secondItem="V7A-Q8-JAg" secondAttribute="centerY" constant="2" id="vzm-vU-mQQ"/>
                                 <constraint firstItem="V7A-Q8-JAg" firstAttribute="leading" secondItem="K4F-SS-zPf" secondAttribute="trailing" constant="12" id="yKr-Hr-l3X"/>
                             </constraints>
                         </view>
