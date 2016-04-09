@@ -13,19 +13,25 @@ PODS:
   - EAIntroView (2.8.2):
     - EARestrictedScrollView (~> 0.2.0)
   - EARestrictedScrollView (0.2.0)
+  - FLAnimatedImage (1.0.12)
   - NHBalancedFlowLayout (0.2)
+  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
   - CHTCollectionViewWaterfallLayout
   - CocoaLumberjack
   - EAIntroView (~> 2.8.0)
+  - FLAnimatedImage (~> 1.0)
   - NHBalancedFlowLayout (~> 0.2)
+  - youtube-ios-player-helper (~> 0.1.4)
 
 SPEC CHECKSUMS:
   CHTCollectionViewWaterfallLayout: db74be9135826d285f45ff163fd090e57c99fc50
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   EAIntroView: c45c4cd533cb760800a165115bc3d1fcaff3d5bb
   EARestrictedScrollView: f86d61e16c61d3e93c84f8e96e83122a2a3b7631
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   NHBalancedFlowLayout: fd253023c6754e605acdb180d50123e582cc62bb
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
 COCOAPODS: 0.39.0

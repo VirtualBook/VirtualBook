@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '38549E20A08970C170EDED60'
-               BlueprintName = 'EAIntroView'
+               BlueprintIdentifier = 'F6E45116C121E5068E009EE5'
+               BlueprintName = 'FLAnimatedImage'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libEAIntroView.a'>
+               BuildableName = 'libFLAnimatedImage.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

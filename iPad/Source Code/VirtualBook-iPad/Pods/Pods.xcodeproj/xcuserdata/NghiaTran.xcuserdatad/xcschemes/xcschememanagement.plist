@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NHBalancedFlowLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,39 +39,13 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>youtube-ios-player-helper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>12E2BC28C62976C425F4B71C2723F0B1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4C9E99CC2B5F0FA4FC11C2E24D4EF986</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>849799B68B0D1D031F0152F88A05EB6D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9B36D462102DAF8E84F6D9AB9C868C59</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CAC12F55077DF2C6A596E9CBE1EA2D0E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D1EC2572C5166CE2498C72FAF128EABE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
