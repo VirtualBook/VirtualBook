@@ -9,6 +9,8 @@
 #import "SlideData_Whale.h"
 #import <FLAnimatedImage/FLAnimatedImage.h>
 #import "MBProgressHUD.h"
+#import <XCDYouTubeKit.h>
+#import "AppDelegate.h"
 
 @interface SlideData_Whale ()
 
@@ -34,6 +36,14 @@
 - (IBAction)oculusBtnTapped:(id)sender
 {
     [[[UIAlertView alloc] initWithTitle:@"Oculus" message:@"Waiting..." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+}
+
+- (IBAction)youtubeBtnTapped:(id)sender
+{
+    XCDYouTubeVideoPlayerViewController *videoPlayerViewController = [[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:@"9pjI2XkmoL0"];
+    
+    AppDelegate *app = [UIApplication sharedApplication].delegate;
+    [app.window.rootViewController presentMoviePlayerViewControllerAnimated:videoPlayerViewController];
 }
 
 @end

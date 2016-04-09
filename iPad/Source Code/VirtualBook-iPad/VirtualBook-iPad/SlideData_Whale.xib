@@ -9,6 +9,7 @@
             <string>SFUIText-Medium</string>
             <string>SFUIText-Medium</string>
             <string>SFUIText-Medium</string>
+            <string>SFUIText-Medium</string>
         </mutableArray>
         <mutableArray key="SF-UI-Text-Regular.otf">
             <string>SFUIText-Regular</string>
@@ -19,11 +20,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view opaque="NO" contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Slide_Content_1_1" customClass="SlideData_Whale">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="1308"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1625"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CAf-Fy-Bxh">
-                    <rect key="frame" x="0.0" y="118" width="1024" height="1190"/>
+                    <rect key="frame" x="0.0" y="118" width="1024" height="1507"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woU-tL-Xnl">
                             <rect key="frame" x="22" y="0.0" width="980" height="225.5"/>
@@ -200,13 +201,77 @@ Credit: Climate Reanalyzer</string>
                                 <constraint firstItem="0Ut-mk-Ugu" firstAttribute="leading" secondItem="aVe-7R-Bvj" secondAttribute="trailing" constant="24" id="zHZ-B4-wBC"/>
                             </constraints>
                         </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9S-5k-vjT">
+                            <rect key="frame" x="22" y="1193" width="980" height="295"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="K4F-SS-zPf">
+                                    <rect key="frame" x="20" y="12" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="LjK-Z4-82a"/>
+                                        <constraint firstAttribute="height" constant="25" id="kjb-AM-DPu"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7A-Q8-JAg">
+                                    <rect key="frame" x="57" y="12" width="80" height="24"/>
+                                    <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue-Whale_youtube.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5fW-iB-EJm">
+                                    <rect key="frame" x="20" y="53" width="940" height="222"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="222" id="mvD-Pi-cQA"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2P-fb-LzV">
+                                    <rect key="frame" x="444" y="135" width="91" height="65"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="65" id="PlC-i0-7HO"/>
+                                        <constraint firstAttribute="width" constant="91" id="j3k-Ey-mnx"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="YouTube-icon-full_color.png"/>
+                                    <connections>
+                                        <action selector="youtubeBtnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="M4F-rb-HRr"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDs-nV-rWe">
+                                    <rect key="frame" x="149" y="16" width="29" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="S6q-k1-cNg"/>
+                                        <constraint firstAttribute="width" constant="29" id="ije-cA-A35"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="YouTube-icon-full_color.png"/>
+                                    <connections>
+                                        <action selector="youtubeBtnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="v4n-L9-sHm"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="5fW-iB-EJm" secondAttribute="trailing" constant="20" id="34s-31-6Gg"/>
+                                <constraint firstItem="V7A-Q8-JAg" firstAttribute="centerY" secondItem="K4F-SS-zPf" secondAttribute="centerY" id="NfL-f6-tbV"/>
+                                <constraint firstItem="5fW-iB-EJm" firstAttribute="top" secondItem="K4F-SS-zPf" secondAttribute="bottom" constant="16" id="QpD-gO-Dkn"/>
+                                <constraint firstItem="P2P-fb-LzV" firstAttribute="leading" secondItem="U9S-5k-vjT" secondAttribute="leading" constant="444.5" id="aBm-14-oPV"/>
+                                <constraint firstItem="5fW-iB-EJm" firstAttribute="leading" secondItem="U9S-5k-vjT" secondAttribute="leading" constant="20" id="b3A-pf-ElX"/>
+                                <constraint firstItem="K4F-SS-zPf" firstAttribute="top" secondItem="U9S-5k-vjT" secondAttribute="top" constant="12" id="eOP-WB-cdJ"/>
+                                <constraint firstAttribute="bottom" secondItem="5fW-iB-EJm" secondAttribute="bottom" constant="20" id="fG9-jG-FWO"/>
+                                <constraint firstItem="K4F-SS-zPf" firstAttribute="leading" secondItem="U9S-5k-vjT" secondAttribute="leading" constant="20" id="kv3-i3-zko"/>
+                                <constraint firstAttribute="height" priority="750" constant="200" id="s25-iE-Exq"/>
+                                <constraint firstItem="hDs-nV-rWe" firstAttribute="leading" secondItem="V7A-Q8-JAg" secondAttribute="trailing" constant="12" id="tGt-zL-abH"/>
+                                <constraint firstAttribute="bottom" secondItem="P2P-fb-LzV" secondAttribute="bottom" constant="95" id="uEz-eI-akw"/>
+                                <constraint firstItem="hDs-nV-rWe" firstAttribute="centerY" secondItem="V7A-Q8-JAg" secondAttribute="centerY" constant="2" id="vzm-vU-mQQ"/>
+                                <constraint firstItem="V7A-Q8-JAg" firstAttribute="leading" secondItem="K4F-SS-zPf" secondAttribute="trailing" constant="12" id="yKr-Hr-l3X"/>
+                            </constraints>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="GiG-xd-bAZ" firstAttribute="top" secondItem="Enu-gN-e1V" secondAttribute="bottom" constant="16" id="1JH-oR-KdC"/>
+                        <constraint firstItem="U9S-5k-vjT" firstAttribute="top" secondItem="GiG-xd-bAZ" secondAttribute="bottom" constant="25" id="4Jo-kZ-BdG"/>
                         <constraint firstItem="4Ii-O2-dKS" firstAttribute="top" secondItem="woU-tL-Xnl" secondAttribute="bottom" constant="16" id="4gh-yE-JRD"/>
                         <constraint firstItem="Enu-gN-e1V" firstAttribute="top" secondItem="4Ii-O2-dKS" secondAttribute="bottom" constant="16" id="Elh-oy-Vz8"/>
                         <constraint firstItem="4Ii-O2-dKS" firstAttribute="leading" secondItem="CAf-Fy-Bxh" secondAttribute="leading" constant="22" id="FJD-Kx-vyA"/>
+                        <constraint firstAttribute="trailing" secondItem="U9S-5k-vjT" secondAttribute="trailing" constant="22" id="Got-up-G1X"/>
                         <constraint firstItem="woU-tL-Xnl" firstAttribute="top" secondItem="CAf-Fy-Bxh" secondAttribute="top" id="P78-KU-XDX"/>
                         <constraint firstItem="GiG-xd-bAZ" firstAttribute="leading" secondItem="CAf-Fy-Bxh" secondAttribute="leading" constant="22" id="XCF-8k-l5X"/>
                         <constraint firstItem="Enu-gN-e1V" firstAttribute="leading" secondItem="CAf-Fy-Bxh" secondAttribute="leading" constant="22" id="Xhm-Kv-R19"/>
@@ -214,6 +279,7 @@ Credit: Climate Reanalyzer</string>
                         <constraint firstAttribute="trailing" secondItem="Enu-gN-e1V" secondAttribute="trailing" constant="22" id="bqA-UW-Gas"/>
                         <constraint firstItem="woU-tL-Xnl" firstAttribute="leading" secondItem="CAf-Fy-Bxh" secondAttribute="leading" constant="22" id="n4s-sv-MlT"/>
                         <constraint firstAttribute="trailing" secondItem="woU-tL-Xnl" secondAttribute="trailing" constant="22" id="pvY-jD-y8c"/>
+                        <constraint firstItem="U9S-5k-vjT" firstAttribute="leading" secondItem="CAf-Fy-Bxh" secondAttribute="leading" constant="22" id="upY-I3-alm"/>
                         <constraint firstAttribute="trailing" secondItem="GiG-xd-bAZ" secondAttribute="trailing" constant="22" id="vsE-MJ-qWW"/>
                     </constraints>
                 </view>
@@ -239,10 +305,12 @@ Credit: Climate Reanalyzer</string>
             <connections>
                 <outlet property="mapGIFImageView" destination="aVe-7R-Bvj" id="Snq-Ce-EYE"/>
             </connections>
-            <point key="canvasLocation" x="348" y="481"/>
+            <point key="canvasLocation" x="347" y="624.5"/>
         </view>
     </objects>
     <resources>
+        <image name="Blue-Whale_youtube.jpg" width="940" height="250"/>
+        <image name="YouTube-icon-full_color.png" width="200" height="141"/>
         <image name="oculus.png" width="100" height="100"/>
         <image name="slide_1_b.jpg" width="1280" height="800"/>
         <image name="star.png" width="96" height="96"/>

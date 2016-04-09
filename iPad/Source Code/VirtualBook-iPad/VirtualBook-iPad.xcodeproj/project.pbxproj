@@ -60,6 +60,7 @@
 		BA603F8B1CB9075600A74DEA /* FeListOfSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA603F8A1CB9075600A74DEA /* FeListOfSlideView.xib */; };
 		BA603F8D1CB9088B00A74DEA /* YouTube-icon-full_color.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */; };
 		BA603F911CB90A9B00A74DEA /* oculus.png in Resources */ = {isa = PBXBuildFile; fileRef = BA603F901CB90A9B00A74DEA /* oculus.png */; };
+		BA603F931CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */; };
 		BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */; };
 		BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9E1CB8C02F0071085F /* asset1@2x.png */; };
 		BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66D9F1CB8C02F0071085F /* asset2@2x.png */; };
@@ -168,6 +169,7 @@
 		BA603F8A1CB9075600A74DEA /* FeListOfSlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeListOfSlideView.xib; sourceTree = "<group>"; };
 		BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YouTube-icon-full_color.png"; sourceTree = "<group>"; };
 		BA603F901CB90A9B00A74DEA /* oculus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oculus.png; sourceTree = "<group>"; };
+		BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-Whale_youtube@2x.jpg"; sourceTree = "<group>"; };
 		BAA66D9D1CB8C02F0071085F /* 001_prizmaspace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001_prizmaspace.jpg; sourceTree = "<group>"; };
 		BAA66D9E1CB8C02F0071085F /* asset1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset1@2x.png"; sourceTree = "<group>"; };
 		BAA66D9F1CB8C02F0071085F /* asset2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asset2@2x.png"; sourceTree = "<group>"; };
@@ -575,6 +577,7 @@
 		BAA66DCF1CB8D6190071085F /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */,
 				BA603F901CB90A9B00A74DEA /* oculus.png */,
 				BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */,
 				BA603F671CB8F11500A74DEA /* Slide */,
@@ -674,6 +677,7 @@
 				BAA66DBD1CB8C02F0071085F /* earth_element.png in Resources */,
 				BAA66DB81CB8C02F0071085F /* asset7@2x.png in Resources */,
 				BAA66DDC1CB8DED00071085F /* Welcome_2.xib in Resources */,
+				BA603F931CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg in Resources */,
 				BA603F571CB8F11300A74DEA /* channel_1_1.jpg in Resources */,
 				BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */,
 				BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */,
@@ -904,6 +908,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "VirtualBook-iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justdoit.VirtualBook-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -919,6 +924,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "VirtualBook-iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.justdoit.VirtualBook-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
