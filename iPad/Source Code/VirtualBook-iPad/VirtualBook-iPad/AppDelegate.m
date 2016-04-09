@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FeMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // user Default
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    NSNumber *isLogin = [userDefault objectForKey:@"isLogin"];
+    
+    if (isLogin && isLogin.boolValue)
+    {
+        // Show main app
+        FeMainViewController *controller = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"mainViewNavigationController"];
+        
+        self.window.rootViewController = controller;
+    }
+    else
+    {
+        // Show login screen
+        FeLoginViewController *loginVC = [[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil] instantiateViewControllerWithIdentifier:@"FeLoginViewController"];
+        
+        self.window.rootViewController = loginVC;
+    }
+    
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

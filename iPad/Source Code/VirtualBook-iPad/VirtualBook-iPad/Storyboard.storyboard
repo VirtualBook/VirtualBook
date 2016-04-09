@@ -12,8 +12,11 @@
             <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
         </mutableArray>
         <mutableArray key="SF-UI-Text-Semibold.otf">
+            <string>SFUIText-Semibold</string>
+            <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
@@ -225,8 +228,104 @@
             </objects>
             <point key="canvasLocation" x="326" y="318"/>
         </scene>
+        <!--Fe Login View Controller-->
+        <scene sceneID="wZO-Me-l4r">
+            <objects>
+                <viewController storyboardIdentifier="FeLoginViewController" id="KdR-Au-mRi" customClass="FeLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZxD-9H-a68"/>
+                        <viewControllerLayoutGuide type="bottom" id="qmy-B4-M3l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fnN-CI-y8d">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Ug-r8-NSj">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_app.png" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-j4-OVD">
+                                <rect key="frame" x="462" y="77" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Virtualbook is the easiest way to create, share, and discover beautiful course." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="353" translatesAutoresizingMaskIntoConstraints="NO" id="u8U-OA-Ug8">
+                                <rect key="frame" x="341" y="202" width="342" height="79"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ec7-OL-LgB">
+                                <rect key="frame" x="422" y="362" width="180" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="2Dd-9u-dLa"/>
+                                    <constraint firstAttribute="height" constant="44" id="yvj-CO-ONV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="18"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerBtnTapped:" destination="KdR-Au-mRi" eventType="touchUpInside" id="le2-by-1v7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4es-d9-XfC">
+                                <rect key="frame" x="422" y="422" width="180" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="NMs-us-3y6"/>
+                                    <constraint firstAttribute="width" constant="180" id="v9C-lO-W5i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="18"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.0" green="0.76862745099999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtnTapped:" destination="KdR-Au-mRi" eventType="touchUpInside" id="HHm-ZC-aw1"/>
+                                </connections>
+                            </button>
+                            <visualEffectView hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wp2-nU-Ej4">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="JRe-9O-Fcb">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XCR-j4-OVD" firstAttribute="top" secondItem="ZxD-9H-a68" secondAttribute="bottom" constant="57" id="68T-E5-lJi"/>
+                            <constraint firstItem="qmy-B4-M3l" firstAttribute="top" secondItem="5Ug-r8-NSj" secondAttribute="bottom" id="A3A-Y0-eYf"/>
+                            <constraint firstItem="5Ug-r8-NSj" firstAttribute="top" secondItem="fnN-CI-y8d" secondAttribute="top" id="AgS-xy-Uxp"/>
+                            <constraint firstItem="u8U-OA-Ug8" firstAttribute="top" secondItem="XCR-j4-OVD" secondAttribute="bottom" constant="25" id="IUS-s6-Aw7"/>
+                            <constraint firstAttribute="trailing" secondItem="5Ug-r8-NSj" secondAttribute="trailing" id="Kpz-iq-Zun"/>
+                            <constraint firstItem="Ec7-OL-LgB" firstAttribute="centerY" secondItem="fnN-CI-y8d" secondAttribute="centerY" id="Lzf-N6-8cH"/>
+                            <constraint firstItem="qmy-B4-M3l" firstAttribute="top" secondItem="wp2-nU-Ej4" secondAttribute="bottom" id="NY4-SF-hKt"/>
+                            <constraint firstItem="XCR-j4-OVD" firstAttribute="centerX" secondItem="fnN-CI-y8d" secondAttribute="centerX" id="RzK-JZ-ccq"/>
+                            <constraint firstAttribute="trailing" secondItem="wp2-nU-Ej4" secondAttribute="trailing" id="T96-x5-IvT"/>
+                            <constraint firstItem="wp2-nU-Ej4" firstAttribute="top" secondItem="fnN-CI-y8d" secondAttribute="top" id="VAw-aN-IXC"/>
+                            <constraint firstItem="5Ug-r8-NSj" firstAttribute="leading" secondItem="fnN-CI-y8d" secondAttribute="leading" id="Wnh-fa-USJ"/>
+                            <constraint firstItem="4es-d9-XfC" firstAttribute="centerX" secondItem="Ec7-OL-LgB" secondAttribute="centerX" id="ZL9-l1-PcF"/>
+                            <constraint firstItem="Ec7-OL-LgB" firstAttribute="centerX" secondItem="fnN-CI-y8d" secondAttribute="centerX" id="anv-m7-3SZ"/>
+                            <constraint firstItem="u8U-OA-Ug8" firstAttribute="centerX" secondItem="fnN-CI-y8d" secondAttribute="centerX" id="doN-1M-zrh"/>
+                            <constraint firstItem="4es-d9-XfC" firstAttribute="top" secondItem="Ec7-OL-LgB" secondAttribute="bottom" constant="16" id="o7t-MA-lPz"/>
+                            <constraint firstItem="wp2-nU-Ej4" firstAttribute="leading" secondItem="fnN-CI-y8d" secondAttribute="leading" id="sTq-hn-33f"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="blurView" destination="wp2-nU-Ej4" id="wiy-Qa-W9f"/>
+                        <outlet property="loginBtn" destination="4es-d9-XfC" id="BC5-IE-Qhr"/>
+                        <outlet property="logoImageView" destination="XCR-j4-OVD" id="WhB-qO-fck"/>
+                        <outlet property="registerBtn" destination="Ec7-OL-LgB" id="L0B-wD-0QD"/>
+                        <outlet property="titleLbl" destination="u8U-OA-Ug8" id="0q0-Xy-QCm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lu2-kR-caW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-534" y="-590"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Login.jpg" width="1024" height="678"/>
         <image name="Settings-104.png" width="104" height="104"/>
         <image name="asset1.png" width="30" height="29"/>
         <image name="asset2.png" width="30" height="29"/>
@@ -236,6 +335,7 @@
         <image name="asset6.png" width="30" height="29"/>
         <image name="asset7.png" width="30" height="29"/>
         <image name="asset8.png" width="30" height="29"/>
+        <image name="logo_app.png" width="100" height="100"/>
         <image name="pattern_1.jpg" width="1024" height="678"/>
     </resources>
 </document>

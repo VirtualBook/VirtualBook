@@ -49,6 +49,10 @@
 		BAA66DC21CB8C02F0071085F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAE1CB8C02F0071085F /* menu.png */; };
 		BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DAF1CB8C02F0071085F /* pattern_1@2x.jpg */; };
 		BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DB01CB8C02F0071085F /* Settings-104.png */; };
+		BAA66DC91CB8D3620071085F /* logo_app.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC51CB8D3620071085F /* logo_app.png */; };
+		BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC61CB8D3620071085F /* welcome_1.jpg */; };
+		BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC71CB8D3620071085F /* welcome_2.jpg */; };
+		BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA66DC81CB8D3620071085F /* welcome_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +112,10 @@
 		BAA66DAE1CB8C02F0071085F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		BAA66DAF1CB8C02F0071085F /* pattern_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pattern_1@2x.jpg"; sourceTree = "<group>"; };
 		BAA66DB01CB8C02F0071085F /* Settings-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-104.png"; sourceTree = "<group>"; };
+		BAA66DC51CB8D3620071085F /* logo_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_app.png; sourceTree = "<group>"; };
+		BAA66DC61CB8D3620071085F /* welcome_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_1.jpg; sourceTree = "<group>"; };
+		BAA66DC71CB8D3620071085F /* welcome_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_2.jpg; sourceTree = "<group>"; };
+		BAA66DC81CB8D3620071085F /* welcome_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +171,7 @@
 			children = (
 				BA41399C1CB8BD5B00942E0C /* Font */,
 				BA4139901CB8BD2100942E0C /* Reuse code */,
-				BA4139621CB8B88C00942E0C /* Data */,
+				BA4139621CB8B88C00942E0C /* Welcome */,
 				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
 			);
 			name = Resource;
@@ -208,12 +216,16 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
-		BA4139621CB8B88C00942E0C /* Data */ = {
+		BA4139621CB8B88C00942E0C /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				BAA66DC51CB8D3620071085F /* logo_app.png */,
+				BAA66DC61CB8D3620071085F /* welcome_1.jpg */,
+				BAA66DC71CB8D3620071085F /* welcome_2.jpg */,
+				BAA66DC81CB8D3620071085F /* welcome_3.jpg */,
 				BAA66D9C1CB8C00E0071085F /* Main Screen */,
 			);
-			name = Data;
+			name = Welcome;
 			sourceTree = "<group>";
 		};
 		BA4139631CB8B8EE00942E0C /* Login  */ = {
@@ -432,11 +444,14 @@
 				BAA66DB81CB8C02F0071085F /* asset7@2x.png in Resources */,
 				BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */,
 				BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */,
+				BAA66DC91CB8D3620071085F /* logo_app.png in Resources */,
 				BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */,
 				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
+				BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */,
 				BA41399A1CB8BD5900942E0C /* SF-UI-Text-Regular.otf in Resources */,
 				BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */,
 				BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */,
+				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
 				BA4139981CB8BD5900942E0C /* SF-UI-Text-Light.otf in Resources */,
@@ -447,6 +462,7 @@
 				BAA66DBA1CB8C02F0071085F /* asset9@2x.png in Resources */,
 				BAA66DBF1CB8C02F0071085F /* Gradient_1920x1200.jpg.png in Resources */,
 				BAA66DBB1CB8C02F0071085F /* Back-100.png in Resources */,
+				BAA66DCB1CB8D3620071085F /* welcome_2.jpg in Resources */,
 				BAA66DBC1CB8C02F0071085F /* Delete-104.png in Resources */,
 				BA4139991CB8BD5900942E0C /* SF-UI-Text-Medium.otf in Resources */,
 				BAA66DB11CB8C02F0071085F /* 001_prizmaspace.jpg in Resources */,
