@@ -26,6 +26,8 @@ public class Earth : MonoBehaviour {
             transform.rotation = rotate;
         }
 
+        tex.Update();
+        
         Renderer r = GetComponent<Renderer>();
         r.material.SetTexture("_MainTex", tex.getCurTex());
     }

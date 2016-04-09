@@ -20,12 +20,12 @@ public class Textures {
         if (isLoaded) return;
         isLoaded = true;
         
-        seaTempTextures = Resources.LoadAll<Texture>("Sea Temp/2015");
+        seaTempTextures = Resources.LoadAll<Texture>("Sea Temp/2014");
         defaultTextures = Resources.LoadAll<Texture>("Default");
     }
 
     private Texture[] textures;
-    private int day = 0;
+    private float day = 0;
     public bool isAnimated = false;
 
     public Textures()
@@ -48,10 +48,10 @@ public class Textures {
     {
         if (!isAnimated) return;
 
-        day += 1;
+        day += Time.deltaTime * 4;
         if (day >= 365)
         {
-            day = 0;
+            day -= 365;
         }
     }
 
@@ -62,8 +62,9 @@ public class Textures {
 
     public Texture getCurTex()
     {
-        int index = (int)Mathf.Floor((float)day * textures.Length / 365);
+        int index = (int)Mathf.Floor(day * textures.Length / 365);
         if (index >= textures.Length) index = textures.Length;
+        Debug.Log(index);
         return textures[index];
     }
 }
