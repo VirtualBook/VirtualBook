@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+def import_pods
+    pod 'CocoaLumberjack'
+	pod 'EAIntroView', '~> 2.8.0'
+	pod 'CHTCollectionViewWaterfallLayout'
+	pod 'NHBalancedFlowLayout', '~> 0.2'
+	pod "youtube-ios-player-helper", "~> 0.1.4"
+	pod 'FLAnimatedImage', '~> 1.0'
+	pod "XCDYouTubeKit", "~> 2.5"
+end
+
+target "VirtualBook-iPad" do
+   import_pods
+end

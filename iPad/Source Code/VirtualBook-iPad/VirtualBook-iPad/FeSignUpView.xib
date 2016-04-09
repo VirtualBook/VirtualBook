@@ -1,16 +1,168 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SF-UI-Text-Light.otf">
+            <string>SFUIText-Light</string>
+        </mutableArray>
+        <mutableArray key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+            <string>SFUIText-Regular</string>
+        </mutableArray>
+        <mutableArray key="SF-UI-Text-Semibold.otf">
+            <string>SFUIText-Semibold</string>
+        </mutableArray>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+        <view opaque="NO" contentMode="scaleToFill" id="hpm-ry-yrw" customClass="FeSignUpView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZ6-Dh-nQu">
+                    <rect key="frame" x="24" y="24" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="jsG-FX-Ikg"/>
+                        <constraint firstAttribute="width" constant="34" id="tuU-qh-MDi"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="Back-100.png"/>
+                    <connections>
+                        <action selector="backBtnTapped:" destination="hpm-ry-yrw" eventType="touchUpInside" id="bXH-L7-Ag2"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-Uo-vse">
+                    <rect key="frame" x="458.5" y="220" width="107.5" height="34"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fullname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFR-A6-2VL">
+                    <rect key="frame" x="355" y="270" width="314" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="314" id="nEk-M1-Isd"/>
+                        <constraint firstAttribute="height" constant="30" id="x1V-88-amq"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bqy-mF-mMR">
+                    <rect key="frame" x="354" y="301" width="315" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="315" id="cCA-vN-6Pi"/>
+                        <constraint firstAttribute="height" constant="1" id="fec-za-QsU"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAt-7l-w7d">
+                    <rect key="frame" x="355" y="322" width="314" height="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pd7-cR-3Jq">
+                    <rect key="frame" x="355" y="353" width="315" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="315" id="geO-kC-aMT"/>
+                        <constraint firstAttribute="height" constant="1" id="vTf-VI-1rx"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="39N-Ix-ftT">
+                    <rect key="frame" x="355" y="375" width="314" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="314" id="cfE-Zc-ff8"/>
+                        <constraint firstAttribute="height" constant="30" id="p1v-Yd-aVY"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqE-aW-mk2">
+                    <rect key="frame" x="354" y="406" width="315" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="VLO-Je-rux"/>
+                        <constraint firstAttribute="width" constant="315" id="qlL-Ag-Bhf"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Verify Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WoK-CT-0dl">
+                    <rect key="frame" x="355" y="427" width="314" height="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view alpha="0.89999997615814209" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qjJ-NN-ACr">
+                    <rect key="frame" x="355" y="458" width="315" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="315" id="Ap8-x7-Bmx"/>
+                        <constraint firstAttribute="height" constant="1" id="Le0-Za-qoL"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dn-YW-HEj">
+                    <rect key="frame" x="422" y="491" width="180" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Eii-3Z-nfi"/>
+                        <constraint firstAttribute="width" constant="180" id="UaU-zR-d5q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="18"/>
+                    <state key="normal" title="Register">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="registerBtnTapped:" destination="hpm-ry-yrw" eventType="touchUpInside" id="5h8-0b-bss"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pqE-aW-mk2" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="0Df-yk-Xaq"/>
+                <constraint firstItem="rZ6-Dh-nQu" firstAttribute="top" secondItem="hpm-ry-yrw" secondAttribute="top" constant="24" id="14M-CT-VGW"/>
+                <constraint firstItem="WoK-CT-0dl" firstAttribute="top" secondItem="39N-Ix-ftT" secondAttribute="bottom" constant="22" id="1xP-to-Fns"/>
+                <constraint firstItem="0Dn-YW-HEj" firstAttribute="top" secondItem="qjJ-NN-ACr" secondAttribute="bottom" constant="32" id="9qV-k7-BtR"/>
+                <constraint firstItem="pFR-A6-2VL" firstAttribute="top" secondItem="aWa-Uo-vse" secondAttribute="bottom" constant="16" id="EnV-pW-9kW"/>
+                <constraint firstItem="kAt-7l-w7d" firstAttribute="centerX" secondItem="pFR-A6-2VL" secondAttribute="centerX" id="GO4-I0-VnH"/>
+                <constraint firstItem="pqE-aW-mk2" firstAttribute="top" secondItem="39N-Ix-ftT" secondAttribute="bottom" constant="1" id="J4x-yP-fBu"/>
+                <constraint firstItem="pd7-cR-3Jq" firstAttribute="top" secondItem="kAt-7l-w7d" secondAttribute="bottom" constant="1" id="JLX-Z5-g8B"/>
+                <constraint firstItem="aWa-Uo-vse" firstAttribute="top" secondItem="hpm-ry-yrw" secondAttribute="top" constant="220" id="Jpc-Fr-DmM"/>
+                <constraint firstItem="qjJ-NN-ACr" firstAttribute="top" secondItem="WoK-CT-0dl" secondAttribute="bottom" constant="1" id="Q14-GV-m6J"/>
+                <constraint firstItem="kAt-7l-w7d" firstAttribute="width" secondItem="pFR-A6-2VL" secondAttribute="width" id="QC9-aj-cgd"/>
+                <constraint firstItem="WoK-CT-0dl" firstAttribute="width" secondItem="39N-Ix-ftT" secondAttribute="width" id="T7h-jw-kwD"/>
+                <constraint firstItem="39N-Ix-ftT" firstAttribute="top" secondItem="pd7-cR-3Jq" secondAttribute="bottom" constant="21" id="VZY-ao-B2B"/>
+                <constraint firstItem="39N-Ix-ftT" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="Vne-dE-cb6"/>
+                <constraint firstItem="Bqy-mF-mMR" firstAttribute="top" secondItem="pFR-A6-2VL" secondAttribute="bottom" constant="1" id="Yjf-lb-MOv"/>
+                <constraint firstItem="pd7-cR-3Jq" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="b6u-4f-bak"/>
+                <constraint firstItem="0Dn-YW-HEj" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="dBN-UU-xQe"/>
+                <constraint firstItem="kAt-7l-w7d" firstAttribute="height" secondItem="pFR-A6-2VL" secondAttribute="height" id="g5w-BM-0lW"/>
+                <constraint firstItem="WoK-CT-0dl" firstAttribute="height" secondItem="39N-Ix-ftT" secondAttribute="height" id="gRO-QQ-0YH"/>
+                <constraint firstItem="qjJ-NN-ACr" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="gz1-wd-tJH"/>
+                <constraint firstItem="WoK-CT-0dl" firstAttribute="centerX" secondItem="39N-Ix-ftT" secondAttribute="centerX" id="jMP-nq-LSm"/>
+                <constraint firstItem="kAt-7l-w7d" firstAttribute="top" secondItem="pFR-A6-2VL" secondAttribute="bottom" constant="22" id="nl6-lD-CPQ"/>
+                <constraint firstItem="pFR-A6-2VL" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="reJ-DI-n79"/>
+                <constraint firstItem="Bqy-mF-mMR" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="sOy-to-KGS"/>
+                <constraint firstItem="rZ6-Dh-nQu" firstAttribute="leading" secondItem="hpm-ry-yrw" secondAttribute="leading" constant="24" id="yU1-6l-qLj"/>
+                <constraint firstItem="aWa-Uo-vse" firstAttribute="centerX" secondItem="hpm-ry-yrw" secondAttribute="centerX" id="zom-nJ-oX5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emailTextField" destination="kAt-7l-w7d" id="CyY-w0-x5j"/>
+                <outlet property="fullNameTextField" destination="pFR-A6-2VL" id="Brc-v0-0E8"/>
+                <outlet property="passwordTextField" destination="39N-Ix-ftT" id="Bud-ch-Zmw"/>
+                <outlet property="registerLblTop" destination="Jpc-Fr-DmM" id="EJy-2p-zSj"/>
+                <outlet property="verifyPassTextField" destination="WoK-CT-0dl" id="jBN-Fc-x4g"/>
+            </connections>
+            <point key="canvasLocation" x="585" y="545"/>
         </view>
     </objects>
+    <resources>
+        <image name="Back-100.png" width="100" height="100"/>
+    </resources>
 </document>
