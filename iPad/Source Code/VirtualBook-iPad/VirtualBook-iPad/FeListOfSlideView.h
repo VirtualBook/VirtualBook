@@ -19,6 +19,8 @@
 
 @protocol FeListOfSlideViewDelegate <NSObject>
 
+-(void) FeListOfSlideViewDidExit:(FeListOfSlideView *) sender;
+
 -(void) FeListOfSlideViewDidBack:(FeListOfSlideView *) sender;
 
 -(void) FeListOfSlideView:(FeListOfSlideView *) sender presentSlideAt:(NSInteger) index;

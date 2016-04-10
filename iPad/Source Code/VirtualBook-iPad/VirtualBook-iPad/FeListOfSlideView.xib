@@ -45,8 +45,8 @@
                                     <rect key="frame" x="42" y="0.0" width="235" height="210"/>
                                     <subviews>
                                         <label opaque="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLUE WHALE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-sr-PMH">
-                                            <rect key="frame" x="69.5" y="166" width="96" height="18"/>
-                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                            <rect key="frame" x="60" y="166" width="115" height="21.5"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -72,8 +72,8 @@
                                     <rect key="frame" x="277" y="0.0" width="235" height="210"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SALMON" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="NXL-D6-Fxf">
-                                            <rect key="frame" x="85.5" y="166" width="64" height="18"/>
-                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                            <rect key="frame" x="79" y="166" width="77" height="21.5"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -98,15 +98,15 @@
                                 <view clipsSubviews="YES" tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYp-j1-mMq">
                                     <rect key="frame" x="512" y="0.0" width="235" height="210"/>
                                     <subviews>
-                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_3_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jeR-mK-fNL">
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_3_3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jeR-mK-fNL">
                                             <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="150" id="YYO-tS-Hf3"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EARTH" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-rf-cXe">
-                                            <rect key="frame" x="93" y="166" width="49.5" height="18"/>
-                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHALE MIGRATION" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-rf-cXe">
+                                            <rect key="frame" x="68" y="166" width="100" height="43"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -125,15 +125,15 @@
                                 <view clipsSubviews="YES" tag="103" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycD-7t-ALc">
                                     <rect key="frame" x="747" y="0.0" width="235" height="210"/>
                                     <subviews>
-                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_4_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GW2-r6-oTc">
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_4_THUMB__.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GW2-r6-oTc">
                                             <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="150" id="Wyd-oe-hh1"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIND FLOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-kr-fTw">
-                                            <rect key="frame" x="74" y="166" width="87.5" height="18"/>
-                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLIMATE CHANGES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-kr-fTw">
+                                            <rect key="frame" x="74" y="166" width="87.5" height="43"/>
+                                            <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="18"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -175,45 +175,58 @@
                     </constraints>
                 </scrollView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Globe-104.png" translatesAutoresizingMaskIntoConstraints="NO" id="nHe-fp-CyV">
-                    <rect key="frame" x="485" y="662" width="54" height="54"/>
+                    <rect key="frame" x="485" y="676" width="54" height="54"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="54" id="Vu3-OU-5SA"/>
                         <constraint firstAttribute="height" constant="54" id="zrR-km-fKq"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="virtual.book/awesomeGeo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmv-vn-KEU">
-                    <rect key="frame" x="416.5" y="629" width="192.5" height="18"/>
+                    <rect key="frame" x="416" y="646" width="192.5" height="18"/>
                     <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="15"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIETNAM GEOGRAPHY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M75-3b-gl7">
-                    <rect key="frame" x="359" y="575" width="306" height="32.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHALE GEOGRAPHY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M75-3b-gl7">
+                    <rect key="frame" x="372.5" y="592.5" width="279.5" height="32.5"/>
                     <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="27"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch Vietnam Geography  on Sunday Aprial 5 and 12 on the VTV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-rA-Sp2">
-                    <rect key="frame" x="264.5" y="536" width="495" height="19"/>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch Geography  on Sunday Aprial 5 and 12 on the Discovery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-rA-Sp2">
+                    <rect key="frame" x="276" y="552" width="471.5" height="19"/>
                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="16"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gor-IR-SGN">
+                    <rect key="frame" x="20" y="717" width="31" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="sqZ-pY-sqP"/>
+                        <constraint firstAttribute="width" constant="31" id="zKk-gz-3Xj"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="Undo-104.png"/>
+                    <connections>
+                        <action selector="exitBtnTapped:" destination="8R0-sK-uoL" eventType="touchUpInside" id="8gY-aG-DxI"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="5OV-O7-6lX" firstAttribute="leading" secondItem="8R0-sK-uoL" secondAttribute="leading" constant="12" id="2Cd-H8-xCl"/>
                 <constraint firstItem="5OV-O7-6lX" firstAttribute="top" secondItem="8R0-sK-uoL" secondAttribute="top" constant="12" id="6vC-IY-WSg"/>
-                <constraint firstItem="M75-3b-gl7" firstAttribute="top" secondItem="m8o-rA-Sp2" secondAttribute="bottom" constant="20.5" id="77E-gc-DkZ"/>
+                <constraint firstItem="M75-3b-gl7" firstAttribute="top" secondItem="m8o-rA-Sp2" secondAttribute="bottom" constant="21.5" id="77E-gc-DkZ"/>
                 <constraint firstItem="M75-3b-gl7" firstAttribute="centerX" secondItem="nmv-vn-KEU" secondAttribute="centerX" id="8tH-80-QLg"/>
                 <constraint firstItem="2N8-cd-5J1" firstAttribute="top" secondItem="5OV-O7-6lX" secondAttribute="bottom" constant="18" id="Dzt-iC-vY8"/>
+                <constraint firstItem="gor-IR-SGN" firstAttribute="leading" secondItem="8R0-sK-uoL" secondAttribute="leading" constant="20" id="NdS-WH-Snx"/>
                 <constraint firstItem="m8o-rA-Sp2" firstAttribute="centerX" secondItem="M75-3b-gl7" secondAttribute="centerX" id="Qey-O8-ljc"/>
-                <constraint firstItem="nHe-fp-CyV" firstAttribute="top" secondItem="nmv-vn-KEU" secondAttribute="bottom" constant="15" id="RcE-VO-F7q"/>
+                <constraint firstItem="nHe-fp-CyV" firstAttribute="top" secondItem="nmv-vn-KEU" secondAttribute="bottom" constant="12" id="RcE-VO-F7q"/>
                 <constraint firstItem="2N8-cd-5J1" firstAttribute="leading" secondItem="8R0-sK-uoL" secondAttribute="leading" id="jOM-Ni-76H"/>
                 <constraint firstItem="nmv-vn-KEU" firstAttribute="centerX" secondItem="nHe-fp-CyV" secondAttribute="centerX" id="qGj-P6-hup"/>
-                <constraint firstAttribute="bottom" secondItem="nHe-fp-CyV" secondAttribute="bottom" constant="52" id="rcs-ID-BBQ"/>
+                <constraint firstAttribute="bottom" secondItem="nHe-fp-CyV" secondAttribute="bottom" constant="38" id="rcs-ID-BBQ"/>
                 <constraint firstItem="nmv-vn-KEU" firstAttribute="top" secondItem="M75-3b-gl7" secondAttribute="bottom" constant="21" id="ucl-Ln-JbM"/>
                 <constraint firstItem="nHe-fp-CyV" firstAttribute="centerX" secondItem="8R0-sK-uoL" secondAttribute="centerX" id="wOW-O4-1Vn"/>
+                <constraint firstAttribute="bottom" secondItem="gor-IR-SGN" secondAttribute="bottom" constant="20" id="x0O-T4-z8p"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
@@ -225,9 +238,10 @@
     <resources>
         <image name="Delete-104.png" width="104" height="104"/>
         <image name="Globe-104.png" width="104" height="104"/>
+        <image name="Undo-104.png" width="52" height="52"/>
         <image name="slide_1_a.jpg" width="1024" height="768"/>
         <image name="slide_2.jpg" width="1024" height="768"/>
-        <image name="slide_3_thumb.jpg" width="500" height="313"/>
-        <image name="slide_4_thumb.jpg" width="500" height="281"/>
+        <image name="slide_3_3.jpg" width="1150" height="768"/>
+        <image name="slide_4_THUMB__.jpg" width="235" height="150"/>
     </resources>
 </document>

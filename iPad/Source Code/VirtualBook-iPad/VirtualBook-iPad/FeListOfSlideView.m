@@ -83,5 +83,9 @@
         }
     }
 }
+- (IBAction)exitBtnTapped:(id)sender {
+    [self.delegate FeListOfSlideViewDidExit:self];
+    
+}
 
 @end

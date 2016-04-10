@@ -100,6 +100,9 @@
 		BAC6A99A1CB9CE20006EBC2A /* Blue-Whale_@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */; };
 		BAC6A99C1CB9D309006EBC2A /* thumb_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */; };
 		BAC6A99E1CB9D676006EBC2A /* slide_3_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A99D1CB9D676006EBC2A /* slide_3_3.jpg */; };
+		BAC6A9A01CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A99F1CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg */; };
+		BAC6A9A21CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A11CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg */; };
+		BAC6A9A41CB9D9A9006EBC2A /* Undo-104@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A31CB9D9A9006EBC2A /* Undo-104@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -222,6 +225,9 @@
 		BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-Whale_@2x.jpg"; sourceTree = "<group>"; };
 		BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb_1@2x.jpg"; sourceTree = "<group>"; };
 		BAC6A99D1CB9D676006EBC2A /* slide_3_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_3_3.jpg; sourceTree = "<group>"; };
+		BAC6A99F1CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_3_3_thumb@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A9A11CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_4_THUMB__@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A9A31CB9D9A9006EBC2A /* Undo-104@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Undo-104@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -490,6 +496,8 @@
 		BA603F671CB8F11500A74DEA /* Slide */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A9A31CB9D9A9006EBC2A /* Undo-104@2x.png */,
+				BAC6A9A11CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg */,
 				BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */,
 				BAC6A9901CB94A8B006EBC2A /* Air */,
 				BAC6A97D1CB92AFF006EBC2A /* Trout */,
@@ -619,6 +627,7 @@
 		BAC6A97C1CB92AF4006EBC2A /* Whale */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A99F1CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg */,
 				BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */,
 				BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */,
 				BA603F901CB90A9B00A74DEA /* oculus.png */,
@@ -746,6 +755,8 @@
 				BAA66DDB1CB8DED00071085F /* Welcome_1.xib in Resources */,
 				BAA66DB71CB8C02F0071085F /* asset6@2x.png in Resources */,
 				BAA66DC11CB8C02F0071085F /* menu_2.png in Resources */,
+				BAC6A9A41CB9D9A9006EBC2A /* Undo-104@2x.png in Resources */,
+				BAC6A9A01CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg in Resources */,
 				BAA66DC21CB8C02F0071085F /* menu.png in Resources */,
 				BAA66DBE1CB8C02F0071085F /* Globe-104.png in Resources */,
 				BA603F651CB8F11300A74DEA /* slide_content_1_1.jpg in Resources */,
@@ -774,6 +785,7 @@
 				BA603F911CB90A9B00A74DEA /* oculus.png in Resources */,
 				BA4139761CB8B96300942E0C /* FeSignInView.xib in Resources */,
 				BAA66DCC1CB8D3620071085F /* welcome_3.jpg in Resources */,
+				BAC6A9A21CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg in Resources */,
 				BA603F581CB8F11300A74DEA /* channel_1_2.jpg in Resources */,
 				BAA66DDD1CB8DED00071085F /* Welcome_3.xib in Resources */,
 				BAC6A9831CB931A7006EBC2A /* slide_2_2.jpg in Resources */,

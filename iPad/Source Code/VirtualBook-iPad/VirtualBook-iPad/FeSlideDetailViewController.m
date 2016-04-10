@@ -216,5 +216,8 @@
     
     [self FeListOfSlideViewDidBack:nil];
 }
-
+-(void) FeListOfSlideViewDidExit:(FeListOfSlideView *)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end
