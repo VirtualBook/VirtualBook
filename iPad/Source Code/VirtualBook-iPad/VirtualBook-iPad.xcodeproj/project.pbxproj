@@ -97,6 +97,7 @@
 		BAC6A9921CB94B80006EBC2A /* slide_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9911CB94B80006EBC2A /* slide_4.jpg */; };
 		BAC6A9961CB94C67006EBC2A /* SlideData_Air.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */; };
 		BAC6A9981CB94C71006EBC2A /* SlideData_Air.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */; };
+		BAC6A99A1CB9CE20006EBC2A /* Blue-Whale_@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -216,6 +217,7 @@
 		BAC6A9941CB94C67006EBC2A /* SlideData_Air.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideData_Air.h; sourceTree = "<group>"; };
 		BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Air.m; sourceTree = "<group>"; };
 		BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Air.xib; sourceTree = "<group>"; };
+		BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-Whale_@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +294,7 @@
 				BAA66DCF1CB8D6190071085F /* Image */,
 				BA41399C1CB8BD5B00942E0C /* Font */,
 				BA4139901CB8BD2100942E0C /* Reuse code */,
+				BA4139471CB8AFC600942E0C /* AppDelegate.h */,
 				BA4139501CB8AFC600942E0C /* Assets.xcassets */,
 			);
 			name = Resource;
@@ -323,7 +326,6 @@
 		BA4139601CB8B86900942E0C /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				BA4139471CB8AFC600942E0C /* AppDelegate.h */,
 				BA4139481CB8AFC600942E0C /* AppDelegate.m */,
 			);
 			name = "App Delegate";
@@ -612,6 +614,7 @@
 		BAC6A97C1CB92AF4006EBC2A /* Whale */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */,
 				BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */,
 				BA603F901CB90A9B00A74DEA /* oculus.png */,
 				BA603F8C1CB9088B00A74DEA /* YouTube-icon-full_color.png */,
@@ -774,6 +777,7 @@
 				BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */,
 				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
+				BAC6A99A1CB9CE20006EBC2A /* Blue-Whale_@2x.jpg in Resources */,
 				BA4139511CB8AFC600942E0C /* Assets.xcassets in Resources */,
 				BA4139981CB8BD5900942E0C /* SF-UI-Text-Light.otf in Resources */,
 				BA41399B1CB8BD5900942E0C /* SF-UI-Text-Semibold.otf in Resources */,

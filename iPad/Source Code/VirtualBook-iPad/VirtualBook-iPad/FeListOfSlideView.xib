@@ -44,13 +44,13 @@
                                 <view clipsSubviews="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ade-Wp-9qH">
                                     <rect key="frame" x="42" y="0.0" width="235" height="210"/>
                                     <subviews>
-                                        <label opaque="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-sr-PMH">
-                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                        <label opaque="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLUE WHALE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-sr-PMH">
+                                            <rect key="frame" x="69.5" y="166" width="96" height="18"/>
                                             <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_1_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Llp-nx-xZb">
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_1_a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Llp-nx-xZb">
                                             <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="150" id="g13-ji-PgN"/>
@@ -71,13 +71,13 @@
                                 <view clipsSubviews="YES" tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLM-jK-ssP">
                                     <rect key="frame" x="277" y="0.0" width="235" height="210"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="NXL-D6-Fxf">
-                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SALMON" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="NXL-D6-Fxf">
+                                            <rect key="frame" x="85.5" y="166" width="64" height="18"/>
                                             <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_2_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-dQ-ifz">
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-dQ-ifz">
                                             <rect key="frame" x="0.0" y="0.0" width="235" height="150"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="150" id="LEx-87-m79"/>
@@ -104,8 +104,8 @@
                                                 <constraint firstAttribute="height" constant="150" id="YYO-tS-Hf3"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-rf-cXe">
-                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EARTH" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-rf-cXe">
+                                            <rect key="frame" x="93" y="166" width="49.5" height="18"/>
                                             <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -131,8 +131,8 @@
                                                 <constraint firstAttribute="height" constant="150" id="Wyd-oe-hh1"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE UNKNOW COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-kr-fTw">
-                                            <rect key="frame" x="64" y="166" width="107" height="36"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIND FLOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="126" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-kr-fTw">
+                                            <rect key="frame" x="74" y="166" width="87.5" height="18"/>
                                             <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -225,8 +225,8 @@
     <resources>
         <image name="Delete-104.png" width="104" height="104"/>
         <image name="Globe-104.png" width="104" height="104"/>
-        <image name="slide_1_thumb.jpg" width="500" height="313"/>
-        <image name="slide_2_thumb.jpg" width="500" height="313"/>
+        <image name="slide_1_a.jpg" width="1024" height="768"/>
+        <image name="slide_2.jpg" width="1024" height="768"/>
         <image name="slide_3_thumb.jpg" width="500" height="313"/>
         <image name="slide_4_thumb.jpg" width="500" height="281"/>
     </resources>
