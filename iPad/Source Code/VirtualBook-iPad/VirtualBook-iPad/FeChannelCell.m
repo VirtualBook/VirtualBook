@@ -44,20 +44,21 @@
         }
         case 1:
         {
-            self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_2.jpg"];
-            self.titleLbl.text = @"";
+            self.backgroundImageView.image = [UIImage imageNamed:@"mount-everest-02.jpg"];
+            self.titleLbl.text = @"EVEREST MOUNTAIN";
             break;
         }
         case 2:
         {
-            self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_3.jpg"];
-            self.titleLbl.text = @"Blue Whale";
+            self.backgroundImageView.image = [UIImage imageNamed:@"ocean.jpg"];
+            self.titleLbl.text = @"OCEAN";
             break;
         }
         case 3:
         {
-            self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_2.jpg"];
-            self.titleLbl.text = @"Cycle life of Sun";
+            self.backgroundImageView.image = [UIImage imageNamed:@"grand.jpg"];
+            self.titleLbl.text = @"GRAND CANYON";
+            
             break;
         }
             

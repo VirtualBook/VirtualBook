@@ -103,6 +103,9 @@
 		BAC6A9A01CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A99F1CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg */; };
 		BAC6A9A21CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A11CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg */; };
 		BAC6A9A41CB9D9A9006EBC2A /* Undo-104@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A31CB9D9A9006EBC2A /* Undo-104@2x.png */; };
+		BAC6A9A61CB9DF71006EBC2A /* mount-everest-02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A51CB9DF71006EBC2A /* mount-everest-02@2x.jpg */; };
+		BAC6A9A81CB9E01D006EBC2A /* ocean@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A71CB9E01D006EBC2A /* ocean@2x.jpg */; };
+		BAC6A9AA1CB9E134006EBC2A /* grand@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9A91CB9E134006EBC2A /* grand@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -228,6 +231,9 @@
 		BAC6A99F1CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_3_3_thumb@2x.jpg"; sourceTree = "<group>"; };
 		BAC6A9A11CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slide_4_THUMB__@2x.jpg"; sourceTree = "<group>"; };
 		BAC6A9A31CB9D9A9006EBC2A /* Undo-104@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Undo-104@2x.png"; sourceTree = "<group>"; };
+		BAC6A9A51CB9DF71006EBC2A /* mount-everest-02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mount-everest-02@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A9A71CB9E01D006EBC2A /* ocean@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ocean@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A9A91CB9E134006EBC2A /* grand@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grand@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -496,6 +502,8 @@
 		BA603F671CB8F11500A74DEA /* Slide */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A9A91CB9E134006EBC2A /* grand@2x.jpg */,
+				BAC6A9A51CB9DF71006EBC2A /* mount-everest-02@2x.jpg */,
 				BAC6A9A31CB9D9A9006EBC2A /* Undo-104@2x.png */,
 				BAC6A9A11CB9D8D5006EBC2A /* slide_4_THUMB__@2x.jpg */,
 				BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */,
@@ -627,6 +635,7 @@
 		BAC6A97C1CB92AF4006EBC2A /* Whale */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A9A71CB9E01D006EBC2A /* ocean@2x.jpg */,
 				BAC6A99F1CB9D863006EBC2A /* slide_3_3_thumb@2x.jpg */,
 				BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */,
 				BA603F921CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg */,
@@ -767,12 +776,14 @@
 				BAA66DDC1CB8DED00071085F /* Welcome_2.xib in Resources */,
 				BA603F931CB90E7400A74DEA /* Blue-Whale_youtube@2x.jpg in Resources */,
 				BA603F571CB8F11300A74DEA /* channel_1_1.jpg in Resources */,
+				BAC6A9AA1CB9E134006EBC2A /* grand@2x.jpg in Resources */,
 				BAA66DB31CB8C02F0071085F /* asset2@2x.png in Resources */,
 				BAC6A9921CB94B80006EBC2A /* slide_4.jpg in Resources */,
 				BAA66DC31CB8C02F0071085F /* pattern_1@2x.jpg in Resources */,
 				BA603F8D1CB9088B00A74DEA /* YouTube-icon-full_color.png in Resources */,
 				BA603F5C1CB8F11300A74DEA /* slide_3.jpg in Resources */,
 				BAA66DE21CB8E2C30071085F /* FeChannelCell.xib in Resources */,
+				BAC6A9A61CB9DF71006EBC2A /* mount-everest-02@2x.jpg in Resources */,
 				BAA66DC91CB8D3620071085F /* logo_app.png in Resources */,
 				BAC6A9851CB93434006EBC2A /* slide_2_3.jpg in Resources */,
 				BAC6A98D1CB93BCB006EBC2A /* SlideData_Earth.xib in Resources */,
@@ -795,6 +806,7 @@
 				BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */,
 				BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */,
 				BAC6A99C1CB9D309006EBC2A /* thumb_1@2x.jpg in Resources */,
+				BAC6A9A81CB9E01D006EBC2A /* ocean@2x.jpg in Resources */,
 				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BAC6A99A1CB9CE20006EBC2A /* Blue-Whale_@2x.jpg in Resources */,
