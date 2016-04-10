@@ -88,7 +88,7 @@
             cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_2.jpg"]];
             break;
         case 2:
-            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_3.jpg"]];
+            cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_3_3.jpg"]];
             break;
         case 3:
             cell.parallaxImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"slide_4.jpg"]];

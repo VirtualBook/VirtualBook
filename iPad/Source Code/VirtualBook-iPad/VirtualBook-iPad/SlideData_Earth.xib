@@ -16,14 +16,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view opaque="NO" contentMode="scaleToFill" id="0WL-az-VuY" userLabel="Slide_Content_1_1" customClass="SlideData_Earth">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="407"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="507"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cix-px-QOJ">
-                    <rect key="frame" x="0.0" y="118" width="1024" height="289"/>
+                    <rect key="frame" x="0.0" y="118" width="1024" height="389"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hi1-ft-1ip">
-                            <rect key="frame" x="22" y="0.0" width="980" height="265"/>
+                            <rect key="frame" x="22" y="0.0" width="980" height="366.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYe-tA-0nF">
                                     <rect key="frame" x="57" y="11" width="100.5" height="26"/>
@@ -39,10 +39,13 @@
                                     </constraints>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQs-DN-yVR">
-                                    <rect key="frame" x="22" y="54" width="936" height="203"/>
-                                    <mutableString key="text">Earth /ˈɜːrθ/ (otherwise known as The World,[n 5] in Greek: Γαῖα Gaia,[n 6] or in Latin: Terra[26]) is the third planet from the Sun, the densest planet in the Solar System, the largest of the Solar System's four terrestrial planets, and the only astronomical object known to harbor life.
+                                    <rect key="frame" x="22" y="54" width="936" height="304.5"/>
+                                    <mutableString key="text">The big question still is: Why do these mammals embark on these seasonal movements? 
+Climate changes, water temperature, depth, salinity, topography of the sea floor and the biggest, abundance of food, all plays a major roll in these events.
 
-Earth's lithosphere is divided into several rigid tectonic plates that migrate across the surface over periods of many millions of years. 71% of Earth's surface is covered with water,[32] with the remainder consisting of continents and islands that together have many lakes and other sources of water that contribute to the hydrosphere. Earth's polar regions are mostly covered with ice, including the Antarctic ice sheet and the sea ice of the Arctic ice pack. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates the magnetic field, and a convecting mantle that drives plate tectonics.</mutableString>
+Whales travel to cold waters for feeding; they go to warmer waters to give birth. One of the most dramatic whales that visits the Gulf of Maine is the humpback whale, whose Latin name Megaptera novaeangliae means "big-winged New Englander." It is known for its spectacular leaps and long, white side flippers. About 100 humpback whales arrive on Stellwagen Bank, a newly designated marine sanctuary off Massachusetts, in the spring to feed on slender, five-inch-long fish called sand launce.
+
+The Dominican Republic has made these whales' birthing grounds on Silver Banks, just north of that Caribbean country, a marine sanctuary. After giving birth during the winter or early spring, mothers bring their calves to the rich feeding grounds of Stellwagen Bank or other parts of the Gulf of Maine. Like all mammals, the mothers nurse their young. A 10-15 foot baby humpback may nurse as long as a year, adding up to 15 feet in length each month. An adult humpback may grow to be up to 50 feet long.</mutableString>
                                     <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -79,9 +82,9 @@ Earth's lithosphere is divided into several rigid tectonic plates that migrate a
                         <constraint firstItem="Hi1-ft-1ip" firstAttribute="leading" secondItem="Cix-px-QOJ" secondAttribute="leading" constant="22" id="zGm-b1-Qym"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tI-iw-CU2">
-                    <rect key="frame" x="44" y="12" width="936" height="82"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="95"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whale Migration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tI-iw-CU2">
+                    <rect key="frame" x="44" y="12" width="936" height="94"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="80"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -94,11 +97,11 @@ Earth's lithosphere is divided into several rigid tectonic plates that migrate a
                 <constraint firstAttribute="trailing" secondItem="7tI-iw-CU2" secondAttribute="trailing" constant="44" id="as6-Os-Axm"/>
                 <constraint firstItem="7tI-iw-CU2" firstAttribute="top" secondItem="0WL-az-VuY" secondAttribute="top" constant="12" id="eTW-7K-J6p"/>
                 <constraint firstAttribute="bottom" secondItem="Cix-px-QOJ" secondAttribute="bottom" id="fPr-nS-WCk"/>
-                <constraint firstItem="Cix-px-QOJ" firstAttribute="top" secondItem="7tI-iw-CU2" secondAttribute="bottom" constant="24" id="kRW-dn-cdm"/>
+                <constraint firstItem="Cix-px-QOJ" firstAttribute="top" secondItem="7tI-iw-CU2" secondAttribute="bottom" constant="12" id="kRW-dn-cdm"/>
                 <constraint firstItem="Cix-px-QOJ" firstAttribute="leading" secondItem="0WL-az-VuY" secondAttribute="leading" id="y27-vT-p2c"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="334" y="116.5"/>
+            <point key="canvasLocation" x="334" y="166.5"/>
         </view>
     </objects>
     <resources>

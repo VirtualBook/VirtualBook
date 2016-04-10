@@ -21,16 +21,8 @@
     [super awakeFromNib];
     // Initialization code
     
-    CGRect bound = CGRectMake(0, 0, 450, 450);
-    UIBezierPath *maskPath;
-    maskPath = [UIBezierPath bezierPathWithRoundedRect: bound
-                                     byRoundingCorners:(UIRectCornerTopLeft | UIRectCornerTopRight)
-                                           cornerRadii:CGSizeMake(10.0, 10.0)];
-    
-    CAShapeLayer *maskLayer = [CAShapeLayer layer];
-    maskLayer.frame = bound;
-    maskLayer.path = maskPath.CGPath;
-    self.containerView.layer.mask = maskLayer;
+    self.containerView.clipsToBounds = YES;
+    self.contentView.layer.cornerRadius = 10;
     
     self.layer.shadowColor = [UIColor blackColor].CGColor;
     self.layer.shadowOffset = CGSizeMake(3, 3);
@@ -45,15 +37,15 @@
     switch (item) {
         case 0:
         {
-            self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_1.jpg"];
-            self.titleLbl.text = @"The Earth";
+            self.backgroundImageView.image = [UIImage imageNamed:@"thumb_1.jpg"];
+            self.titleLbl.text = @"BLUE WHALE";
             
             break;
         }
         case 1:
         {
             self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_2.jpg"];
-            self.titleLbl.text = @"Cycle life of Sun";
+            self.titleLbl.text = @"";
             break;
         }
         case 2:
@@ -64,8 +56,8 @@
         }
         case 3:
         {
-            self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_4.jpg"];
-            self.titleLbl.text = @"White Tiger";
+            self.backgroundImageView.image = [UIImage imageNamed:@"channel_1_2.jpg"];
+            self.titleLbl.text = @"Cycle life of Sun";
             break;
         }
             

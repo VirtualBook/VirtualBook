@@ -5,9 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <customFonts key="customFonts">
-        <mutableArray key="SF-UI-Text-Medium.otf">
-            <string>SFUIText-Medium</string>
-        </mutableArray>
         <mutableArray key="SF-UI-Text-Regular.otf">
             <string>SFUIText-Regular</string>
             <string>SFUIText-Regular</string>
@@ -18,7 +15,6 @@
             <string>SFUIText-Regular</string>
         </mutableArray>
         <mutableArray key="SF-UI-Text-Semibold.otf">
-            <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
@@ -361,19 +357,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geography" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HD-aQ-BNg">
-                                <rect key="frame" x="388" y="75" width="248" height="55"/>
-                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="46"/>
+                                <rect key="frame" x="350.5" y="40" width="323" height="83"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="70"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From @awesomeGeo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWU-bO-YQf">
-                                <rect key="frame" x="436" y="140" width="152" height="18"/>
-                                <fontDescription key="fontDescription" name="SFUIText-Medium" family="SF UI Text" pointSize="15"/>
+                                <rect key="frame" x="435.5" y="133" width="153" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YFg-hx-JPz">
-                                <rect key="frame" x="0.0" y="185" width="1024" height="583"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YFg-hx-JPz">
+                                <rect key="frame" x="0.0" y="155" width="1024" height="583"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="583" id="LFJ-jk-UGK"/>
@@ -391,10 +387,10 @@
                         <constraints>
                             <constraint firstItem="YFg-hx-JPz" firstAttribute="leading" secondItem="k4s-49-V3b" secondAttribute="leading" id="72R-JG-sum"/>
                             <constraint firstItem="KdK-JZ-6Cr" firstAttribute="leading" secondItem="k4s-49-V3b" secondAttribute="leading" id="Avw-8S-4C6"/>
-                            <constraint firstItem="8HD-aQ-BNg" firstAttribute="top" secondItem="k4s-49-V3b" secondAttribute="top" constant="75" id="Bvi-ll-xQC"/>
+                            <constraint firstItem="8HD-aQ-BNg" firstAttribute="top" secondItem="k4s-49-V3b" secondAttribute="top" constant="40" id="Bvi-ll-xQC"/>
                             <constraint firstItem="8HD-aQ-BNg" firstAttribute="centerX" secondItem="k4s-49-V3b" secondAttribute="centerX" id="ILR-rN-nKd"/>
                             <constraint firstItem="fWU-bO-YQf" firstAttribute="top" secondItem="8HD-aQ-BNg" secondAttribute="bottom" constant="10" id="IaU-gl-M0q"/>
-                            <constraint firstItem="wVN-k5-RWF" firstAttribute="top" secondItem="YFg-hx-JPz" secondAttribute="bottom" id="Si1-Xg-AyT"/>
+                            <constraint firstItem="wVN-k5-RWF" firstAttribute="top" secondItem="YFg-hx-JPz" secondAttribute="bottom" constant="30" id="Si1-Xg-AyT"/>
                             <constraint firstItem="fWU-bO-YQf" firstAttribute="centerX" secondItem="8HD-aQ-BNg" secondAttribute="centerX" id="cpL-mh-11G"/>
                             <constraint firstAttribute="trailing" secondItem="YFg-hx-JPz" secondAttribute="trailing" id="cup-Sd-c3M"/>
                             <constraint firstItem="KdK-JZ-6Cr" firstAttribute="top" secondItem="k4s-49-V3b" secondAttribute="top" id="gRT-HS-Old"/>

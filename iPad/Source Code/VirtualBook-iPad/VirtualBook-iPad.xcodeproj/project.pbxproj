@@ -98,6 +98,8 @@
 		BAC6A9961CB94C67006EBC2A /* SlideData_Air.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */; };
 		BAC6A9981CB94C71006EBC2A /* SlideData_Air.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */; };
 		BAC6A99A1CB9CE20006EBC2A /* Blue-Whale_@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */; };
+		BAC6A99C1CB9D309006EBC2A /* thumb_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */; };
+		BAC6A99E1CB9D676006EBC2A /* slide_3_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A99D1CB9D676006EBC2A /* slide_3_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +220,8 @@
 		BAC6A9951CB94C67006EBC2A /* SlideData_Air.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideData_Air.m; sourceTree = "<group>"; };
 		BAC6A9971CB94C71006EBC2A /* SlideData_Air.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideData_Air.xib; sourceTree = "<group>"; };
 		BAC6A9991CB9CE20006EBC2A /* Blue-Whale_@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue-Whale_@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb_1@2x.jpg"; sourceTree = "<group>"; };
+		BAC6A99D1CB9D676006EBC2A /* slide_3_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_3_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,6 +490,7 @@
 		BA603F671CB8F11500A74DEA /* Slide */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A99B1CB9D309006EBC2A /* thumb_1@2x.jpg */,
 				BAC6A9901CB94A8B006EBC2A /* Air */,
 				BAC6A97D1CB92AFF006EBC2A /* Trout */,
 				BAC6A97C1CB92AF4006EBC2A /* Whale */,
@@ -660,6 +665,7 @@
 		BAC6A9901CB94A8B006EBC2A /* Air */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6A99D1CB9D676006EBC2A /* slide_3_3.jpg */,
 				BAC6A9911CB94B80006EBC2A /* slide_4.jpg */,
 			);
 			name = Air;
@@ -761,6 +767,7 @@
 				BAC6A98D1CB93BCB006EBC2A /* SlideData_Earth.xib in Resources */,
 				BA603F711CB8F37700A74DEA /* slide_1_c.jpg in Resources */,
 				BAC6A9871CB935F3006EBC2A /* rivermap5.jpg in Resources */,
+				BAC6A99E1CB9D676006EBC2A /* slide_3_3.jpg in Resources */,
 				BAA66DB21CB8C02F0071085F /* asset1@2x.png in Resources */,
 				BA603F5A1CB8F11300A74DEA /* channel_1_4.jpg in Resources */,
 				BA603F6F1CB8F2A100A74DEA /* slide_1_a@2x.jpg in Resources */,
@@ -775,6 +782,7 @@
 				BAA66DC41CB8C02F0071085F /* Settings-104.png in Resources */,
 				BAA66DB91CB8C02F0071085F /* asset8@2x.png in Resources */,
 				BA603F781CB8F46B00A74DEA /* SlideData_Whale.xib in Resources */,
+				BAC6A99C1CB9D309006EBC2A /* thumb_1@2x.jpg in Resources */,
 				BAA66DCA1CB8D3620071085F /* welcome_1.jpg in Resources */,
 				BA4139711CB8B93900942E0C /* FeSignUpView.xib in Resources */,
 				BAC6A99A1CB9CE20006EBC2A /* Blue-Whale_@2x.jpg in Resources */,

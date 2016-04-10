@@ -43,11 +43,11 @@
     self.collectionView.dataSource = self;
     [self.collectionView registerNib:[UINib nibWithNibName:@"FeChannelCell" bundle:nil] forCellWithReuseIdentifier:@"FeChannelCell"];
     
-    VVSpringCollectionViewFlowLayout *layout = [VVSpringCollectionViewFlowLayout new];
+    UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
     layout.minimumLineSpacing = 20;
     layout.minimumInteritemSpacing = 30;
     layout.itemSize = CGSizeMake(450, 450);
-    layout.sectionInset = UIEdgeInsetsMake(8, 32, 32, 16);
+    layout.sectionInset = UIEdgeInsetsMake(0, 32, 32, 16);
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
     [self.collectionView setCollectionViewLayout:layout];
