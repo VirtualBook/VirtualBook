@@ -45,7 +45,7 @@
     
     self.descriptionlLblLeft.constant =  - 200;
     
-    [UIView animateWithDuration:20.0f delay:0 options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat animations:^{
+    [UIView animateWithDuration:15.0f delay:0 options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat animations:^{
         
         [self.view layoutIfNeeded];
         

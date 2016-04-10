@@ -20,7 +20,6 @@
             <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
             <string>SFUIText-Semibold</string>
-            <string>SFUIText-Semibold</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -40,34 +39,31 @@
                                 <rect key="frame" x="-31" y="0.0" width="1054" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset1.png" translatesAutoresizingMaskIntoConstraints="NO" id="nzW-pe-Ugk">
-                                <rect key="frame" x="102" y="94" width="30" height="29"/>
+                                <rect key="frame" x="80" y="482" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lcq-QY-pcX">
-                                <rect key="frame" x="95" y="220" width="30" height="29"/>
+                                <rect key="frame" x="85" y="104" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mEI-PO-vXa">
-                                <rect key="frame" x="28" y="637" width="30" height="29"/>
+                                <rect key="frame" x="411" y="245" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-PD-8uF">
-                                <rect key="frame" x="786" y="28" width="30" height="29"/>
+                                <rect key="frame" x="346" y="584" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset5.png" translatesAutoresizingMaskIntoConstraints="NO" id="J75-d1-VXP">
-                                <rect key="frame" x="387" y="176" width="30" height="29"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset6.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ikk-dc-w8J">
-                                <rect key="frame" x="711" y="563" width="30" height="29"/>
+                                <rect key="frame" x="512" y="63" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset7.png" translatesAutoresizingMaskIntoConstraints="NO" id="91M-wt-8WD">
-                                <rect key="frame" x="161" y="495" width="30" height="29"/>
+                                <rect key="frame" x="55" y="617" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset7.png" translatesAutoresizingMaskIntoConstraints="NO" id="y7F-Ml-1il">
-                                <rect key="frame" x="908" y="418" width="30" height="29"/>
+                                <rect key="frame" x="878" y="635" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset8.png" translatesAutoresizingMaskIntoConstraints="NO" id="ihL-T4-N1d">
-                                <rect key="frame" x="664" y="150" width="30" height="29"/>
+                                <rect key="frame" x="643" y="522" width="30" height="29"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset8.png" translatesAutoresizingMaskIntoConstraints="NO" id="VOu-Aj-5tT">
-                                <rect key="frame" x="511" y="655" width="30" height="29"/>
+                                <rect key="frame" x="810" y="159" width="30" height="29"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5d-Ui-FYB">
                                 <rect key="frame" x="108" y="284" width="273" height="96"/>
@@ -144,9 +140,9 @@
                                 <rect key="frame" x="95" y="704" width="929" height="64"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UuW-mt-oKI">
-                                        <rect key="frame" x="15" y="12" width="1414" height="19"/>
-                                        <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
-                                        <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="16"/>
+                                        <rect key="frame" x="15" y="15" width="1414" height="17.5"/>
+                                        <string key="text">TONIGHT : 7PM Nake And Afraid - 9PM Man vs Amazon - 10PM Redemption Road - 11PM Rumble in the Jungle - 7PM Nake And Afraid - 9PM Man vs Amazon - 10PM Redemption Road - 11PM Rumble in the Jungle - 7PM Nake And Afraid - 9PM Man vs Amazon - 10PM Redemption Road - 11PM Rumble in the Jungle - 7PM Nake And Afraid - 9PM Man vs Amazon - 10PM Redemption Road - 11PM Rumble in the Jungle</string>
+                                        <fontDescription key="fontDescription" name="SFUIText-LightItalic" family="SF UI Text" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -154,7 +150,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="UuW-mt-oKI" secondAttribute="trailing" constant="-500" id="F5f-uK-ucV"/>
-                                    <constraint firstItem="UuW-mt-oKI" firstAttribute="top" secondItem="UTr-f2-9iS" secondAttribute="top" constant="12" id="kDG-fl-os8"/>
+                                    <constraint firstItem="UuW-mt-oKI" firstAttribute="top" secondItem="UTr-f2-9iS" secondAttribute="top" constant="15" id="kDG-fl-os8"/>
                                     <constraint firstAttribute="height" constant="64" id="kYI-ch-xuC"/>
                                     <constraint firstItem="UuW-mt-oKI" firstAttribute="leading" secondItem="UTr-f2-9iS" secondAttribute="leading" constant="15" id="zPF-2A-bcK"/>
                                 </constraints>
@@ -166,7 +162,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset3.png" translatesAutoresizingMaskIntoConstraints="NO" id="DJU-BD-AcB">
-                                <rect key="frame" x="481" y="418" width="30" height="29"/>
+                                <rect key="frame" x="878" y="428" width="30" height="29"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset6.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ikk-dc-w8J">
+                                <rect key="frame" x="100" y="202" width="30" height="29"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -209,7 +208,7 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="descriptionlLblLeft" destination="zPF-2A-bcK" id="RrR-vl-Zvx"/>
-                        <outlet property="onAirLbl" destination="f8k-pW-zX2" id="cQU-b3-ESL"/>
+                        <outlet property="onAirLbl" destination="f8k-pW-zX2" id="lHg-b5-zCu"/>
                         <outletCollection property="arrFloatingtImage" destination="nzW-pe-Ugk" id="bx5-DM-sYm"/>
                         <outletCollection property="arrFloatingtImage" destination="lcq-QY-pcX" id="AF2-UI-Fwm"/>
                         <outletCollection property="arrFloatingtImage" destination="mEI-PO-vXa" id="3be-6v-hF5"/>
@@ -226,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0g-Jh-sPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="705" y="301"/>
+            <point key="canvasLocation" x="731" y="391"/>
         </scene>
         <!--Fe Login View Controller-->
         <scene sceneID="wZO-Me-l4r">
